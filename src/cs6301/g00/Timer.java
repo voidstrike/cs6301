@@ -13,7 +13,7 @@ package cs6301.g00;
 public class Timer {
     long startTime, endTime, elapsedTime, memAvailable, memUsed;
 
-    Timer() {
+    public Timer() {
 	startTime = System.currentTimeMillis();
     }
 
