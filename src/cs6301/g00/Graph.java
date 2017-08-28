@@ -110,7 +110,7 @@ public class Graph implements Iterable<Graph.Vertex> {
      * @param n
      *            : int - number of vertices
      */
-    Graph(int n) {
+    public Graph(int n) {
 	this.n = n;
 	this.v = new Vertex[n];
 	this.directed = false;  // default is undirected graph
@@ -124,7 +124,7 @@ public class Graph implements Iterable<Graph.Vertex> {
      * @param n
      *           : int
      */
-    Vertex getVertex(int n) {
+    public Vertex getVertex(int n) {
 	return v[n-1];
     }
     
@@ -138,7 +138,7 @@ public class Graph implements Iterable<Graph.Vertex> {
      * @param weight
      *            : int - the weight of the edge
      */
-    void addEdge(Vertex from, Vertex to, int weight) {
+    public void addEdge(Vertex from, Vertex to, int weight) {
 	Edge e = new Edge(from, to, weight);
 	if(this.directed) {
 	    from.adj.add(e);
@@ -149,7 +149,7 @@ public class Graph implements Iterable<Graph.Vertex> {
 	}
     }
 
-    int size() {
+    public int size() {
 	return n;
     }
 
