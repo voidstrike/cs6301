@@ -11,7 +11,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class Sp1qestion2 {
+public class Sp1qestion2ver2 {
 
     /*
      * implement BFS to find the diameter of the tree 
@@ -21,7 +21,7 @@ public class Sp1qestion2 {
      */
     public static LinkedList<Graph.Vertex> diameter(Graph g) {
     	
-    	System.out.println("running diameter()...");
+    	//System.out.println("running diameter()...");
     	
     	boolean visited[] = new boolean[g.size()];
     	
@@ -57,7 +57,7 @@ public class Sp1qestion2 {
             }
 
         }
-        System.out.println("step 2:");
+        //System.out.println("step 2:");
         // step 2 start from here.
         // run BFS start from S, find furthermost node from S
         
@@ -89,7 +89,7 @@ public class Sp1qestion2 {
             
             if (queue.isEmpty()) {
                 // root = d;
-            	System.out.println("backtrace");
+            	//System.out.println("backtrace");
                 result.add(d);
                 while (root != result.getFirst()) {
                     result.add(0, parent.get(d));
@@ -110,10 +110,11 @@ public class Sp1qestion2 {
     	
     	LinkedList<Graph.Vertex> result = new LinkedList<>();
     	System.out.println("running diameter()...");
-    	result = diameter(Graph.readGraph(in, directed));
+        result = diameter(Graph.readGraph(in, directed));
+    	//result = diameter(g);
     	
     	System.out.println("printing result:");
-    	System.out.println(result);
+    	System.out.println(result.toString());
     	/*while( result != null){
     		System.out.print(result.getFirst().toString() + "->");
     		result = result.getNext();
