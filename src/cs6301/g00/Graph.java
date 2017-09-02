@@ -1,7 +1,7 @@
 /**
  * Class to represent a graph
  *  @author rbk
- *  Version 1.1. Added "public" to Vertex and Edge classes
+ *  Ver 1.1: 2017/08/28.  Updated some methods to public.  Added getName() to Vertex
  *
  */
 
@@ -35,6 +35,14 @@ public class Graph implements Iterable<Graph.Vertex> {
 	    name = n;
 	    adj = new LinkedList<Edge>();
 	    revAdj = new LinkedList<Edge>();   /* only for directed graphs */
+	}
+
+	/**
+	 * Method to get name of a vertex.
+	 *
+	 */
+	public int getName() {
+	    return name;
 	}
 
 	public Iterator<Edge> iterator() { return adj.iterator(); }
@@ -128,7 +136,7 @@ public class Graph implements Iterable<Graph.Vertex> {
 	return v[n-1];
     }
     
-    /*
+    /**
      * Method to add an edge to the graph
      * 
      * @param a

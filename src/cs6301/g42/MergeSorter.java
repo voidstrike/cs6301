@@ -5,6 +5,7 @@ import static cs6301.g00.Shuffle.shuffle;
 
 /**
  * Created by Alan Lin on 8/26/2017.
+ * @author Khaled Al-naami, Peter Farago, Yu Lin, David Tan
  */
 public class MergeSorter {
 
@@ -135,7 +136,7 @@ public class MergeSorter {
     public static void main(String[] args)
     {
         //Test code
-        int dataSize = 500000;
+        int dataSize = 5000000;
         Timer t = new Timer();
         Integer[] test = new Integer[dataSize];
         Integer[] tmp = new Integer[dataSize];
