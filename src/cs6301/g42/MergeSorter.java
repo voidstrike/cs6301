@@ -136,14 +136,18 @@ public class MergeSorter {
     public static void main(String[] args)
     {
         //Test code
-        int dataSize = 5000000;
+        int dataSize = 3500000;
         Timer t = new Timer();
-        Integer[] test = new Integer[dataSize];
-        Integer[] tmp = new Integer[dataSize];
+        //Integer[] test = new Integer[dataSize];
+        int[] test = new int[dataSize];
+        //Integer[] tmp = new Integer[dataSize];
+        int[] tmp = new int[dataSize];
         for(int i=0;i<dataSize;i++)
         {
-            test[i] = new Integer(i);
-            tmp[i] = new Integer(0);
+            //test[i] = new Integer(i);
+            test[i] = i;
+            //tmp[i] = new Integer(0);
+            tmp[i] = 0;
         }
         shuffle(test); // shuffle the array to random order
         t.start();
