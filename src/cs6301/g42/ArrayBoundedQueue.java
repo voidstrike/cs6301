@@ -53,7 +53,8 @@ public class ArrayBoundedQueue<E> {
 	public E poll(){
 		E pollElem;
 		if(isEmpty()){
-			throw new NoSuchElementException("Queue is empty, cannot remove element");
+			//throw new NoSuchElementException("Queue is empty, cannot remove element");
+			return null;
 		}else{
 		    pollElem = arr[front];
 		    arr[front] = null;
@@ -73,7 +74,8 @@ public class ArrayBoundedQueue<E> {
 	 */
 	public E peek(){
 		if(isEmpty()){
-			throw new NoSuchElementException("Queue is empty");
+			//throw new NoSuchElementException("Queue is empty");
+			return null;
 		}
 		return  arr[front];
 	}
