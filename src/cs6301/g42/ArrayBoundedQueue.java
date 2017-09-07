@@ -1,7 +1,5 @@
 package cs6301.g42;
 
-import java.util.NoSuchElementException;
-
 //problem 5.
 public class ArrayBoundedQueue<E> {
 	private E[] arr;
