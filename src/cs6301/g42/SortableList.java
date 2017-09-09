@@ -132,12 +132,11 @@ public class SortableList<T extends Comparable<? super T>> extends SinglyLinkedL
 
     }
 
-    public static SortableList.Entry stackSimulateMergeSort(SortableList.Entry startNode){
+    public static SortableList.Entry stackSimulateMergeSort(SortableList helper, SortableList.Entry startNode){
             ArrayDeque<InfoNode> operatingStack = new ArrayDeque<>();
             SortableList.Entry middle = pGetMiddle(startNode);
             InfoNode currentInfoNode=null, resultNode=null;
             operatingStack.push(new InfoNode(startNode, middle));
-            SortableList helper = new SortableList();
 
             // Simulating the behavior of stack while doing recursion
             while (!operatingStack.isEmpty()){
@@ -174,7 +173,10 @@ public class SortableList<T extends Comparable<? super T>> extends SinglyLinkedL
     public static void wrappedStackSimulateMS(SortableList target){
         Iterator tmp = target.iterator();
         if (tmp.hasNext()){
-            target.head.next = stackSimulateMergeSort(target.head.next);
+            target.head.next = stackSimulateMergeSort(target, target.head.next);
+        }
+        else{
+            System.out.println("The list has no element");
         }
     }
 
