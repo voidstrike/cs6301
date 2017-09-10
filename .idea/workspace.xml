@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6da66cc7-0b94-4809-8bdd-cc12eec7414c" name="Default" comment="">
+    <list default="true" id="6da66cc7-0b94-4809-8bdd-cc12eec7414c" name="Default" comment="Merge Khaled's code in SinglyLinkedList.java and SortableList.java">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AlgorithmImplement/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AlgorithmImplement/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/SinglyLinkedList.java" afterPath="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/SinglyLinkedList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/SortableList.java" afterPath="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/SortableList.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../AlgorithmImplement/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SinglyLinkedList.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SinglyLinkedList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/SinglyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-607">
-              <caret line="154" column="40" lean-forward="false" selection-start-line="154" selection-start-column="40" selection-end-line="154" selection-end-column="40" />
+            <state relative-caret-position="257">
+              <caret line="238" column="29" lean-forward="true" selection-start-line="238" selection-start-column="29" selection-end-line="238" selection-end-column="29" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -72,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SortableList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SortableList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/SortableList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1369">
@@ -210,8 +209,8 @@
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/personal/SortableList.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/ArrayBoundedQueue.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/Parser.java" />
-        <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/SinglyLinkedList.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/SortableList.java" />
+        <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/SinglyLinkedList.java" />
       </list>
     </option>
   </component>
@@ -705,7 +704,14 @@
       <option name="project" value="LOCAL" />
       <updated>1504979142511</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge Khaled's code in SinglyLinkedList.java and SortableList.java">
+      <created>1505002160783</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1505002160783</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -719,18 +725,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -787,7 +792,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Modification&#10;1. Remove one unused import in ArrayBoundedQueue.java&#10;2. added package cs6301.g42; statement in the head of SP2Problem1.java&#10;&#10;UPDATE NEW&#10;&#10;1. Upload the code for SP2 Q4, Q7 Q8&#10;2. For Q4, the code of it is in SinglyLinkedList.java Line 172 - 250&#10;3. For Q7, the code of it is in SortableList&#10;4. For Q8, it's in Parser class;&#10;&#10;# Please noticed that I used the modified SinglyLinkedList in g42 rather than the code provided by professor;" />
     <MESSAGE value="Update help class in SortableList.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update help class in SortableList.java" />
+    <MESSAGE value="Merge Khaled's code in SinglyLinkedList.java and SortableList.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge Khaled's code in SinglyLinkedList.java and SortableList.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1411,16 +1417,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/SinglyLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-607">
-          <caret line="154" column="40" lean-forward="false" selection-start-line="154" selection-start-column="40" selection-end-line="154" selection-end-column="40" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/SortableList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1369">
@@ -1437,6 +1433,16 @@
             <element signature="class#InfoNode#0;class#SortableList#0" expanded="false" />
             <element signature="method#stackSimulateMergeSort#0;class#SortableList#0" expanded="false" />
             <element signature="method#wrappedStackSimulateMS#0;class#SortableList#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/SinglyLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="238" column="29" lean-forward="true" selection-start-line="238" selection-start-column="29" selection-end-line="238" selection-end-column="29" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>

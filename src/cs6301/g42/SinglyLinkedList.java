@@ -147,21 +147,17 @@ public class SinglyLinkedList<T> implements Iterable<T> {
 		if (size < k + 1) { // Too few elements. No change.
 			return;
 		}
-
 		int state = 0;
-
 		// heads and tails for every level
 		Entry<T>[] tails = new Entry[k];
 		Entry<T>[] heads = new Entry[k];
 		Entry<T> tempHead = head;
-
 		// initialize heads and tails
 		for (int i = 0; i < k; i++){
 			tails[i] = tempHead.next;
 			heads[i] = tails[i];
 			tempHead = tempHead.next;
 		}
-
 		Entry<T> c = tails[k-1].next; // start processing after k elements
 
 		while (c != null) {
