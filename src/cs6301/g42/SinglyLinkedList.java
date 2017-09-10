@@ -143,31 +143,40 @@ public class SinglyLinkedList<T> implements Iterable<T> {
 	}
 
 	// Below is the code for SP2 Q3
-	public void multiUnzip(int zipCode) {
-		if (size < zipCode + 1){
-			return; // Too few elements, no change
+	public void multiUnzip(int k) {
+		if (size < k + 1) { // Too few elements. No change.
+			return;
 		}
-		Entry<T> currentElement = head.next;
-		Entry<T>[] entryList = new Entry[zipCode]; // head list
-		Entry<T>[] entryTails = new Entry[zipCode]; // tail list
-		for (int i=0; i< zipCode; i++){
-			// Initialize head and tail list
-			entryList[i] = currentElement;
-			entryTails[i] = currentElement;
-			currentElement = currentElement.next;
+
+		int state = 0;
+
+		// heads and tails for every level
+		Entry<T>[] tails = new Entry[k];
+		Entry<T>[] heads = new Entry[k];
+		Entry<T> tempHead = head;
+
+		// initialize heads and tails
+		for (int i = 0; i < k; i++){
+			tails[i] = tempHead.next;
+			heads[i] = tails[i];
+			tempHead = tempHead.next;
 		}
-		int count = 0;
-		while(currentElement != null){
-			// Update each element in tail list if possible
-			entryTails[count % zipCode].next = currentElement;
-			entryTails[count % zipCode] = entryTails[count % zipCode].next;
-			currentElement = currentElement.next;
-			count++;
+
+		Entry<T> c = tails[k-1].next; // start processing after k elements
+
+		while (c != null) {
+			tails[state].next = c;
+			tails[state] = c;
+			c = c.next;
+
+			state = (++state) % k;
 		}
-		for(int i=1; i<zipCode; i++){
-			entryTails[i-1].next = entryList[i];
+		// connect tails to heads, except last tail
+		for (int i = 0; i < k - 1; i++){
+			tails[i].next = heads[i+1];
 		}
-		entryTails[zipCode - 1].next = null;
+		// last tail to null
+		tails[k - 1].next = null;
 	}
 
 	// Below is the code for SP2 Q4

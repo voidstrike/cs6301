@@ -105,7 +105,72 @@ public class SortableList<T extends Comparable<? super T>> extends SinglyLinkedL
         return  firstNode;
     }
 
-    void mergeSort(){
+    public Entry<T> getMiddle(Entry<T> head) {
+        if (head == null) {
+            return head;
+        }
+        Entry<T> slow, fast;
+        slow = fast = head;
+        while (fast.next != null && fast.next.next != null) {
+            slow = slow.next; // slow advances one step normally
+            fast = fast.next.next; // fast advance double
+        }
+        return slow;
+    }
+
+    void merge(SortableList<T> otherList) { // Merge this list with other list,
+
+        Entry<T> tailx = this.head;
+        Entry<T> tc = this.head.next; // this list's cursor
+        Entry<T> oc = otherList.head.next; // other list's cursor
+
+        while (tc != null && oc != null){
+            if (tc.element.compareTo(oc.element) < 0){
+                tailx.next = tc;
+                tailx = tc;
+                tc = tc.next;
+            } else {
+                tailx.next = oc;
+                tailx = oc;
+                oc = oc.next;
+            }
+        }
+
+        if (tc == null){
+            tailx.next = oc;
+        } else {
+            tailx.next = tc;
+        }
+
+    }
+
+    void mergeSort() { // Sort this list
+
+        if (this.head.next.next != null) { // at least one node in the list (dummy head)
+
+            Entry<T> middle = this.getMiddle(this.head.next); // last node of the left list
+            Entry<T> sHalf = middle.next; // first node of the right list
+
+            // construct the left list and recurse
+            SortableList<T> leftSll = new SortableList<>();
+            leftSll.head = this.head;
+            leftSll.tail = middle;
+            leftSll.tail.next = null;
+            leftSll.mergeSort();
+
+            // construct the right list and recurse
+            SortableList<T> rightSll = new SortableList<>();
+            rightSll.head.next = sHalf;
+            rightSll.tail = this.tail;
+            rightSll.tail.next = null;
+            rightSll.mergeSort();
+
+            // merge left and right lists
+            leftSll.merge(rightSll);
+        }
+    }
+
+    void pMergeSort(){
         Iterator tmp = this.iterator();
         if (tmp.hasNext()){
             head.next = this.pMergeSort(this.head.next);
@@ -113,7 +178,7 @@ public class SortableList<T extends Comparable<? super T>> extends SinglyLinkedL
     }
 
     public static <T extends  Comparable<? super T>>
-        void mergeSort(SortableList<T> list){
+        void pMergeSort(SortableList<T> list){
         list.mergeSort();
     }
 
@@ -190,8 +255,8 @@ public class SortableList<T extends Comparable<? super T>> extends SinglyLinkedL
         test.add(new Integer(123));
         test.add(new Integer(124));
 
-        //mergeSort(test);
-        wrappedStackSimulateMS(test);
+        test.mergeSort();
+        //wrappedStackSimulateMS(test);
 
         Iterator tmp = test.iterator();
         while(tmp.hasNext()){
