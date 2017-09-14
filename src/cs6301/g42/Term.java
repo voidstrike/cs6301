@@ -1,3 +1,4 @@
+package cs6301.g42;
 public class Term implements Comparable<Term>
 {
 	private int coefficient;
