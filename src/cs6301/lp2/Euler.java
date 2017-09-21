@@ -17,12 +17,14 @@ public class Euler extends GraphAlgorithm<Euler.EVertex>{
     static class EVertex{
         int outDegree;
         int inDegree;
-        List<Graph.Edge> visitedEdge;
+        int usedEdge;
+        List<Graph.Edge> vertexTour;
 
         EVertex(Graph.Vertex u){
             inDegree = u.revAdj.size();
             outDegree = u.adj.size();
-            visitedEdge = new ArrayList<>();
+            usedEdge = 0;
+            vertexTour = null;
         }
     }
 
@@ -40,9 +42,10 @@ public class Euler extends GraphAlgorithm<Euler.EVertex>{
 
     // To do: function to find an Euler tour
     public List<Graph.Edge> findEulerTour() {
-        List<List<Graph.Edge>> tourSet = findTours();
-        if(VERBOSE > 9) { printTours(tourSet); }
-	    stitchTours(tourSet);
+        int tourNum = findTours();
+        System.out.println("FirstPart Finished + " + tourNum);
+        if(VERBOSE > 9) { printTours(); }
+	    stitchTours(tourNum);
 	    return tour;
     }
 
@@ -76,10 +79,11 @@ public class Euler extends GraphAlgorithm<Euler.EVertex>{
     }
 
     // Find tours starting at vertices with unexplored edges
-    private List<List<Graph.Edge>> findTours() {
-        List<List<Graph.Edge>> tourSet = new ArrayList<>();
+    private int findTours() {
+        int tourNum = 0;
         ArrayDeque<Graph.Vertex> opSet = new ArrayDeque<>();
         Graph.Vertex currentVertex;
+        EVertex tmp;
 
         // initialize the opSet
         opSet.add(startVertex);
@@ -90,19 +94,20 @@ public class Euler extends GraphAlgorithm<Euler.EVertex>{
 
         // Find tour by tourVisit
         while (!opSet.isEmpty()){
-            currentVertex = opSet.getFirst();
-            if (node[currentVertex.getName()].outDegree == 0){
-                opSet.removeFirst();
+
+            currentVertex = opSet.removeFirst();
+            tmp = node[currentVertex.getName()];
+            if (tmp.outDegree <= tmp.usedEdge ){
                 continue;
             }
 
             List<Graph.Edge> currentTour = new ArrayList<>();
-            tourVisit(currentVertex, currentVertex, currentTour);
-
-            tourSet.add(currentTour);
+            tourVisit(currentVertex, currentTour);
+            tmp.vertexTour = currentTour;
+            tourNum++;
         }
 
-        return tourSet;
+        return tourNum;
     }
 
     /* Print tours found by findTours() using following format:
@@ -114,54 +119,53 @@ public class Euler extends GraphAlgorithm<Euler.EVertex>{
      *
      * Just use System.out.print(u) and System.out.print(e)
      */
-    void printTours(List<List<Graph.Edge>> tourSet) {
-        for (List<Graph.Edge> sub : tourSet){
-            System.out.print(sub.get(0).from.toString() + ": ");
-            for (Graph.Edge edge : sub){
-                System.out.print(edge.toString());
+    void printTours() {
+        EVertex tmp;
+
+        for (Graph.Vertex u : g){
+            tmp = node[u.getName()];
+            if (tmp.vertexTour!=null){
+                System.out.print(u.toString() + ": ");
+                for (Graph.Edge e:tmp.vertexTour){
+                    System.out.print((e.toString()));
+                }
+                System.out.println();
             }
-            System.out.println();
         }
     }
 
     // Stitch tours into a single tour using the algorithm discussed in class
-    void stitchTours(List<List<Graph.Edge>> tourSet) {
+    void stitchTours(int toursNum) {
+        EVertex tmpE;
 
-        if (tourSet.size() == 0){
+        if (node[startVertex.getName()].vertexTour == null){
             System.out.print("Error");
             return;
         }
 
-        // Initialize the tour with first sub tour from tourSet
-        List<Graph.Edge> tmp = tourSet.remove(0);
-        for (Graph.Edge e : tmp){
-            tour.add(e);
-        }
+        // Initialize the tour with first sub tour with startVertex
+        List<Graph.Edge> tmp = node[startVertex.getName()].vertexTour;
+        Graph.Vertex currentVertex=null;
+        tour = tmp;
+        node[startVertex.getName()].vertexTour = null;
 
-        int replaceTour = 0;
-        int replacePoint = 0;
-        while (!tourSet.isEmpty()){
+        int replacePoint;
+        int tourSize = tour.size();
+        for (int i=0; i<tourSize; i++){
+            // Iterate through each edge.to in current tour
+            currentVertex = tour.get(i).to;
+            tmpE = node[currentVertex.getName()];
+            if (tmpE.vertexTour != null){
+                // If this vertex has a sub tour
+                toursNum--;
+                replacePoint = i+1;
 
-            // Try to find a replace Vertex and its replace tour
-            for (int i=0; i<tour.size(); i++){
-                replaceTour = getReplaceTour(tour.get(i), tourSet);
-                if (replaceTour != -1){
-                    // Find a replace point
-                    replacePoint = i+1;
+                tour.addAll(replacePoint, tmpE.vertexTour);
+                tourSize = tour.size();
+                tmpE.vertexTour = null;
+                if (toursNum <= 0)
                     break;
-                }
             }
-
-            // Merge this sub tour into final tour
-            tmp = tourSet.remove(replaceTour);
-            for (Graph.Edge e : tmp){
-                tour.add(replacePoint,e);
-                replacePoint++;
-            }
-
-            // Reset the auxiliary variables
-            replacePoint = 0;
-            replaceTour = 0;
         }
     }
 
@@ -182,9 +186,10 @@ public class Euler extends GraphAlgorithm<Euler.EVertex>{
             seen[i] = false;
         }
 
-        // Search Phase
+        // Search Phase DFS
         while (in.hasNext()){
             currentNode = in.next();
+            //System.out.println(currentNode.toString());
             if (!seen[currentNode.getName()]){
                 // This node is unseen, create new DFS sub tree
                 dfsVisit(currentNode, seen, result);
@@ -222,7 +227,9 @@ public class Euler extends GraphAlgorithm<Euler.EVertex>{
 
     // DFS Visit use adj
     private void dfsVisit(Graph.Vertex u, boolean[] seenArray, List<Graph.Vertex> finList){
+        // Set this vertex statue to seen
         seenArray[u.getName()] = true;
+
         for (Graph.Edge edge : u.adj){
             if (!seenArray[(edge.to).getName()]){
                 dfsVisit(edge.to, seenArray, finList);
@@ -241,24 +248,21 @@ public class Euler extends GraphAlgorithm<Euler.EVertex>{
         }
     }
 
-    private boolean tourVisit(Graph.Vertex u, Graph.Vertex src, List<Graph.Edge> currentTour){
-        EVertex currentVertex = node[u.getName()];
-        boolean exitSign = false;
-        if ( u == src && currentTour.size() != 0) // encounter a circuit
-            return true;
-        else{
-            for (Graph.Edge e : u.adj){
-                if (!isVisited(e, currentVertex.visitedEdge)){
-                    // This edge is never visited
-                    currentVertex.visitedEdge.add(e);
-                    currentVertex.outDegree--;
-                    currentTour.add(e);
-                    exitSign = tourVisit(e.to, src, currentTour);
-                    if (exitSign) return true;
-                }
-            }
+    private void tourVisit(Graph.Vertex u, List<Graph.Edge> currentTour){
+        Graph.Vertex tmpHead = u;
+        Graph.Edge tmpEdge;
+        EVertex currentVertex = node[tmpHead.getName()];
+
+        // Go through the tour
+        while(currentVertex.usedEdge < currentVertex.outDegree ){
+            // Update Phase
+            tmpEdge = tmpHead.adj.get(currentVertex.usedEdge);
+            currentVertex.usedEdge++;
+            currentTour.add(tmpEdge);
+            // Swap Phase
+            tmpHead = tmpEdge.to;
+            currentVertex = node[tmpHead.getName()];
         }
-        return exitSign;
     }
 
     // Check the number of SCC of current g
@@ -273,27 +277,4 @@ public class Euler extends GraphAlgorithm<Euler.EVertex>{
         componentNum = getSCCNumber(finRev.iterator());
         return componentNum;
     }
-
-    private boolean isVisited(Graph.Edge e, List<Graph.Edge> eSet){
-        if (eSet.size() == 0) //no edge was visited from this node
-            return false;
-
-        for (Graph.Edge u : eSet){ // some edge(s) visited
-            if (u == e)
-                return true;
-        }
-        return false;
-    }
-
-    private int getReplaceTour(Graph.Edge e, List<List<Graph.Edge>> tours){
-        int replacePoint = -1;
-        for (int i=0; i<tours.size(); i++){
-            if (tours.get(i).get(0).from == e.to){
-                replacePoint = i;
-                return replacePoint;
-            }
-        }
-        return replacePoint;
-    }
-
 }
