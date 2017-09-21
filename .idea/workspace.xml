@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6da66cc7-0b94-4809-8bdd-cc12eec7414c" name="Default" comment="GraphSP3.java uploaded, all my answer to SP3 is contained in this file.">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../AlgorithmImplement/out/production/AlgorithmImplement/.gitignore" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AlgorithmImplement/out/production/AlgorithmImplement/LinkListSort.class" afterPath="$PROJECT_DIR$/../AlgorithmImplement/out/production/AlgorithmImplement/LinkListSort.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AlgorithmImplement/out/production/AlgorithmImplement/MainTest.class" afterPath="$PROJECT_DIR$/../AlgorithmImplement/out/production/AlgorithmImplement/MainTest.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AlgorithmImplement/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AlgorithmImplement/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/StronglyConnectedComponents.java" afterPath="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/StronglyConnectedComponents.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/Euler.java" afterPath="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/Euler.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../AlgorithmImplement/out/" />
@@ -31,10 +27,13 @@
       <file leaf-file-name="LP2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/LP2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+            <state relative-caret-position="54">
+              <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#801#827#1" expanded="true" />
+                <element signature="e#879#904#0" expanded="true" />
+                <element signature="e#879#904#0" expanded="true" />
                 <element signature="e#1001#1047#1" expanded="true" />
               </folding>
             </state>
@@ -70,6 +69,11 @@
               <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
               <folding>
                 <element signature="e#2357#2369#0" expanded="true" />
+                <element signature="e#4472#4498#0" expanded="false" />
+                <element signature="e#4472#4498#0" expanded="false" />
+                <marker date="1505959761964" expanded="false" signature="4338:4343" ph="val" />
+                <marker date="1505959761964" expanded="true" signature="4375:4376" ph="" />
+                <marker date="1505959761964" expanded="false" signature="4405:4408" ph="val" />
               </folding>
             </state>
           </provider>
@@ -78,12 +82,12 @@
       <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1520">
-              <caret line="95" column="46" lean-forward="false" selection-start-line="95" selection-start-column="46" selection-end-line="95" selection-end-column="46" />
+            <state relative-caret-position="187">
+              <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1113#1114#0" expanded="true" />
-                <element signature="e#1134#1135#0" expanded="true" />
+                <element signature="e#2985#2995#1" expanded="true" />
+                <element signature="e#3179#3180#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,96 +96,99 @@
       <file leaf-file-name="Euler.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/Euler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4080">
-              <caret line="158" column="48" lean-forward="false" selection-start-line="158" selection-start-column="48" selection-end-line="158" selection-end-column="48" />
+            <state relative-caret-position="5024">
+              <caret line="151" column="45" lean-forward="false" selection-start-line="151" selection-start-column="45" selection-end-line="151" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#875#892#0" expanded="true" />
-                <element signature="e#904#918#0" expanded="true" />
-                <element signature="e#939#950#0" expanded="true" />
-                <element signature="e#1086#1112#1" expanded="true" />
-                <element signature="e#1140#1173#0" expanded="true" />
-                <element signature="e#1140#1173#0" expanded="true" />
+                <element signature="e#846#863#0" expanded="true" />
+                <element signature="e#875#889#0" expanded="true" />
+                <element signature="e#910#921#0" expanded="true" />
+                <element signature="e#1057#1083#1" expanded="true" />
                 <element signature="method#isEulerian#0;class#Euler#0" expanded="false" />
-                <element signature="e#1571#1593#1" expanded="true" />
-                <element signature="e#1914#1933#1" expanded="true" />
-                <element signature="e#1947#1961#0" expanded="true" />
-                <element signature="e#1991#2002#0" expanded="true" />
-                <element signature="e#2149#2242#0" expanded="true" />
-                <element signature="e#2149#2242#0" expanded="true" />
-                <element signature="e#2149#2242#0" expanded="true" />
-                <element signature="e#2149#2242#0" expanded="true" />
-                <element signature="e#2149#2242#0" expanded="true" />
-                <element signature="e#2231#2242#0" expanded="true" />
-                <element signature="e#2149#2242#0" expanded="true" />
-                <element signature="e#2423#2439#1" expanded="true" />
-                <element signature="e#2448#2500#1" expanded="true" />
-                <element signature="e#2636#2650#0" expanded="true" />
-                <element signature="e#2782#2797#0" expanded="true" />
-                <element signature="e#2873#2896#0" expanded="true" />
-                <element signature="e#3001#3050#1" expanded="true" />
-                <element signature="e#3032#3049#0" expanded="true" />
-                <element signature="e#3647#3661#0" expanded="true" />
-                <element signature="e#3691#3702#0" expanded="true" />
-                <element signature="e#3777#3796#0" expanded="true" />
-                <element signature="e#3777#3796#0" expanded="true" />
-                <element signature="e#3820#3832#0" expanded="true" />
-                <element signature="e#4146#4167#0" expanded="true" />
-                <element signature="e#4336#4398#1" expanded="true" />
-                <element signature="e#4364#4385#0" expanded="true" />
-                <element signature="e#4407#4439#1" expanded="true" />
-                <element signature="e#4473#4494#0" expanded="true" />
-                <element signature="e#4550#4577#1" expanded="true" />
-                <element signature="e#4591#4599#1" expanded="true" />
-                <element signature="e#4586#5153#0" expanded="true" />
-                <element signature="e#4586#5153#0" expanded="true" />
-                <element signature="e#4586#5153#0" expanded="true" />
-                <element signature="e#4706#4717#0" expanded="true" />
-                <element signature="e#4706#4717#0" expanded="true" />
-                <element signature="e#4746#4769#0" expanded="true" />
-                <element signature="e#4944#4986#0" expanded="true" />
-                <element signature="e#4944#4986#0" expanded="true" />
-                <element signature="e#4944#4986#0" expanded="true" />
+                <element signature="e#1479#1501#1" expanded="true" />
+                <element signature="e#1822#1841#1" expanded="true" />
+                <element signature="e#1855#1869#0" expanded="true" />
+                <element signature="e#1899#1910#0" expanded="true" />
+                <element signature="e#2057#2150#0" expanded="true" />
+                <element signature="e#2057#2150#0" expanded="true" />
+                <element signature="e#2057#2150#0" expanded="true" />
+                <element signature="e#2057#2150#0" expanded="true" />
+                <element signature="e#2057#2150#0" expanded="true" />
+                <element signature="e#2139#2150#0" expanded="true" />
+                <element signature="e#2057#2150#0" expanded="true" />
+                <element signature="e#2331#2347#1" expanded="true" />
+                <element signature="e#2468#2517#1" expanded="true" />
+                <element signature="e#2499#2516#0" expanded="true" />
+                <element signature="e#2576#2597#0" expanded="true" />
+                <element signature="e#2692#2700#1" expanded="true" />
+                <element signature="e#2687#3106#0" expanded="true" />
+                <element signature="e#2687#3106#0" expanded="true" />
+                <element signature="e#2687#3106#0" expanded="true" />
+                <element signature="e#2788#2811#0" expanded="true" />
+                <element signature="e#2962#2979#0" expanded="true" />
+                <element signature="e#3577#3591#0" expanded="true" />
+                <element signature="e#3621#3632#0" expanded="true" />
+                <element signature="e#3709#3728#0" expanded="true" />
+                <element signature="e#3709#3728#0" expanded="true" />
+                <element signature="e#3752#3764#0" expanded="true" />
+                <element signature="e#4080#4101#0" expanded="true" />
+                <element signature="e#4278#4340#1" expanded="true" />
+                <element signature="e#4306#4327#0" expanded="true" />
+                <element signature="e#4410#4431#0" expanded="true" />
+                <element signature="e#4487#4514#1" expanded="true" />
+                <element signature="e#4528#4536#1" expanded="true" />
+                <element signature="e#4523#5113#0" expanded="true" />
+                <element signature="e#4523#5113#0" expanded="true" />
+                <element signature="e#4523#5113#0" expanded="true" />
+                <element signature="e#4645#4656#0" expanded="true" />
+                <element signature="e#4645#4656#0" expanded="true" />
+                <element signature="e#4685#4708#0" expanded="true" />
+                <element signature="e#4883#4925#0" expanded="true" />
+                <element signature="e#4883#4925#0" expanded="true" />
+                <element signature="e#4883#4925#0" expanded="true" />
                 <element signature="method#getFinRevList#0;class#Euler#0" expanded="false" />
-                <element signature="e#5403#5442#1" expanded="true" />
-                <element signature="e#5451#5483#1" expanded="true" />
-                <element signature="e#5492#5538#1" expanded="true" />
-                <element signature="e#5520#5537#0" expanded="true" />
-                <element signature="e#5595#5605#1" expanded="true" />
-                <element signature="e#5590#5667#0" expanded="true" />
-                <element signature="e#5590#5667#0" expanded="true" />
-                <element signature="e#5590#5667#0" expanded="true" />
-                <element signature="e#5844#5865#0" expanded="true" />
+                <element signature="e#5363#5402#1" expanded="true" />
+                <element signature="e#5411#5443#1" expanded="true" />
+                <element signature="e#5452#5498#1" expanded="true" />
+                <element signature="e#5480#5497#0" expanded="true" />
+                <element signature="e#5555#5565#1" expanded="true" />
+                <element signature="e#5550#5627#0" expanded="true" />
+                <element signature="e#5550#5627#0" expanded="true" />
+                <element signature="e#5550#5627#0" expanded="true" />
+                <element signature="e#5804#5825#0" expanded="true" />
                 <element signature="method#getSCCNumber#0;class#Euler#0" expanded="false" />
-                <element signature="e#6222#6246#1" expanded="true" />
-                <element signature="e#6255#6294#1" expanded="true" />
-                <element signature="e#6303#6337#1" expanded="true" />
-                <element signature="e#6394#6404#1" expanded="true" />
-                <element signature="e#6389#6466#0" expanded="true" />
-                <element signature="e#6389#6466#0" expanded="true" />
-                <element signature="e#6389#6466#0" expanded="true" />
-                <element signature="e#6583#6606#0" expanded="true" />
+                <element signature="e#6182#6206#1" expanded="true" />
+                <element signature="e#6215#6254#1" expanded="true" />
+                <element signature="e#6263#6297#1" expanded="true" />
+                <element signature="e#6354#6364#1" expanded="true" />
+                <element signature="e#6349#6426#0" expanded="true" />
+                <element signature="e#6349#6426#0" expanded="true" />
+                <element signature="e#6349#6426#0" expanded="true" />
+                <element signature="e#6543#6566#0" expanded="true" />
                 <element signature="method#dfsVisit#0;class#Euler#0" expanded="false" />
-                <element signature="e#7000#7011#0" expanded="true" />
-                <element signature="e#7035#7050#0" expanded="true" />
-                <element signature="e#7088#7107#0" expanded="true" />
-                <element signature="e#7198#7212#0" expanded="true" />
-                <element signature="e#7198#7212#0" expanded="true" />
+                <element signature="e#6960#6971#0" expanded="true" />
+                <element signature="e#6995#7010#0" expanded="true" />
+                <element signature="e#7048#7067#0" expanded="true" />
+                <element signature="e#7158#7172#0" expanded="true" />
+                <element signature="e#7158#7172#0" expanded="true" />
                 <element signature="method#dfsVisitRev#0;class#Euler#0" expanded="false" />
-                <element signature="e#7334#7345#0" expanded="true" />
-                <element signature="e#7368#7383#0" expanded="true" />
-                <element signature="e#7424#7445#0" expanded="true" />
-                <element signature="e#7613#7638#1" expanded="true" />
-                <element signature="e#7675#7723#1" expanded="true" />
-                <element signature="e#7704#7721#0" expanded="true" />
-                <element signature="e#7872#7911#0" expanded="true" />
-                <element signature="e#7872#7911#0" expanded="true" />
-                <element signature="e#7963#7987#0" expanded="true" />
-                <element signature="e#7963#7987#0" expanded="true" />
-                <element signature="e#8082#8099#0" expanded="true" />
+                <element signature="e#7294#7305#0" expanded="true" />
+                <element signature="e#7328#7343#0" expanded="true" />
+                <element signature="e#7384#7405#0" expanded="true" />
+                <element signature="method#tourVisit#0;class#Euler#0" expanded="false" />
+                <element signature="e#7573#7598#1" expanded="true" />
+                <element signature="e#7635#7683#1" expanded="true" />
+                <element signature="e#7664#7681#0" expanded="true" />
+                <element signature="e#7780#8071#1" expanded="false" />
+                <element signature="e#7832#7871#0" expanded="true" />
+                <element signature="e#7832#7871#0" expanded="true" />
+                <element signature="e#7923#7947#0" expanded="true" />
+                <element signature="e#7923#7947#0" expanded="true" />
+                <element signature="e#8042#8059#0" expanded="true" />
+                <element signature="e#7780#8071#1" expanded="false" />
                 <element signature="method#SCC#0;class#Euler#0" expanded="false" />
-                <element signature="e#8194#8215#1" expanded="true" />
-                <element signature="e#8224#8280#1" expanded="true" />
+                <element signature="e#8154#8175#1" expanded="true" />
+                <element signature="e#8184#8240#1" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -253,8 +260,8 @@
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/ArrayIterator.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/personal/GraphSP3.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/StronglyConnectedComponents.java" />
-        <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/Euler.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/LP2.java" />
+        <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/Euler.java" />
       </list>
     </option>
   </component>
@@ -819,7 +826,14 @@
       <option name="project" value="LOCAL" />
       <updated>1505884396220</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Modification for Euler tour algorithm, big-input successed">
+      <created>1505959720457</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1505959720457</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TodoView">
@@ -845,7 +859,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3271028" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3271028" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -876,7 +890,8 @@
     <MESSAGE value="Update Eclipse .project and .classpath" />
     <MESSAGE value="GraphSP3.java uploaded, all my answer to SP3 is contained in this file." />
     <MESSAGE value="LP2 uploaded in package cs6301.lp2&#10;&#10;compile all the file and follow the instruction in class homepage.&#10;Run the LP2.java with required parameters&#10;&#10;It should be ready to go after that" />
-    <option name="LAST_COMMIT_MESSAGE" value="LP2 uploaded in package cs6301.lp2&#10;&#10;compile all the file and follow the instruction in class homepage.&#10;Run the LP2.java with required parameters&#10;&#10;It should be ready to go after that" />
+    <MESSAGE value="Modification for Euler tour algorithm, big-input successed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modification for Euler tour algorithm, big-input successed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -922,18 +937,6 @@
           <line>210</line>
           <properties />
           <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/LP2.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="93" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/Euler.java</url>
-          <line>95</line>
-          <properties />
-          <option name="timeStamp" value="94" />
         </line-breakpoint>
       </breakpoints>
       <option name="time" value="95" />
@@ -1351,131 +1354,142 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1520">
-          <caret line="95" column="46" lean-forward="false" selection-start-line="95" selection-start-column="46" selection-end-line="95" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1113#1114#0" expanded="true" />
-            <element signature="e#1134#1135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/LP2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="40" column="25" lean-forward="true" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1001#1047#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/StronglyConnectedComponents.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="557">
           <caret line="99" column="0" lean-forward="false" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
           <folding>
             <element signature="e#2357#2369#0" expanded="true" />
+            <element signature="e#4472#4498#0" expanded="false" />
+            <element signature="e#4472#4498#0" expanded="false" />
+            <marker date="1505959761964" expanded="false" signature="4338:4343" ph="val" />
+            <marker date="1505959761964" expanded="true" signature="4375:4376" ph="" />
+            <marker date="1505959761964" expanded="false" signature="4405:4408" ph="val" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/LP2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#801#827#1" expanded="true" />
+            <element signature="e#879#904#0" expanded="true" />
+            <element signature="e#879#904#0" expanded="true" />
+            <element signature="e#1001#1047#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2985#2995#1" expanded="true" />
+            <element signature="e#3179#3180#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/Euler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4080">
-          <caret line="158" column="48" lean-forward="false" selection-start-line="158" selection-start-column="48" selection-end-line="158" selection-end-column="48" />
+        <state relative-caret-position="5024">
+          <caret line="151" column="45" lean-forward="false" selection-start-line="151" selection-start-column="45" selection-end-line="151" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#875#892#0" expanded="true" />
-            <element signature="e#904#918#0" expanded="true" />
-            <element signature="e#939#950#0" expanded="true" />
-            <element signature="e#1086#1112#1" expanded="true" />
-            <element signature="e#1140#1173#0" expanded="true" />
-            <element signature="e#1140#1173#0" expanded="true" />
+            <element signature="e#846#863#0" expanded="true" />
+            <element signature="e#875#889#0" expanded="true" />
+            <element signature="e#910#921#0" expanded="true" />
+            <element signature="e#1057#1083#1" expanded="true" />
             <element signature="method#isEulerian#0;class#Euler#0" expanded="false" />
-            <element signature="e#1571#1593#1" expanded="true" />
-            <element signature="e#1914#1933#1" expanded="true" />
-            <element signature="e#1947#1961#0" expanded="true" />
-            <element signature="e#1991#2002#0" expanded="true" />
-            <element signature="e#2149#2242#0" expanded="true" />
-            <element signature="e#2149#2242#0" expanded="true" />
-            <element signature="e#2149#2242#0" expanded="true" />
-            <element signature="e#2149#2242#0" expanded="true" />
-            <element signature="e#2149#2242#0" expanded="true" />
-            <element signature="e#2231#2242#0" expanded="true" />
-            <element signature="e#2149#2242#0" expanded="true" />
-            <element signature="e#2423#2439#1" expanded="true" />
-            <element signature="e#2448#2500#1" expanded="true" />
-            <element signature="e#2636#2650#0" expanded="true" />
-            <element signature="e#2782#2797#0" expanded="true" />
-            <element signature="e#2873#2896#0" expanded="true" />
-            <element signature="e#3001#3050#1" expanded="true" />
-            <element signature="e#3032#3049#0" expanded="true" />
-            <element signature="e#3647#3661#0" expanded="true" />
-            <element signature="e#3691#3702#0" expanded="true" />
-            <element signature="e#3777#3796#0" expanded="true" />
-            <element signature="e#3777#3796#0" expanded="true" />
-            <element signature="e#3820#3832#0" expanded="true" />
-            <element signature="e#4146#4167#0" expanded="true" />
-            <element signature="e#4336#4398#1" expanded="true" />
-            <element signature="e#4364#4385#0" expanded="true" />
-            <element signature="e#4407#4439#1" expanded="true" />
-            <element signature="e#4473#4494#0" expanded="true" />
-            <element signature="e#4550#4577#1" expanded="true" />
-            <element signature="e#4591#4599#1" expanded="true" />
-            <element signature="e#4586#5153#0" expanded="true" />
-            <element signature="e#4586#5153#0" expanded="true" />
-            <element signature="e#4586#5153#0" expanded="true" />
-            <element signature="e#4706#4717#0" expanded="true" />
-            <element signature="e#4706#4717#0" expanded="true" />
-            <element signature="e#4746#4769#0" expanded="true" />
-            <element signature="e#4944#4986#0" expanded="true" />
-            <element signature="e#4944#4986#0" expanded="true" />
-            <element signature="e#4944#4986#0" expanded="true" />
+            <element signature="e#1479#1501#1" expanded="true" />
+            <element signature="e#1822#1841#1" expanded="true" />
+            <element signature="e#1855#1869#0" expanded="true" />
+            <element signature="e#1899#1910#0" expanded="true" />
+            <element signature="e#2057#2150#0" expanded="true" />
+            <element signature="e#2057#2150#0" expanded="true" />
+            <element signature="e#2057#2150#0" expanded="true" />
+            <element signature="e#2057#2150#0" expanded="true" />
+            <element signature="e#2057#2150#0" expanded="true" />
+            <element signature="e#2139#2150#0" expanded="true" />
+            <element signature="e#2057#2150#0" expanded="true" />
+            <element signature="e#2331#2347#1" expanded="true" />
+            <element signature="e#2468#2517#1" expanded="true" />
+            <element signature="e#2499#2516#0" expanded="true" />
+            <element signature="e#2576#2597#0" expanded="true" />
+            <element signature="e#2692#2700#1" expanded="true" />
+            <element signature="e#2687#3106#0" expanded="true" />
+            <element signature="e#2687#3106#0" expanded="true" />
+            <element signature="e#2687#3106#0" expanded="true" />
+            <element signature="e#2788#2811#0" expanded="true" />
+            <element signature="e#2962#2979#0" expanded="true" />
+            <element signature="e#3577#3591#0" expanded="true" />
+            <element signature="e#3621#3632#0" expanded="true" />
+            <element signature="e#3709#3728#0" expanded="true" />
+            <element signature="e#3709#3728#0" expanded="true" />
+            <element signature="e#3752#3764#0" expanded="true" />
+            <element signature="e#4080#4101#0" expanded="true" />
+            <element signature="e#4278#4340#1" expanded="true" />
+            <element signature="e#4306#4327#0" expanded="true" />
+            <element signature="e#4410#4431#0" expanded="true" />
+            <element signature="e#4487#4514#1" expanded="true" />
+            <element signature="e#4528#4536#1" expanded="true" />
+            <element signature="e#4523#5113#0" expanded="true" />
+            <element signature="e#4523#5113#0" expanded="true" />
+            <element signature="e#4523#5113#0" expanded="true" />
+            <element signature="e#4645#4656#0" expanded="true" />
+            <element signature="e#4645#4656#0" expanded="true" />
+            <element signature="e#4685#4708#0" expanded="true" />
+            <element signature="e#4883#4925#0" expanded="true" />
+            <element signature="e#4883#4925#0" expanded="true" />
+            <element signature="e#4883#4925#0" expanded="true" />
             <element signature="method#getFinRevList#0;class#Euler#0" expanded="false" />
-            <element signature="e#5403#5442#1" expanded="true" />
-            <element signature="e#5451#5483#1" expanded="true" />
-            <element signature="e#5492#5538#1" expanded="true" />
-            <element signature="e#5520#5537#0" expanded="true" />
-            <element signature="e#5595#5605#1" expanded="true" />
-            <element signature="e#5590#5667#0" expanded="true" />
-            <element signature="e#5590#5667#0" expanded="true" />
-            <element signature="e#5590#5667#0" expanded="true" />
-            <element signature="e#5844#5865#0" expanded="true" />
+            <element signature="e#5363#5402#1" expanded="true" />
+            <element signature="e#5411#5443#1" expanded="true" />
+            <element signature="e#5452#5498#1" expanded="true" />
+            <element signature="e#5480#5497#0" expanded="true" />
+            <element signature="e#5555#5565#1" expanded="true" />
+            <element signature="e#5550#5627#0" expanded="true" />
+            <element signature="e#5550#5627#0" expanded="true" />
+            <element signature="e#5550#5627#0" expanded="true" />
+            <element signature="e#5804#5825#0" expanded="true" />
             <element signature="method#getSCCNumber#0;class#Euler#0" expanded="false" />
-            <element signature="e#6222#6246#1" expanded="true" />
-            <element signature="e#6255#6294#1" expanded="true" />
-            <element signature="e#6303#6337#1" expanded="true" />
-            <element signature="e#6394#6404#1" expanded="true" />
-            <element signature="e#6389#6466#0" expanded="true" />
-            <element signature="e#6389#6466#0" expanded="true" />
-            <element signature="e#6389#6466#0" expanded="true" />
-            <element signature="e#6583#6606#0" expanded="true" />
+            <element signature="e#6182#6206#1" expanded="true" />
+            <element signature="e#6215#6254#1" expanded="true" />
+            <element signature="e#6263#6297#1" expanded="true" />
+            <element signature="e#6354#6364#1" expanded="true" />
+            <element signature="e#6349#6426#0" expanded="true" />
+            <element signature="e#6349#6426#0" expanded="true" />
+            <element signature="e#6349#6426#0" expanded="true" />
+            <element signature="e#6543#6566#0" expanded="true" />
             <element signature="method#dfsVisit#0;class#Euler#0" expanded="false" />
-            <element signature="e#7000#7011#0" expanded="true" />
-            <element signature="e#7035#7050#0" expanded="true" />
-            <element signature="e#7088#7107#0" expanded="true" />
-            <element signature="e#7198#7212#0" expanded="true" />
-            <element signature="e#7198#7212#0" expanded="true" />
+            <element signature="e#6960#6971#0" expanded="true" />
+            <element signature="e#6995#7010#0" expanded="true" />
+            <element signature="e#7048#7067#0" expanded="true" />
+            <element signature="e#7158#7172#0" expanded="true" />
+            <element signature="e#7158#7172#0" expanded="true" />
             <element signature="method#dfsVisitRev#0;class#Euler#0" expanded="false" />
-            <element signature="e#7334#7345#0" expanded="true" />
-            <element signature="e#7368#7383#0" expanded="true" />
-            <element signature="e#7424#7445#0" expanded="true" />
-            <element signature="e#7613#7638#1" expanded="true" />
-            <element signature="e#7675#7723#1" expanded="true" />
-            <element signature="e#7704#7721#0" expanded="true" />
-            <element signature="e#7872#7911#0" expanded="true" />
-            <element signature="e#7872#7911#0" expanded="true" />
-            <element signature="e#7963#7987#0" expanded="true" />
-            <element signature="e#7963#7987#0" expanded="true" />
-            <element signature="e#8082#8099#0" expanded="true" />
+            <element signature="e#7294#7305#0" expanded="true" />
+            <element signature="e#7328#7343#0" expanded="true" />
+            <element signature="e#7384#7405#0" expanded="true" />
+            <element signature="method#tourVisit#0;class#Euler#0" expanded="false" />
+            <element signature="e#7573#7598#1" expanded="true" />
+            <element signature="e#7635#7683#1" expanded="true" />
+            <element signature="e#7664#7681#0" expanded="true" />
+            <element signature="e#7780#8071#1" expanded="false" />
+            <element signature="e#7832#7871#0" expanded="true" />
+            <element signature="e#7832#7871#0" expanded="true" />
+            <element signature="e#7923#7947#0" expanded="true" />
+            <element signature="e#7923#7947#0" expanded="true" />
+            <element signature="e#8042#8059#0" expanded="true" />
+            <element signature="e#7780#8071#1" expanded="false" />
             <element signature="method#SCC#0;class#Euler#0" expanded="false" />
-            <element signature="e#8194#8215#1" expanded="true" />
-            <element signature="e#8224#8280#1" expanded="true" />
+            <element signature="e#8154#8175#1" expanded="true" />
+            <element signature="e#8184#8240#1" expanded="true" />
           </folding>
         </state>
       </provider>

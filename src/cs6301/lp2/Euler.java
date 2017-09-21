@@ -4,7 +4,6 @@ package cs6301.lp2;
 
 import java.util.List;
 import java.util.Iterator;
-import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Collections;
 
@@ -43,7 +42,6 @@ public class Euler extends GraphAlgorithm<Euler.EVertex>{
     // To do: function to find an Euler tour
     public List<Graph.Edge> findEulerTour() {
         int tourNum = findTours();
-        System.out.println("FirstPart Finished + " + tourNum);
         if(VERBOSE > 9) { printTours(); }
 	    stitchTours(tourNum);
 	    return tour;
@@ -81,27 +79,26 @@ public class Euler extends GraphAlgorithm<Euler.EVertex>{
     // Find tours starting at vertices with unexplored edges
     private int findTours() {
         int tourNum = 0;
-        ArrayDeque<Graph.Vertex> opSet = new ArrayDeque<>();
+
         Graph.Vertex currentVertex;
         EVertex tmp;
 
-        // initialize the opSet
-        opSet.add(startVertex);
-        for (Graph.Vertex u : g){
-            if (u != startVertex)
-                opSet.add(u);
-        }
+        // Start the first sub tour with startVertex
+        List<Graph.Edge> currentTour = new ArrayList<>();
+        tourVisit(startVertex, currentTour);
+        node[startVertex.getName()].vertexTour = currentTour;
+        tourNum++;
 
         // Find tour by tourVisit
-        while (!opSet.isEmpty()){
+        for (int i=1; i<=g.size(); i++){
 
-            currentVertex = opSet.removeFirst();
+            currentVertex = g.getVertex(i);
             tmp = node[currentVertex.getName()];
-            if (tmp.outDegree <= tmp.usedEdge ){
+            if (currentVertex == startVertex || tmp.outDegree <= tmp.usedEdge ){
                 continue;
             }
 
-            List<Graph.Edge> currentTour = new ArrayList<>();
+            currentTour = new ArrayList<>();
             tourVisit(currentVertex, currentTour);
             tmp.vertexTour = currentTour;
             tourNum++;
@@ -124,9 +121,9 @@ public class Euler extends GraphAlgorithm<Euler.EVertex>{
 
         for (Graph.Vertex u : g){
             tmp = node[u.getName()];
-            if (tmp.vertexTour!=null){
+            if (tmp.vertexTour != null){
                 System.out.print(u.toString() + ": ");
-                for (Graph.Edge e:tmp.vertexTour){
+                for (Graph.Edge e : tmp.vertexTour){
                     System.out.print((e.toString()));
                 }
                 System.out.println();
@@ -143,16 +140,16 @@ public class Euler extends GraphAlgorithm<Euler.EVertex>{
             return;
         }
 
-        // Initialize the tour with first sub tour with startVertex
+        // Initialize the tour with the first sub tour start by startVertex
         List<Graph.Edge> tmp = node[startVertex.getName()].vertexTour;
-        Graph.Vertex currentVertex=null;
+        Graph.Vertex currentVertex;
         tour = tmp;
         node[startVertex.getName()].vertexTour = null;
 
         int replacePoint;
         int tourSize = tour.size();
         for (int i=0; i<tourSize; i++){
-            // Iterate through each edge.to in current tour
+            // Iterate through each (edge.to) in current tour
             currentVertex = tour.get(i).to;
             tmpE = node[currentVertex.getName()];
             if (tmpE.vertexTour != null){
@@ -164,7 +161,7 @@ public class Euler extends GraphAlgorithm<Euler.EVertex>{
                 tourSize = tour.size();
                 tmpE.vertexTour = null;
                 if (toursNum <= 0)
-                    break;
+                    break; // No more sub tours
             }
         }
     }
