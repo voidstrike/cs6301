@@ -1,7 +1,8 @@
 //** @author Khaled Al-naami, Peter Farago, Yu Lin, David Tan
+package cs6301.g42;
 import java.util.Arrays;
 
-package cs6301.g42;
+
 public class RearrangeMinusPlus
 {
 
