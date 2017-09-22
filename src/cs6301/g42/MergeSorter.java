@@ -21,7 +21,7 @@ public class MergeSorter {
         }
     }
 
-    private static  void mergeSortPhase(int[] arr, int[] tmp, int start, int end) // overload : int version
+    private static void mergeSortPhase(int[] arr, int[] tmp, int start, int end) // overload : int version
     {
         // Standard Merge Sort Algorithm
         int middle = (start + end) >>> 1;
