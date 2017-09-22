@@ -1,11 +1,12 @@
 //** @author Khaled Al-naami, Peter Farago, Yu Lin, David Tan
+package cs6301.g42;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Random;
 
-package cs6301.g42;
+
 public class KMissingNumbers
 {
 
