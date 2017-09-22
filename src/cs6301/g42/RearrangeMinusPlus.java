@@ -1,5 +1,7 @@
+//** @author Khaled Al-naami, Peter Farago, Yu Lin, David Tan
 import java.util.Arrays;
 
+package cs6301.g42;
 public class RearrangeMinusPlus
 {
 
