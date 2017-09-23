@@ -1,94 +1,49 @@
-//** @author Khaled Al-naami, Peter Farago, Yu Lin, David Tan
 package cs6301.g42;
 
-import java.util.Arrays;
-import java.util.List;
 import java.util.ArrayList;
-import java.util.Random;
+import java.util.List;
 
+/**
+ * Created by Alan Lin on 9/22/2017.
+ * @Auther Khaled Al-naami, Peter Farago, Yu Lin, David Tan
+ */
 
-public class KMissingNumbers
-{
+public class KMissingNumbers {
 
-	public static void getKMissing(int[] input, int p, int r, List<Integer> missingNumbers)
-	{
-		// input array is assumed to be an array of n distinct integers, in sorted order, starting at 1
-		// this method returns the k missing numbers in the sequence
-
-		int n = r - p + 1;
-
-		if(n <= 1)			
-		{
-			return;
-		}
-		else if(n == 2)		// if there are only two elements, add all the missing numbers between them to missingNumbers
-		{
-			int numMissing = input[r] - input[p] - 1;
-
-			if(numMissing == 0)
-			{
-				return;
-			}
-			else
-			{
-				int firstNumber = input[p] + 1;
-
-				for(int i = 0; i < numMissing; i++)
-				{
-					missingNumbers.add(new Integer(firstNumber + i));
-				}
-
-				return;
-			}
-			 
-		}
-		else if(n > 2)			// if there are more than two elements, recursively find the missing numbers from the halves which have missing numbers
-		{
-			int middleIndex = (p+r)/2;
-			int numMissingFromLeft, numMissingFromRight;
-
-			numMissingFromLeft = input[middleIndex] - input[p] - 1 - (middleIndex - p - 1);
-			numMissingFromRight = input[r] - input[middleIndex] - 1 - (r - middleIndex - 1);
-
-			if(numMissingFromLeft == 0 && numMissingFromRight == 0)
-			{
-				return;
-			}
-			else if(numMissingFromLeft == 0 && numMissingFromRight != 0)
-			{
-				getKMissing(input, middleIndex, r, missingNumbers);
-			}
-			else if(numMissingFromLeft != 0 && numMissingFromRight == 0)
-			{
-				getKMissing(input, p, middleIndex, missingNumbers);		
-			}
-			else if(numMissingFromLeft != 0 && numMissingFromRight != 0)
-			{
-				getKMissing(input, p, middleIndex, missingNumbers);
-				getKMissing(input, middleIndex, r, missingNumbers);
-			}
-
-		}
-
+	public static List<Integer> findKMissingNumber(int[] A){
+		List<Integer> result = new ArrayList<>();
+		findK(A, 0, A.length-1, result);
+		return result;
 	}
 
-	public static void main(String[] args)
-	{
-		Random r  = new Random();			
-		int a[] = new int[5];
-		a[0] = 1;
+	public static void findK(int[] input, int start, int end, List<Integer> result){
 
-		for(int i=1; i < a.length; i++)			// generate input array of length 5 with random gaps between consecutive elements in range 1 to 5
-		{
-			a[i] = a[i-1] + r.nextInt(5) + 1;
+		int middle = (start + end) / 2;
+		if( input[end]-input[start] == end - start || start == end){
+			// Nothing should be done in this situation
 		}
-
-		List<Integer> missingNumbers = new ArrayList<Integer>();
-		getKMissing(a, 0, a.length-1, missingNumbers);
-		System.out.println("Input array: " + Arrays.toString(a));
-		System.out.println("Missing numbers: " + Arrays.toString(missingNumbers.toArray()));
-
+		else if(start+1 == end){
+			for(int i=input[start]+1; i<input[end];i++){
+				result.add(i);
+			}
+		}
+		else{
+			// Recursive call
+			findK(input, start, middle, result);
+			findK(input, middle, end, result);
+		}
 	}
+	
+	public static void main(String args[]){
 
+		// Test code
+		int arr[] = {1,3,5,7,9,12};
+		List<Integer> missingNum;
+
+		missingNum = findKMissingNumber(arr);
+		System.out.println(missingNum);
+		
+	}
+	
 
 }
