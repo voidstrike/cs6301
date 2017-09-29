@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6da66cc7-0b94-4809-8bdd-cc12eec7414c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AlgorithmImplement/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AlgorithmImplement/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="6da66cc7-0b94-4809-8bdd-cc12eec7414c" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/../AlgorithmImplement/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -85,7 +83,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IOTestor.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IOTestor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/IOTestor.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="407">
@@ -224,6 +222,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="PartitionsSP5P1.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/PartitionsSP5P1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LP2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/LP2.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -340,6 +348,7 @@
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp5/QuickSort.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp5/IOTestor.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/QuickSort.java" />
+        <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/PartitionsSP5P1.java" />
       </list>
     </option>
   </component>
@@ -487,6 +496,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs6301" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="g42" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlgorithmImplement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlgorithmImplement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="graphFiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -507,6 +538,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cs6301.sp5" />
       <recent name="cs6301.g42" />
     </key>
   </component>
@@ -946,7 +978,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506142135750</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="uploaed my solutions, espicially for SP5 Q5.&#10;And in this one, I also create the new package SP5">
+      <created>1506713303880</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1506713303881</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -960,7 +999,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -977,7 +1015,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20842217" sideWeight="0.49013498" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20842217" sideWeight="0.49013498" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1009,7 +1047,8 @@
     <MESSAGE value="Put package statement in the first line of code file&#10;Q1 ploaded" />
     <MESSAGE value="Q3 CODE added" />
     <MESSAGE value="Report added and some code modification" />
-    <option name="LAST_COMMIT_MESSAGE" value="Report added and some code modification" />
+    <MESSAGE value="uploaed my solutions, espicially for SP5 Q5.&#10;And in this one, I also create the new package SP5" />
+    <option name="LAST_COMMIT_MESSAGE" value="uploaed my solutions, espicially for SP5 Q5.&#10;And in this one, I also create the new package SP5" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1094,13 +1133,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/LinkListSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1697,6 +1729,14 @@
             <element signature="e#13459#13527#1" expanded="true" />
             <element signature="e#13999#14027#1" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/PartitionsSP5P1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
