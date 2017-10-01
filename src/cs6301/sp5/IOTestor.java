@@ -1,16 +1,86 @@
 package cs6301.sp5;
 
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import java.io.*;
 import java.util.Scanner;
+
 /**
  * Created by Alan Lin on 9/28/2017.
+ * @author Khaled Al-naami, Peter Farago, Yu Lin, David Tan
  */
 public class IOTestor {
 
+    // External MergeSort
+    public static void wrappedEMergeSort(String inputPath, int requiredSize){
+        try{
+            externalMergeSort(inputPath, requiredSize);
+        }catch (IOException e){
+            e.printStackTrace();
+        }
+    }
+    private static void externalMergeSort(String inputPath, int requiredSize)
+            throws FileNotFoundException{
+        File currentFile = new File(inputPath);
+        String  outputPath = inputPath + "_sorted";
+        int[] tmp = new int[requiredSize];
+        int arrSize = readFile(new Scanner(currentFile), tmp);
+        if (arrSize != -1){
+            // If the file can fit into sized memory, sort it and write into file
+            QuickSort.quickSortV3(tmp, 0, arrSize-1);
+            try{writeFile(outputPath, tmp, arrSize);}
+            catch (IOException e){e.printStackTrace();}
+        }
+        else{
+            String sub1 = inputPath + "part1";
+            String sub2 = inputPath + "part2";
+
+            try{splitFile(new Scanner(currentFile), sub1, sub2);}
+            catch (IOException e){e.printStackTrace();}
+            // recursively merge sort
+            innerMergeSort(sub1, tmp);
+            innerMergeSort(sub2, tmp);
+
+            try{
+                scannerMerge(new Scanner(new File(sub1+"_sorted")),
+                        new Scanner(new File(sub2+"_sorted")),
+                        outputPath);}
+            catch (IOException e) {e.printStackTrace();}
+
+            deleteFile(sub1+"_sorted");
+            deleteFile(sub2+"_sorted");
+        }
+    }
+    private static void innerMergeSort(String inputPath, int[] tmp)
+        throws FileNotFoundException{
+        File currentFile = new File(inputPath);
+        String  outputPath = inputPath + "_sorted";
+        int arrSize = readFile(new Scanner(currentFile), tmp);
+        if (arrSize != -1){
+            // If the file can fit into sized memory, sort it and write into file
+            QuickSort.quickSortV3(tmp, 0, arrSize-1);
+            try{writeFile(outputPath, tmp, arrSize);}
+            catch (IOException e){e.printStackTrace();}
+         }
+        else{
+            String sub1 = inputPath + "part1";
+            String sub2 = inputPath + "part2";
+
+            try{splitFile(new Scanner(currentFile), sub1, sub2);}
+            catch (IOException e){e.printStackTrace();}
+
+            // recursively merge sort call
+            innerMergeSort(sub1, tmp);
+            innerMergeSort(sub2, tmp);
+
+            try{scannerMerge(new Scanner(new File(sub1+"_sorted")),
+                    new Scanner(new File(sub2+"_sorted")),
+                    outputPath);}
+            catch (IOException e) {e.printStackTrace();}
+
+            deleteFile(sub1+"_sorted");
+            deleteFile(sub2+"_sorted");
+        }
+        deleteFile(inputPath);
+    }
     private static void scannerMerge(Scanner fin, Scanner sin, String outfile)
             throws IOException{
         BufferedWriter out = new BufferedWriter(new FileWriter(outfile));
@@ -84,80 +154,8 @@ public class IOTestor {
         sin.close();
         out.close();
     }
-    //External MergeSort
-    public static void wrappedEMergeSort(String inputPath, int requiredSize){
-        try{
-            externalMergeSort(inputPath, requiredSize);
-        }catch (IOException e){
-            e.printStackTrace();
-        }
-    }
-    private static void externalMergeSort(String inputPath, int requiredSize)
-            throws FileNotFoundException{
-        File currentFile = new File(inputPath);
-        String  outputPath = inputPath + "_sorted";
-        int[] tmp = new int[requiredSize];
-        int arrSize = readFile(new Scanner(currentFile), tmp);
-        if (arrSize != -1){
-            // If the file can fit into sized memory, sort it and write into file
-            QuickSort.quickSortV3(tmp, 0, arrSize-1);
-            try{writeFile(outputPath, tmp, arrSize);}
-            catch (IOException e){e.printStackTrace();}
-        }
-        else{
-            String sub1 = inputPath + "part1";
-            String sub2 = inputPath + "part2";
 
-            try{splitFile(new Scanner(currentFile), sub1, sub2);}
-            catch (IOException e){e.printStackTrace();}
-            // recursively merge sort
-            innerMergeSort(sub1, tmp);
-            innerMergeSort(sub2, tmp);
-
-            try{
-                scannerMerge(new Scanner(new File(sub1+"_sorted")),
-                        new Scanner(new File(sub2+"_sorted")),
-                        outputPath);}
-            catch (IOException e) {e.printStackTrace();}
-
-            deleteFile(sub1+"_sorted");
-            deleteFile(sub2+"_sorted");
-        }
-    }
-    private static void innerMergeSort(String inputPath, int[] tmp)
-        throws FileNotFoundException{
-        File currentFile = new File(inputPath);
-        String  outputPath = inputPath + "_sorted";
-        int arrSize = readFile(new Scanner(currentFile), tmp);
-        if (arrSize != -1){
-            // If the file can fit into sized memory, sort it and write into file
-            QuickSort.quickSortV3(tmp, 0, arrSize-1);
-            try{writeFile(outputPath, tmp, arrSize);}
-            catch (IOException e){e.printStackTrace();}
-         }
-        else{
-            String sub1 = inputPath + "part1";
-            String sub2 = inputPath + "part2";
-
-            try{splitFile(new Scanner(currentFile), sub1, sub2);}
-            catch (IOException e){e.printStackTrace();}
-
-            // recursively merge sort
-            innerMergeSort(sub1, tmp);
-            innerMergeSort(sub2, tmp);
-
-            try{scannerMerge(new Scanner(new File(sub1+"_sorted")),
-                    new Scanner(new File(sub2+"_sorted")),
-                    outputPath);}
-            catch (IOException e) {e.printStackTrace();}
-
-            deleteFile(sub1+"_sorted");
-            deleteFile(sub2+"_sorted");
-        }
-        deleteFile(inputPath);
-}
-
-    //External QuickSort
+    // External QuickSort
     public static void wrappedEQuickSort(String inputPath, int requiredSize){
         try{
             externalQuickSort(inputPath, requiredSize);
@@ -200,7 +198,6 @@ public class IOTestor {
             deleteFile(tpart+"_sorted");
         }
     }
-
     private static void innerQuickSort(String inputPath, int[] tmp)
             throws  FileNotFoundException{
         File currentFile = new File(inputPath);
@@ -238,8 +235,25 @@ public class IOTestor {
         }
         deleteFile(inputPath);
     }
+    private static void combinePartition(Scanner fpart, Scanner spart, Scanner tpart, String outputPath)
+            throws IOException{
+        BufferedWriter out = new BufferedWriter(new FileWriter(outputPath));
+        while(fpart.hasNextInt()){
+            writerHelper(out, fpart.nextInt());
+        }
+        while(spart.hasNextInt()){
+            writerHelper(out, spart.nextInt());
+        }
+        while(tpart.hasNextInt()){
+            writerHelper(out, tpart.nextInt());
+        }
+        fpart.close();
+        spart.close();
+        tpart.close();
+        out.close();
+    }
 
-    // Aux file operation
+    // Aux file operations
     private static void writerHelper(BufferedWriter out, int element){
         try{
             out.write(element+"\n");
@@ -247,7 +261,7 @@ public class IOTestor {
             e.printStackTrace();
         }
     }
-    private static int readFile(Scanner in, int[] arr){
+    private static int  readFile(Scanner in, int[] arr){
         // Try to read the file, file split is needed return size is -1
         int count=0, fileSize;
         while (in.hasNextInt() && count < arr.length){
@@ -263,9 +277,12 @@ public class IOTestor {
         }
         return fileSize;
     }
+    private static void deleteFile(String filename){
+        File tmp = new File(filename);
+        tmp.delete();
+    }
     private static void writeFile(String output, int[] arr, int fileSize)
-            throws IOException
-    {
+            throws IOException {
         FileWriter tmp = new FileWriter(output);
         BufferedWriter writer = new BufferedWriter(tmp);
         for (int i=0; i<fileSize; i++){
@@ -275,6 +292,7 @@ public class IOTestor {
         writer.close();
         tmp.close();
     }
+    // Split file into two part -- mergeSort
     private static void splitFile(Scanner in, String out1, String out2)
         throws IOException{
         BufferedWriter writer1 = new BufferedWriter(new FileWriter(out1));
@@ -290,11 +308,7 @@ public class IOTestor {
         writer1.close();
         writer2.close();
     }
-    private static void deleteFile(String filename){
-        File tmp = new File(filename);
-        tmp.delete();
-    }
-
+    // Part file by partition algorithm -- quickSort
     private static boolean partitionFile(Scanner in, String fpart, String spart, String tpart, int[] tmp)
         throws IOException{
         int count=0, curNum, pivot;
@@ -377,35 +391,31 @@ public class IOTestor {
         }
     }
 
-    private static void combinePartition(Scanner fpart, Scanner spart, Scanner tpart, String outputPath)
-        throws IOException{
-        BufferedWriter out = new BufferedWriter(new FileWriter(outputPath));
-        while(fpart.hasNextInt()){
-            writerHelper(out, fpart.nextInt());
-        }
-        while(spart.hasNextInt()){
-            writerHelper(out, spart.nextInt());
-        }
-        while(tpart.hasNextInt()){
-            writerHelper(out, tpart.nextInt());
-        }
-        fpart.close();
-        spart.close();
-        tpart.close();
-        out.close();
-    }
+
 
     public static void main(String[] args){
 //        File test = new File("G:/test");
         String testFile = "G:/test";
-//
-        try{
-            externalQuickSort(testFile, 5);
+        if (args.length > 0)
+            testFile = args[0];
+        else
+        {
+            System.out.println("No File Selected!");
+            return;
         }
-        catch (IOException e){e.printStackTrace();}
-//        try{scannerMerge(new Scanner(new File("G:/testpart1part1part1_sorted")),
-//                new Scanner(new File("G:/testpart1part1part2_sorted")),
-//                "newtest");}
-//        catch (IOException e) {e.printStackTrace();}
+
+        int operateModel = 0;
+        if (args.length > 1)
+            operateModel = Integer.parseInt(args[1]);
+
+        int requireSize = 27;
+        if (args.length > 2)
+            requireSize = Integer.parseInt(args[2]);
+
+        if (operateModel == 0)
+            wrappedEMergeSort(testFile, requireSize);
+        else
+            wrappedEQuickSort(testFile, requireSize);
+
     }
 }

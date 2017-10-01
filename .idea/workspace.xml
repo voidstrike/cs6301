@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6da66cc7-0b94-4809-8bdd-cc12eec7414c" name="Default" comment="" />
+    <list default="true" id="6da66cc7-0b94-4809-8bdd-cc12eec7414c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/IOTestor.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AlgorithmImplement/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AlgorithmImplement/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/../AlgorithmImplement/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,11 +27,180 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="IOTestor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp5/IOTestor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="474">
+              <caret line="418" column="12" lean-forward="true" selection-start-line="418" selection-start-column="12" selection-end-line="418" selection-end-column="12" />
+              <folding>
+                <element signature="method#wrappedEMergeSort#0;class#IOTestor#0" expanded="false" />
+                <element signature="method#externalMergeSort#0;class#IOTestor#0" expanded="false" />
+                <element signature="e#609#648#1" expanded="true" />
+                <element signature="e#657#700#1" expanded="true" />
+                <element signature="e#678#699#0" expanded="true" />
+                <element signature="e#678#699#0" expanded="true" />
+                <element signature="e#709#743#1" expanded="true" />
+                <element signature="e#752#806#1" expanded="true" />
+                <element signature="e#1117#1151#1" expanded="true" />
+                <element signature="e#1131#1150#0" expanded="true" />
+                <element signature="e#1131#1150#0" expanded="true" />
+                <element signature="e#1164#1198#1" expanded="true" />
+                <element signature="e#1178#1197#0" expanded="true" />
+                <element signature="e#1178#1197#0" expanded="true" />
+                <element signature="e#1506#1520#0" expanded="true" />
+                <element signature="e#1506#1520#0" expanded="true" />
+                <element signature="e#1569#1583#0" expanded="true" />
+                <element signature="e#1569#1583#0" expanded="true" />
+                <element signature="e#1706#1720#0" expanded="true" />
+                <element signature="e#1706#1720#0" expanded="true" />
+                <element signature="e#1746#1760#0" expanded="true" />
+                <element signature="e#1746#1760#0" expanded="true" />
+                <element signature="method#innerMergeSort#0;class#IOTestor#0" expanded="false" />
+                <element signature="e#1893#1932#1" expanded="true" />
+                <element signature="e#1941#1984#1" expanded="true" />
+                <element signature="e#1962#1983#0" expanded="true" />
+                <element signature="e#1962#1983#0" expanded="true" />
+                <element signature="e#1993#2047#1" expanded="true" />
+                <element signature="e#2359#2393#1" expanded="true" />
+                <element signature="e#2373#2392#0" expanded="true" />
+                <element signature="e#2373#2392#0" expanded="true" />
+                <element signature="e#2406#2440#1" expanded="true" />
+                <element signature="e#2420#2439#0" expanded="true" />
+                <element signature="e#2420#2439#0" expanded="true" />
+                <element signature="e#2737#2751#0" expanded="true" />
+                <element signature="e#2737#2751#0" expanded="true" />
+                <element signature="e#2796#2810#0" expanded="true" />
+                <element signature="e#2796#2810#0" expanded="true" />
+                <element signature="e#2929#2943#0" expanded="true" />
+                <element signature="e#2929#2943#0" expanded="true" />
+                <element signature="e#2969#2983#0" expanded="true" />
+                <element signature="e#2969#2983#0" expanded="true" />
+                <element signature="method#scannerMerge#0;class#IOTestor#0" expanded="false" />
+                <element signature="e#3152#3217#1" expanded="true" />
+                <element signature="method#wrappedEQuickSort#0;class#IOTestor#0" expanded="false" />
+                <element signature="method#externalQuickSort#0;class#IOTestor#0" expanded="false" />
+                <element signature="e#5451#5490#1" expanded="true" />
+                <element signature="e#5499#5542#1" expanded="true" />
+                <element signature="e#5520#5541#0" expanded="true" />
+                <element signature="e#5520#5541#0" expanded="true" />
+                <element signature="e#5551#5577#1" expanded="true" />
+                <element signature="e#5586#5620#1" expanded="true" />
+                <element signature="e#5629#5683#1" expanded="true" />
+                <element signature="e#5994#6025#1" expanded="true" />
+                <element signature="e#6009#6024#0" expanded="true" />
+                <element signature="e#6009#6024#0" expanded="true" />
+                <element signature="e#6038#6069#1" expanded="true" />
+                <element signature="e#6053#6068#0" expanded="true" />
+                <element signature="e#6053#6068#0" expanded="true" />
+                <element signature="e#6082#6113#1" expanded="true" />
+                <element signature="e#6097#6112#0" expanded="true" />
+                <element signature="e#6097#6112#0" expanded="true" />
+                <element signature="e#6526#6541#0" expanded="true" />
+                <element signature="e#6526#6541#0" expanded="true" />
+                <element signature="e#6590#6605#0" expanded="true" />
+                <element signature="e#6590#6605#0" expanded="true" />
+                <element signature="e#6654#6669#0" expanded="true" />
+                <element signature="e#6654#6669#0" expanded="true" />
+                <element signature="e#6791#6806#0" expanded="true" />
+                <element signature="e#6791#6806#0" expanded="true" />
+                <element signature="e#6832#6847#0" expanded="true" />
+                <element signature="e#6832#6847#0" expanded="true" />
+                <element signature="e#6873#6888#0" expanded="true" />
+                <element signature="e#6873#6888#0" expanded="true" />
+                <element signature="method#innerQuickSort#0;class#IOTestor#0" expanded="false" />
+                <element signature="e#7026#7065#1" expanded="true" />
+                <element signature="e#7074#7117#1" expanded="true" />
+                <element signature="e#7095#7116#0" expanded="true" />
+                <element signature="e#7095#7116#0" expanded="true" />
+                <element signature="e#7126#7152#1" expanded="true" />
+                <element signature="e#7161#7215#1" expanded="true" />
+                <element signature="e#7526#7557#1" expanded="true" />
+                <element signature="e#7541#7556#0" expanded="true" />
+                <element signature="e#7541#7556#0" expanded="true" />
+                <element signature="e#7570#7601#1" expanded="true" />
+                <element signature="e#7585#7600#0" expanded="true" />
+                <element signature="e#7585#7600#0" expanded="true" />
+                <element signature="e#7614#7645#1" expanded="true" />
+                <element signature="e#7629#7644#0" expanded="true" />
+                <element signature="e#7629#7644#0" expanded="true" />
+                <element signature="e#8058#8073#0" expanded="true" />
+                <element signature="e#8058#8073#0" expanded="true" />
+                <element signature="e#8122#8137#0" expanded="true" />
+                <element signature="e#8122#8137#0" expanded="true" />
+                <element signature="e#8186#8201#0" expanded="true" />
+                <element signature="e#8186#8201#0" expanded="true" />
+                <element signature="e#8323#8338#0" expanded="true" />
+                <element signature="e#8323#8338#0" expanded="true" />
+                <element signature="e#8364#8379#0" expanded="true" />
+                <element signature="e#8364#8379#0" expanded="true" />
+                <element signature="e#8405#8420#0" expanded="true" />
+                <element signature="e#8405#8420#0" expanded="true" />
+                <element signature="method#combinePartition#0;class#IOTestor#0" expanded="false" />
+                <element signature="e#8615#8683#1" expanded="true" />
+                <element signature="method#writerHelper#0;class#IOTestor#0" expanded="false" />
+                <element signature="e#9193#9205#0" expanded="true" />
+                <element signature="e#9193#9205#0" expanded="true" />
+                <element signature="method#readFile#0;class#IOTestor#0" expanded="false" />
+                <element signature="e#9426#9437#0" expanded="true" />
+                <element signature="method#deleteFile#0;class#IOTestor#0" expanded="false" />
+                <element signature="e#9816#9846#1" expanded="true" />
+                <element signature="method#writeFile#0;class#IOTestor#0" expanded="false" />
+                <element signature="e#9990#10030#1" expanded="true" />
+                <element signature="e#10039#10087#1" expanded="true" />
+                <element signature="e#10101#10109#1" expanded="true" />
+                <element signature="e#10096#10179#0" expanded="true" />
+                <element signature="e#10096#10179#0" expanded="true" />
+                <element signature="e#10096#10179#0" expanded="true" />
+                <element signature="method#splitFile#0;class#IOTestor#0" expanded="false" />
+                <element signature="e#10408#10474#1" expanded="true" />
+                <element signature="e#10483#10549#1" expanded="true" />
+                <element signature="method#partitionFile#0;class#IOTestor#0" expanded="false" />
+                <element signature="e#11049#11060#0" expanded="true" />
+                <element signature="e#11085#11100#0" expanded="true" />
+                <element signature="e#11149#11216#1" expanded="true" />
+                <element signature="e#11225#11292#1" expanded="true" />
+                <element signature="e#11301#11368#1" expanded="true" />
+                <element signature="e#11616#11622#0" expanded="true" />
+                <element signature="e#12869#12875#0" expanded="true" />
+                <element signature="e#13596#13604#1" expanded="true" />
+                <element signature="e#13591#13676#0" expanded="true" />
+                <element signature="e#13591#13676#0" expanded="true" />
+                <element signature="e#13591#13676#0" expanded="true" />
+                <element signature="e#13859#13865#0" expanded="true" />
+                <element signature="e#14074#14102#1" expanded="true" />
+                <element signature="e#14155#14162#0" expanded="true" />
+                <element signature="e#14279#14300#1" expanded="true" />
+                <element signature="e#14393#14414#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOTestor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/IOTestor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PartitionsSP5P1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/PartitionsSP5P1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+            <state relative-caret-position="-2256">
+              <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#quickSort#0;class#QuickSort#0" expanded="false" />
@@ -50,230 +222,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MergeSortTestor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/MergeSortTestor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="9" selection-end-column="3" />
-              <folding>
-                <element signature="method#merge#0;class#MergeSortTestor#0" expanded="false" />
-                <element signature="method#mergeSortV1#0;class#MergeSortTestor#0" expanded="false" />
-                <element signature="method#mergeSortV2#0;class#MergeSortTestor#0" expanded="false" />
-                <element signature="method#mergeSortV3#0;class#MergeSortTestor#0" expanded="false" />
-                <element signature="method#mergeSortV4#0;class#MergeSortTestor#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DLinkedList.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/DLinkedList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="59" />
-              <folding>
-                <element signature="class#Entry#0;class#DLinkedList#0" expanded="false" />
-                <element signature="method#sortedListToBST#0;class#DLinkedList#0" expanded="false" />
-                <element signature="method#BSTToSortedList#0;class#DLinkedList#0" expanded="false" />
-                <element signature="method#toChild#0;class#DLinkedList#0" expanded="false" />
-                <element signature="method#getMiddle#0;class#DLinkedList#0" expanded="false" />
-                <element signature="method#buildList#0;class#DLinkedList#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IOTestor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/IOTestor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#381#446#1" expanded="true" />
-                <element signature="method#wrappedEMergeSort#0;class#IOTestor#0" expanded="false" />
-                <element signature="e#2702#2741#1" expanded="true" />
-                <element signature="e#2750#2793#1" expanded="true" />
-                <element signature="e#2771#2792#0" expanded="true" />
-                <element signature="e#2771#2792#0" expanded="true" />
-                <element signature="e#2802#2836#1" expanded="true" />
-                <element signature="e#2845#2899#1" expanded="true" />
-                <element signature="e#3210#3244#1" expanded="true" />
-                <element signature="e#3224#3243#0" expanded="true" />
-                <element signature="e#3224#3243#0" expanded="true" />
-                <element signature="e#3257#3291#1" expanded="true" />
-                <element signature="e#3271#3290#0" expanded="true" />
-                <element signature="e#3271#3290#0" expanded="true" />
-                <element signature="e#3599#3613#0" expanded="true" />
-                <element signature="e#3599#3613#0" expanded="true" />
-                <element signature="e#3662#3676#0" expanded="true" />
-                <element signature="e#3662#3676#0" expanded="true" />
-                <element signature="e#3799#3813#0" expanded="true" />
-                <element signature="e#3799#3813#0" expanded="true" />
-                <element signature="e#3839#3853#0" expanded="true" />
-                <element signature="e#3839#3853#0" expanded="true" />
-                <element signature="method#innerMergeSort#0;class#IOTestor#0" expanded="false" />
-                <element signature="e#3986#4025#1" expanded="true" />
-                <element signature="e#4034#4077#1" expanded="true" />
-                <element signature="e#4055#4076#0" expanded="true" />
-                <element signature="e#4055#4076#0" expanded="true" />
-                <element signature="e#4086#4140#1" expanded="true" />
-                <element signature="e#4452#4486#1" expanded="true" />
-                <element signature="e#4466#4485#0" expanded="true" />
-                <element signature="e#4466#4485#0" expanded="true" />
-                <element signature="e#4499#4533#1" expanded="true" />
-                <element signature="e#4513#4532#0" expanded="true" />
-                <element signature="e#4513#4532#0" expanded="true" />
-                <element signature="e#4825#4839#0" expanded="true" />
-                <element signature="e#4825#4839#0" expanded="true" />
-                <element signature="e#4884#4898#0" expanded="true" />
-                <element signature="e#4884#4898#0" expanded="true" />
-                <element signature="e#5017#5031#0" expanded="true" />
-                <element signature="e#5017#5031#0" expanded="true" />
-                <element signature="e#5057#5071#0" expanded="true" />
-                <element signature="e#5057#5071#0" expanded="true" />
-                <element signature="e#5475#5514#1" expanded="true" />
-                <element signature="e#5523#5566#1" expanded="true" />
-                <element signature="e#5544#5565#0" expanded="true" />
-                <element signature="e#5544#5565#0" expanded="true" />
-                <element signature="e#5575#5601#1" expanded="true" />
-                <element signature="e#5610#5644#1" expanded="true" />
-                <element signature="e#5653#5707#1" expanded="true" />
-                <element signature="e#6018#6049#1" expanded="true" />
-                <element signature="e#6033#6048#0" expanded="true" />
-                <element signature="e#6033#6048#0" expanded="true" />
-                <element signature="e#6062#6093#1" expanded="true" />
-                <element signature="e#6077#6092#0" expanded="true" />
-                <element signature="e#6077#6092#0" expanded="true" />
-                <element signature="e#6106#6137#1" expanded="true" />
-                <element signature="e#6121#6136#0" expanded="true" />
-                <element signature="e#6121#6136#0" expanded="true" />
-                <element signature="e#6550#6565#0" expanded="true" />
-                <element signature="e#6550#6565#0" expanded="true" />
-                <element signature="e#6614#6629#0" expanded="true" />
-                <element signature="e#6614#6629#0" expanded="true" />
-                <element signature="e#6678#6693#0" expanded="true" />
-                <element signature="e#6678#6693#0" expanded="true" />
-                <element signature="e#6815#6830#0" expanded="true" />
-                <element signature="e#6815#6830#0" expanded="true" />
-                <element signature="e#6856#6871#0" expanded="true" />
-                <element signature="e#6856#6871#0" expanded="true" />
-                <element signature="e#6897#6912#0" expanded="true" />
-                <element signature="e#6897#6912#0" expanded="true" />
-                <element signature="method#innerQuickSort#0;class#IOTestor#0" expanded="false" />
-                <element signature="e#7051#7090#1" expanded="true" />
-                <element signature="e#7099#7142#1" expanded="true" />
-                <element signature="e#7120#7141#0" expanded="true" />
-                <element signature="e#7120#7141#0" expanded="true" />
-                <element signature="e#7151#7177#1" expanded="true" />
-                <element signature="e#7186#7240#1" expanded="true" />
-                <element signature="e#7551#7582#1" expanded="true" />
-                <element signature="e#7566#7581#0" expanded="true" />
-                <element signature="e#7566#7581#0" expanded="true" />
-                <element signature="e#7595#7626#1" expanded="true" />
-                <element signature="e#7610#7625#0" expanded="true" />
-                <element signature="e#7610#7625#0" expanded="true" />
-                <element signature="e#7639#7670#1" expanded="true" />
-                <element signature="e#7654#7669#0" expanded="true" />
-                <element signature="e#7654#7669#0" expanded="true" />
-                <element signature="e#8083#8098#0" expanded="true" />
-                <element signature="e#8083#8098#0" expanded="true" />
-                <element signature="e#8147#8162#0" expanded="true" />
-                <element signature="e#8147#8162#0" expanded="true" />
-                <element signature="e#8211#8226#0" expanded="true" />
-                <element signature="e#8211#8226#0" expanded="true" />
-                <element signature="e#8348#8363#0" expanded="true" />
-                <element signature="e#8348#8363#0" expanded="true" />
-                <element signature="e#8389#8404#0" expanded="true" />
-                <element signature="e#8389#8404#0" expanded="true" />
-                <element signature="e#8430#8445#0" expanded="true" />
-                <element signature="e#8430#8445#0" expanded="true" />
-                <element signature="method#writerHelper#0;class#IOTestor#0" expanded="false" />
-                <element signature="e#8628#8640#0" expanded="true" />
-                <element signature="e#8628#8640#0" expanded="true" />
-                <element signature="e#8860#8871#0" expanded="true" />
-                <element signature="e#9308#9348#1" expanded="true" />
-                <element signature="e#9357#9405#1" expanded="true" />
-                <element signature="e#9419#9427#1" expanded="true" />
-                <element signature="e#9414#9497#0" expanded="true" />
-                <element signature="e#9414#9497#0" expanded="true" />
-                <element signature="e#9414#9497#0" expanded="true" />
-                <element signature="e#9681#9747#1" expanded="true" />
-                <element signature="e#9756#9822#1" expanded="true" />
-                <element signature="method#deleteFile#0;class#IOTestor#0" expanded="false" />
-                <element signature="e#10188#10218#1" expanded="true" />
-                <element signature="e#10390#10401#0" expanded="true" />
-                <element signature="e#10426#10441#0" expanded="true" />
-                <element signature="e#10490#10557#1" expanded="true" />
-                <element signature="e#10566#10633#1" expanded="true" />
-                <element signature="e#10642#10709#1" expanded="true" />
-                <element signature="e#10957#10963#0" expanded="true" />
-                <element signature="e#12210#12216#0" expanded="true" />
-                <element signature="e#12937#12945#1" expanded="true" />
-                <element signature="e#12932#13017#0" expanded="true" />
-                <element signature="e#12932#13017#0" expanded="true" />
-                <element signature="e#12932#13017#0" expanded="true" />
-                <element signature="e#13200#13206#0" expanded="true" />
-                <element signature="method#combinePartition#0;class#IOTestor#0" expanded="false" />
-                <element signature="e#13459#13527#1" expanded="true" />
-                <element signature="e#13999#14027#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PartitionsSP5P1.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/PartitionsSP5P1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LP2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/LP2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="71" />
+            <state relative-caret-position="137">
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="e#361#396#1" expanded="true" />
+                <element signature="e#387#394#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/Graph.java">
+      <file leaf-file-name="PartitionsSP5P1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp5/PartitionsSP5P1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3059">
-              <caret line="192" column="8" lean-forward="false" selection-start-line="192" selection-start-column="8" selection-end-line="192" selection-end-column="8" />
-              <folding>
-                <element signature="n#!!doc" expanded="false" />
-                <element signature="e#1114#1115#0" expanded="false" />
-                <element signature="e#1134#1135#0" expanded="false" />
-                <element signature="e#1172#1173#0" expanded="false" />
-                <element signature="e#1202#1203#0" expanded="false" />
-                <element signature="e#1330#1331#0" expanded="false" />
-                <element signature="e#1358#1359#0" expanded="false" />
-                <element signature="e#1472#1473#0" expanded="false" />
-                <element signature="e#1514#1515#0" expanded="false" />
-                <element signature="e#2574#2575#0" expanded="false" />
-                <element signature="e#2617#2618#0" expanded="false" />
-                <element signature="e#2655#2656#0" expanded="false" />
-                <element signature="e#2701#2702#0" expanded="false" />
-                <element signature="e#3123#3124#0" expanded="false" />
-                <element signature="e#3145#3146#0" expanded="false" />
-                <element signature="e#3610#3611#0" expanded="false" />
-                <element signature="e#3625#3626#0" expanded="false" />
-                <element signature="e#3726#3727#0" expanded="false" />
-                <element signature="e#3768#3769#0" expanded="false" />
-                <element signature="e#3876#3877#0" expanded="false" />
-                <element signature="e#3909#3910#0" expanded="false" />
-                <element signature="e#4012#4013#0" expanded="false" />
-                <element signature="e#4046#4047#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="-114">
+              <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="61" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -346,9 +313,11 @@
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/MergeSortTestor.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/KMissingNumbers.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp5/QuickSort.java" />
-        <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp5/IOTestor.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/QuickSort.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/PartitionsSP5P1.java" />
+        <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp5/PartitionsSP5P1.java" />
+        <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp5/IOTestor.java" />
+        <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/IOTestor.java" />
       </list>
     </option>
   </component>
@@ -376,6 +345,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -441,6 +413,10 @@
               <option name="myItemId" value="cs6301" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="psp5" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -481,10 +457,6 @@
               <option name="myItemId" value="cs6301" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lp2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -504,7 +476,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="g42" />
+              <option name="myItemId" value="lp2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -524,9 +496,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -540,6 +509,9 @@
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cs6301.sp5" />
       <recent name="cs6301.g42" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\AlgorithmImplement\src\cs6301\psp5" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -985,7 +957,14 @@
       <option name="project" value="LOCAL" />
       <updated>1506713303881</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="uploaed my solutions, espicially for SP5 Q5.&#10;And in this one, I also create the new package SP5">
+      <created>1506713380362</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1506713380362</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView">
@@ -999,23 +978,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3271028" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20842217" sideWeight="0.49013498" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21268657" sideWeight="0.49013498" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1026,6 +1005,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1113,12 +1093,6 @@
           <properties />
           <option name="timeStamp" value="115" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/IOTestor.java</url>
-          <line>405</line>
-          <properties />
-          <option name="timeStamp" value="123" />
-        </line-breakpoint>
       </breakpoints>
       <option name="time" value="125" />
     </breakpoint-manager>
@@ -1133,20 +1107,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="13" column="24" lean-forward="false" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/LinkListSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="81" column="39" lean-forward="false" selection-start-line="81" selection-start-column="39" selection-end-line="81" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/diaBFS.java" />
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/personal/pStack.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1438,7 +1398,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="86" column="17" lean-forward="true" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1467,9 +1426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2147">
           <caret line="118" column="5" lean-forward="false" selection-start-line="118" selection-start-column="5" selection-end-line="118" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1484,12 +1440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2717">
           <caret line="185" column="4" lean-forward="false" selection-start-line="185" selection-start-column="0" selection-end-line="201" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#mergeSortV1#0;class#MergeSortTestor#0" expanded="false" />
-            <element signature="method#mergeV1#0;class#MergeSortTestor#0" expanded="false" />
-            <element signature="method#insertSort#0;class#MergeSortTestor#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1497,48 +1447,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="157">
           <caret line="149" column="8" lean-forward="false" selection-start-line="149" selection-start-column="8" selection-end-line="149" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3059">
-          <caret line="192" column="8" lean-forward="false" selection-start-line="192" selection-start-column="8" selection-end-line="192" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-            <element signature="e#1114#1115#0" expanded="false" />
-            <element signature="e#1134#1135#0" expanded="false" />
-            <element signature="e#1172#1173#0" expanded="false" />
-            <element signature="e#1202#1203#0" expanded="false" />
-            <element signature="e#1330#1331#0" expanded="false" />
-            <element signature="e#1358#1359#0" expanded="false" />
-            <element signature="e#1472#1473#0" expanded="false" />
-            <element signature="e#1514#1515#0" expanded="false" />
-            <element signature="e#2574#2575#0" expanded="false" />
-            <element signature="e#2617#2618#0" expanded="false" />
-            <element signature="e#2655#2656#0" expanded="false" />
-            <element signature="e#2701#2702#0" expanded="false" />
-            <element signature="e#3123#3124#0" expanded="false" />
-            <element signature="e#3145#3146#0" expanded="false" />
-            <element signature="e#3610#3611#0" expanded="false" />
-            <element signature="e#3625#3626#0" expanded="false" />
-            <element signature="e#3726#3727#0" expanded="false" />
-            <element signature="e#3768#3769#0" expanded="false" />
-            <element signature="e#3876#3877#0" expanded="false" />
-            <element signature="e#3909#3910#0" expanded="false" />
-            <element signature="e#4012#4013#0" expanded="false" />
-            <element signature="e#4046#4047#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/LP2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="43" lean-forward="false" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="71" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1560,21 +1468,202 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="3" lean-forward="false" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="872">
+          <caret line="192" column="8" lean-forward="false" selection-start-line="192" selection-start-column="8" selection-end-line="192" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp5/PartitionsSP5P1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp2/LP2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding>
-            <element signature="class#Entry#0;class#DLinkedList#0" expanded="false" />
-            <element signature="method#sortedListToBST#0;class#DLinkedList#0" expanded="false" />
-            <element signature="method#BSTToSortedList#0;class#DLinkedList#0" expanded="false" />
-            <element signature="method#toChild#0;class#DLinkedList#0" expanded="false" />
-            <element signature="method#getMiddle#0;class#DLinkedList#0" expanded="false" />
-            <element signature="method#buildList#0;class#DLinkedList#0" expanded="false" />
+            <element signature="e#361#396#1" expanded="true" />
+            <element signature="e#387#394#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp5/IOTestor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="474">
+          <caret line="418" column="12" lean-forward="true" selection-start-line="418" selection-start-column="12" selection-end-line="418" selection-end-column="12" />
+          <folding>
+            <element signature="method#wrappedEMergeSort#0;class#IOTestor#0" expanded="false" />
+            <element signature="method#externalMergeSort#0;class#IOTestor#0" expanded="false" />
+            <element signature="e#609#648#1" expanded="true" />
+            <element signature="e#657#700#1" expanded="true" />
+            <element signature="e#678#699#0" expanded="true" />
+            <element signature="e#678#699#0" expanded="true" />
+            <element signature="e#709#743#1" expanded="true" />
+            <element signature="e#752#806#1" expanded="true" />
+            <element signature="e#1117#1151#1" expanded="true" />
+            <element signature="e#1131#1150#0" expanded="true" />
+            <element signature="e#1131#1150#0" expanded="true" />
+            <element signature="e#1164#1198#1" expanded="true" />
+            <element signature="e#1178#1197#0" expanded="true" />
+            <element signature="e#1178#1197#0" expanded="true" />
+            <element signature="e#1506#1520#0" expanded="true" />
+            <element signature="e#1506#1520#0" expanded="true" />
+            <element signature="e#1569#1583#0" expanded="true" />
+            <element signature="e#1569#1583#0" expanded="true" />
+            <element signature="e#1706#1720#0" expanded="true" />
+            <element signature="e#1706#1720#0" expanded="true" />
+            <element signature="e#1746#1760#0" expanded="true" />
+            <element signature="e#1746#1760#0" expanded="true" />
+            <element signature="method#innerMergeSort#0;class#IOTestor#0" expanded="false" />
+            <element signature="e#1893#1932#1" expanded="true" />
+            <element signature="e#1941#1984#1" expanded="true" />
+            <element signature="e#1962#1983#0" expanded="true" />
+            <element signature="e#1962#1983#0" expanded="true" />
+            <element signature="e#1993#2047#1" expanded="true" />
+            <element signature="e#2359#2393#1" expanded="true" />
+            <element signature="e#2373#2392#0" expanded="true" />
+            <element signature="e#2373#2392#0" expanded="true" />
+            <element signature="e#2406#2440#1" expanded="true" />
+            <element signature="e#2420#2439#0" expanded="true" />
+            <element signature="e#2420#2439#0" expanded="true" />
+            <element signature="e#2737#2751#0" expanded="true" />
+            <element signature="e#2737#2751#0" expanded="true" />
+            <element signature="e#2796#2810#0" expanded="true" />
+            <element signature="e#2796#2810#0" expanded="true" />
+            <element signature="e#2929#2943#0" expanded="true" />
+            <element signature="e#2929#2943#0" expanded="true" />
+            <element signature="e#2969#2983#0" expanded="true" />
+            <element signature="e#2969#2983#0" expanded="true" />
+            <element signature="method#scannerMerge#0;class#IOTestor#0" expanded="false" />
+            <element signature="e#3152#3217#1" expanded="true" />
+            <element signature="method#wrappedEQuickSort#0;class#IOTestor#0" expanded="false" />
+            <element signature="method#externalQuickSort#0;class#IOTestor#0" expanded="false" />
+            <element signature="e#5451#5490#1" expanded="true" />
+            <element signature="e#5499#5542#1" expanded="true" />
+            <element signature="e#5520#5541#0" expanded="true" />
+            <element signature="e#5520#5541#0" expanded="true" />
+            <element signature="e#5551#5577#1" expanded="true" />
+            <element signature="e#5586#5620#1" expanded="true" />
+            <element signature="e#5629#5683#1" expanded="true" />
+            <element signature="e#5994#6025#1" expanded="true" />
+            <element signature="e#6009#6024#0" expanded="true" />
+            <element signature="e#6009#6024#0" expanded="true" />
+            <element signature="e#6038#6069#1" expanded="true" />
+            <element signature="e#6053#6068#0" expanded="true" />
+            <element signature="e#6053#6068#0" expanded="true" />
+            <element signature="e#6082#6113#1" expanded="true" />
+            <element signature="e#6097#6112#0" expanded="true" />
+            <element signature="e#6097#6112#0" expanded="true" />
+            <element signature="e#6526#6541#0" expanded="true" />
+            <element signature="e#6526#6541#0" expanded="true" />
+            <element signature="e#6590#6605#0" expanded="true" />
+            <element signature="e#6590#6605#0" expanded="true" />
+            <element signature="e#6654#6669#0" expanded="true" />
+            <element signature="e#6654#6669#0" expanded="true" />
+            <element signature="e#6791#6806#0" expanded="true" />
+            <element signature="e#6791#6806#0" expanded="true" />
+            <element signature="e#6832#6847#0" expanded="true" />
+            <element signature="e#6832#6847#0" expanded="true" />
+            <element signature="e#6873#6888#0" expanded="true" />
+            <element signature="e#6873#6888#0" expanded="true" />
+            <element signature="method#innerQuickSort#0;class#IOTestor#0" expanded="false" />
+            <element signature="e#7026#7065#1" expanded="true" />
+            <element signature="e#7074#7117#1" expanded="true" />
+            <element signature="e#7095#7116#0" expanded="true" />
+            <element signature="e#7095#7116#0" expanded="true" />
+            <element signature="e#7126#7152#1" expanded="true" />
+            <element signature="e#7161#7215#1" expanded="true" />
+            <element signature="e#7526#7557#1" expanded="true" />
+            <element signature="e#7541#7556#0" expanded="true" />
+            <element signature="e#7541#7556#0" expanded="true" />
+            <element signature="e#7570#7601#1" expanded="true" />
+            <element signature="e#7585#7600#0" expanded="true" />
+            <element signature="e#7585#7600#0" expanded="true" />
+            <element signature="e#7614#7645#1" expanded="true" />
+            <element signature="e#7629#7644#0" expanded="true" />
+            <element signature="e#7629#7644#0" expanded="true" />
+            <element signature="e#8058#8073#0" expanded="true" />
+            <element signature="e#8058#8073#0" expanded="true" />
+            <element signature="e#8122#8137#0" expanded="true" />
+            <element signature="e#8122#8137#0" expanded="true" />
+            <element signature="e#8186#8201#0" expanded="true" />
+            <element signature="e#8186#8201#0" expanded="true" />
+            <element signature="e#8323#8338#0" expanded="true" />
+            <element signature="e#8323#8338#0" expanded="true" />
+            <element signature="e#8364#8379#0" expanded="true" />
+            <element signature="e#8364#8379#0" expanded="true" />
+            <element signature="e#8405#8420#0" expanded="true" />
+            <element signature="e#8405#8420#0" expanded="true" />
+            <element signature="method#combinePartition#0;class#IOTestor#0" expanded="false" />
+            <element signature="e#8615#8683#1" expanded="true" />
+            <element signature="method#writerHelper#0;class#IOTestor#0" expanded="false" />
+            <element signature="e#9193#9205#0" expanded="true" />
+            <element signature="e#9193#9205#0" expanded="true" />
+            <element signature="method#readFile#0;class#IOTestor#0" expanded="false" />
+            <element signature="e#9426#9437#0" expanded="true" />
+            <element signature="method#deleteFile#0;class#IOTestor#0" expanded="false" />
+            <element signature="e#9816#9846#1" expanded="true" />
+            <element signature="method#writeFile#0;class#IOTestor#0" expanded="false" />
+            <element signature="e#9990#10030#1" expanded="true" />
+            <element signature="e#10039#10087#1" expanded="true" />
+            <element signature="e#10101#10109#1" expanded="true" />
+            <element signature="e#10096#10179#0" expanded="true" />
+            <element signature="e#10096#10179#0" expanded="true" />
+            <element signature="e#10096#10179#0" expanded="true" />
+            <element signature="method#splitFile#0;class#IOTestor#0" expanded="false" />
+            <element signature="e#10408#10474#1" expanded="true" />
+            <element signature="e#10483#10549#1" expanded="true" />
+            <element signature="method#partitionFile#0;class#IOTestor#0" expanded="false" />
+            <element signature="e#11049#11060#0" expanded="true" />
+            <element signature="e#11085#11100#0" expanded="true" />
+            <element signature="e#11149#11216#1" expanded="true" />
+            <element signature="e#11225#11292#1" expanded="true" />
+            <element signature="e#11301#11368#1" expanded="true" />
+            <element signature="e#11616#11622#0" expanded="true" />
+            <element signature="e#12869#12875#0" expanded="true" />
+            <element signature="e#13596#13604#1" expanded="true" />
+            <element signature="e#13591#13676#0" expanded="true" />
+            <element signature="e#13591#13676#0" expanded="true" />
+            <element signature="e#13591#13676#0" expanded="true" />
+            <element signature="e#13859#13865#0" expanded="true" />
+            <element signature="e#14074#14102#1" expanded="true" />
+            <element signature="e#14155#14162#0" expanded="true" />
+            <element signature="e#14279#14300#1" expanded="true" />
+            <element signature="e#14393#14414#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/IOTestor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/PartitionsSP5P1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        <state relative-caret-position="-2256">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#quickSort#0;class#QuickSort#0" expanded="false" />
@@ -1592,151 +1681,6 @@
             <element signature="method#merge#0;class#QuickSort#0" expanded="false" />
             <element signature="method#insertSort#0;class#QuickSort#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/IOTestor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#381#446#1" expanded="true" />
-            <element signature="method#wrappedEMergeSort#0;class#IOTestor#0" expanded="false" />
-            <element signature="e#2702#2741#1" expanded="true" />
-            <element signature="e#2750#2793#1" expanded="true" />
-            <element signature="e#2771#2792#0" expanded="true" />
-            <element signature="e#2771#2792#0" expanded="true" />
-            <element signature="e#2802#2836#1" expanded="true" />
-            <element signature="e#2845#2899#1" expanded="true" />
-            <element signature="e#3210#3244#1" expanded="true" />
-            <element signature="e#3224#3243#0" expanded="true" />
-            <element signature="e#3224#3243#0" expanded="true" />
-            <element signature="e#3257#3291#1" expanded="true" />
-            <element signature="e#3271#3290#0" expanded="true" />
-            <element signature="e#3271#3290#0" expanded="true" />
-            <element signature="e#3599#3613#0" expanded="true" />
-            <element signature="e#3599#3613#0" expanded="true" />
-            <element signature="e#3662#3676#0" expanded="true" />
-            <element signature="e#3662#3676#0" expanded="true" />
-            <element signature="e#3799#3813#0" expanded="true" />
-            <element signature="e#3799#3813#0" expanded="true" />
-            <element signature="e#3839#3853#0" expanded="true" />
-            <element signature="e#3839#3853#0" expanded="true" />
-            <element signature="method#innerMergeSort#0;class#IOTestor#0" expanded="false" />
-            <element signature="e#3986#4025#1" expanded="true" />
-            <element signature="e#4034#4077#1" expanded="true" />
-            <element signature="e#4055#4076#0" expanded="true" />
-            <element signature="e#4055#4076#0" expanded="true" />
-            <element signature="e#4086#4140#1" expanded="true" />
-            <element signature="e#4452#4486#1" expanded="true" />
-            <element signature="e#4466#4485#0" expanded="true" />
-            <element signature="e#4466#4485#0" expanded="true" />
-            <element signature="e#4499#4533#1" expanded="true" />
-            <element signature="e#4513#4532#0" expanded="true" />
-            <element signature="e#4513#4532#0" expanded="true" />
-            <element signature="e#4825#4839#0" expanded="true" />
-            <element signature="e#4825#4839#0" expanded="true" />
-            <element signature="e#4884#4898#0" expanded="true" />
-            <element signature="e#4884#4898#0" expanded="true" />
-            <element signature="e#5017#5031#0" expanded="true" />
-            <element signature="e#5017#5031#0" expanded="true" />
-            <element signature="e#5057#5071#0" expanded="true" />
-            <element signature="e#5057#5071#0" expanded="true" />
-            <element signature="e#5475#5514#1" expanded="true" />
-            <element signature="e#5523#5566#1" expanded="true" />
-            <element signature="e#5544#5565#0" expanded="true" />
-            <element signature="e#5544#5565#0" expanded="true" />
-            <element signature="e#5575#5601#1" expanded="true" />
-            <element signature="e#5610#5644#1" expanded="true" />
-            <element signature="e#5653#5707#1" expanded="true" />
-            <element signature="e#6018#6049#1" expanded="true" />
-            <element signature="e#6033#6048#0" expanded="true" />
-            <element signature="e#6033#6048#0" expanded="true" />
-            <element signature="e#6062#6093#1" expanded="true" />
-            <element signature="e#6077#6092#0" expanded="true" />
-            <element signature="e#6077#6092#0" expanded="true" />
-            <element signature="e#6106#6137#1" expanded="true" />
-            <element signature="e#6121#6136#0" expanded="true" />
-            <element signature="e#6121#6136#0" expanded="true" />
-            <element signature="e#6550#6565#0" expanded="true" />
-            <element signature="e#6550#6565#0" expanded="true" />
-            <element signature="e#6614#6629#0" expanded="true" />
-            <element signature="e#6614#6629#0" expanded="true" />
-            <element signature="e#6678#6693#0" expanded="true" />
-            <element signature="e#6678#6693#0" expanded="true" />
-            <element signature="e#6815#6830#0" expanded="true" />
-            <element signature="e#6815#6830#0" expanded="true" />
-            <element signature="e#6856#6871#0" expanded="true" />
-            <element signature="e#6856#6871#0" expanded="true" />
-            <element signature="e#6897#6912#0" expanded="true" />
-            <element signature="e#6897#6912#0" expanded="true" />
-            <element signature="method#innerQuickSort#0;class#IOTestor#0" expanded="false" />
-            <element signature="e#7051#7090#1" expanded="true" />
-            <element signature="e#7099#7142#1" expanded="true" />
-            <element signature="e#7120#7141#0" expanded="true" />
-            <element signature="e#7120#7141#0" expanded="true" />
-            <element signature="e#7151#7177#1" expanded="true" />
-            <element signature="e#7186#7240#1" expanded="true" />
-            <element signature="e#7551#7582#1" expanded="true" />
-            <element signature="e#7566#7581#0" expanded="true" />
-            <element signature="e#7566#7581#0" expanded="true" />
-            <element signature="e#7595#7626#1" expanded="true" />
-            <element signature="e#7610#7625#0" expanded="true" />
-            <element signature="e#7610#7625#0" expanded="true" />
-            <element signature="e#7639#7670#1" expanded="true" />
-            <element signature="e#7654#7669#0" expanded="true" />
-            <element signature="e#7654#7669#0" expanded="true" />
-            <element signature="e#8083#8098#0" expanded="true" />
-            <element signature="e#8083#8098#0" expanded="true" />
-            <element signature="e#8147#8162#0" expanded="true" />
-            <element signature="e#8147#8162#0" expanded="true" />
-            <element signature="e#8211#8226#0" expanded="true" />
-            <element signature="e#8211#8226#0" expanded="true" />
-            <element signature="e#8348#8363#0" expanded="true" />
-            <element signature="e#8348#8363#0" expanded="true" />
-            <element signature="e#8389#8404#0" expanded="true" />
-            <element signature="e#8389#8404#0" expanded="true" />
-            <element signature="e#8430#8445#0" expanded="true" />
-            <element signature="e#8430#8445#0" expanded="true" />
-            <element signature="method#writerHelper#0;class#IOTestor#0" expanded="false" />
-            <element signature="e#8628#8640#0" expanded="true" />
-            <element signature="e#8628#8640#0" expanded="true" />
-            <element signature="e#8860#8871#0" expanded="true" />
-            <element signature="e#9308#9348#1" expanded="true" />
-            <element signature="e#9357#9405#1" expanded="true" />
-            <element signature="e#9419#9427#1" expanded="true" />
-            <element signature="e#9414#9497#0" expanded="true" />
-            <element signature="e#9414#9497#0" expanded="true" />
-            <element signature="e#9414#9497#0" expanded="true" />
-            <element signature="e#9681#9747#1" expanded="true" />
-            <element signature="e#9756#9822#1" expanded="true" />
-            <element signature="method#deleteFile#0;class#IOTestor#0" expanded="false" />
-            <element signature="e#10188#10218#1" expanded="true" />
-            <element signature="e#10390#10401#0" expanded="true" />
-            <element signature="e#10426#10441#0" expanded="true" />
-            <element signature="e#10490#10557#1" expanded="true" />
-            <element signature="e#10566#10633#1" expanded="true" />
-            <element signature="e#10642#10709#1" expanded="true" />
-            <element signature="e#10957#10963#0" expanded="true" />
-            <element signature="e#12210#12216#0" expanded="true" />
-            <element signature="e#12937#12945#1" expanded="true" />
-            <element signature="e#12932#13017#0" expanded="true" />
-            <element signature="e#12932#13017#0" expanded="true" />
-            <element signature="e#12932#13017#0" expanded="true" />
-            <element signature="e#13200#13206#0" expanded="true" />
-            <element signature="method#combinePartition#0;class#IOTestor#0" expanded="false" />
-            <element signature="e#13459#13527#1" expanded="true" />
-            <element signature="e#13999#14027#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/sp5/PartitionsSP5P1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
