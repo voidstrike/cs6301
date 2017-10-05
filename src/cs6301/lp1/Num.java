@@ -26,7 +26,6 @@ public class Num implements Comparable<Num>{
         numList = new LinkedList<>();
         // Create Num class with String, default base 10
         for(int i = s.length()-1; i > 0; i--){
-//            System.out.println(Long.valueOf(s.charAt(i) - '0'));
             numList.add(Long.valueOf(s.charAt(i) - '0'));
         }
 
@@ -126,8 +125,8 @@ public class Num implements Comparable<Num>{
     }
 
     static Num product(Num a, Num b){
-        //TODO
         // Karatsuba Algorithm
+        // Brute-force Algorithm
         Num result = new Num(0L);
         Num tmp;
         long holder;
@@ -176,7 +175,16 @@ public class Num implements Comparable<Num>{
         return result;
     }
 
-    // Utility Functions
+    void printList() {
+        StringBuilder sb = new StringBuilder();
+        sb.append(this.base + " :");
+        Iterator iter = this.numList.iterator();
+        while(iter.hasNext())
+            sb.append(" " + iter.next());
+        System.out.println(sb.toString());
+    }
+
+    // Auxiliary Functions
     public int compareTo(Num other){
         Long thisBlock, otherBlock;
 
@@ -294,6 +302,7 @@ public class Num implements Comparable<Num>{
     }
 
     public static void main(String[] args){
+        // Test code below
         Num x = new Num("98765432123456789012456789012646378589165127456376");
         Num y = new Num("56698364876147630847612984618476284587653095761286");
         Num z = new Num(98765432123456789L);
@@ -306,5 +315,6 @@ public class Num implements Comparable<Num>{
         Num d = power(z, 8);
         System.out.println(c);
         System.out.println(d);
+        d.printList();
     }
 }
