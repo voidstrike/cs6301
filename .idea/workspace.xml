@@ -30,101 +30,114 @@
       <file leaf-file-name="Num.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp1/Num.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="384">
+              <caret line="61" column="25" lean-forward="true" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#Num#0;class#Num#0" expanded="false" />
+                <element signature="method#Num#1;class#Num#0" expanded="false" />
                 <element signature="e#965#986#1" expanded="true" />
                 <element signature="e#1024#1042#0" expanded="true" />
                 <element signature="e#1031#1042#0" expanded="true" />
                 <element signature="e#1031#1042#0" expanded="true" />
                 <element signature="e#1428#1446#0" expanded="true" />
-                <element signature="e#1556#1557#0" expanded="true" />
-                <element signature="e#1595#1596#0" expanded="true" />
                 <element signature="method#add#0;class#Num#0" expanded="false" />
-                <element signature="e#1878#1921#0" expanded="true" />
-                <element signature="e#1982#2074#1" expanded="false" />
-                <element signature="e#1982#2074#1" expanded="false" />
-                <element signature="e#3032#3047#0" expanded="true" />
+                <element signature="e#1885#1928#0" expanded="true" />
+                <element signature="e#1989#2081#1" expanded="false" />
+                <element signature="e#1989#2081#1" expanded="false" />
+                <element signature="e#3039#3054#0" expanded="true" />
                 <element signature="method#subtract#0;class#Num#0" expanded="false" />
-                <element signature="e#3178#3221#0" expanded="true" />
-                <element signature="e#4260#4275#0" expanded="true" />
+                <element signature="e#3192#3235#0" expanded="true" />
+                <element signature="e#4274#4289#0" expanded="true" />
                 <element signature="method#product#0;class#Num#0" expanded="false" />
-                <element signature="e#4456#4466#0" expanded="true" />
-                <element signature="e#4470#4480#0" expanded="true" />
-                <element signature="e#4555#4593#1" expanded="true" />
-                <element signature="e#4602#4612#1" expanded="true" />
+                <element signature="e#4477#4487#0" expanded="true" />
+                <element signature="e#4491#4501#0" expanded="true" />
+                <element signature="e#4576#4614#1" expanded="true" />
+                <element signature="e#4623#4633#1" expanded="true" />
                 <element signature="method#time#0;class#Num#0" expanded="false" />
-                <element signature="e#4908#4931#1" expanded="true" />
-                <element signature="e#4940#4955#1" expanded="true" />
-                <element signature="e#4969#4977#0" expanded="true" />
-                <element signature="e#5319#5342#1" expanded="true" />
-                <element signature="e#5362#5409#1" expanded="false" />
-                <element signature="e#5362#5409#1" expanded="false" />
-                <element signature="e#5830#5853#1" expanded="true" />
-                <element signature="e#5883#5907#0" expanded="true" />
-                <element signature="e#5883#5907#0" expanded="true" />
-                <element signature="e#5973#5997#0" expanded="true" />
-                <element signature="e#5973#5997#0" expanded="true" />
-                <element signature="e#6210#6236#0" expanded="true" />
-                <element signature="e#6210#6236#0" expanded="true" />
-                <element signature="e#6316#6353#0" expanded="true" />
-                <element signature="e#6316#6353#0" expanded="true" />
+                <element signature="e#4929#4952#1" expanded="true" />
+                <element signature="e#4961#4976#1" expanded="true" />
+                <element signature="e#4990#4998#0" expanded="true" />
+                <element signature="method#power#0;class#Num#0" expanded="false" />
+                <element signature="e#5347#5370#1" expanded="true" />
+                <element signature="e#5390#5437#1" expanded="false" />
+                <element signature="e#5390#5437#1" expanded="false" />
+                <element signature="method#power#1;class#Num#0" expanded="false" />
+                <element signature="e#5865#5888#1" expanded="true" />
+                <element signature="e#5918#5942#0" expanded="true" />
+                <element signature="e#5918#5942#0" expanded="true" />
+                <element signature="e#6008#6032#0" expanded="true" />
+                <element signature="e#6008#6032#0" expanded="true" />
+                <element signature="e#6245#6271#0" expanded="true" />
+                <element signature="e#6245#6271#0" expanded="true" />
+                <element signature="e#6351#6388#0" expanded="true" />
+                <element signature="e#6351#6388#0" expanded="true" />
                 <element signature="method#divide#0;class#Num#0" expanded="false" />
-                <element signature="e#6522#6547#1" expanded="true" />
-                <element signature="e#6584#6594#0" expanded="true" />
-                <element signature="e#6634#6652#0" expanded="true" />
-                <element signature="e#6634#6652#0" expanded="true" />
-                <element signature="e#6743#6762#0" expanded="true" />
-                <element signature="e#6743#6762#0" expanded="true" />
-                <element signature="e#6854#6875#1" expanded="true" />
-                <element signature="e#6884#6906#1" expanded="true" />
-                <element signature="e#6915#6938#1" expanded="true" />
+                <element signature="e#6564#6589#1" expanded="true" />
+                <element signature="e#6626#6636#0" expanded="true" />
+                <element signature="e#6676#6694#0" expanded="true" />
+                <element signature="e#6676#6694#0" expanded="true" />
+                <element signature="e#6785#6804#0" expanded="true" />
+                <element signature="e#6785#6804#0" expanded="true" />
+                <element signature="e#6896#6917#1" expanded="true" />
+                <element signature="e#6926#6948#1" expanded="true" />
+                <element signature="e#6957#6980#1" expanded="true" />
                 <element signature="method#mod#0;class#Num#0" expanded="false" />
-                <element signature="e#7659#7684#1" expanded="true" />
-                <element signature="e#7721#7731#0" expanded="true" />
-                <element signature="e#7771#7789#0" expanded="true" />
-                <element signature="e#7771#7789#0" expanded="true" />
-                <element signature="e#7879#7898#0" expanded="true" />
-                <element signature="e#7879#7898#0" expanded="true" />
-                <element signature="e#7990#8011#1" expanded="true" />
-                <element signature="e#8020#8042#1" expanded="true" />
-                <element signature="e#8051#8074#1" expanded="true" />
+                <element signature="e#7708#7733#1" expanded="true" />
+                <element signature="e#7770#7780#0" expanded="true" />
+                <element signature="e#7820#7838#0" expanded="true" />
+                <element signature="e#7820#7838#0" expanded="true" />
+                <element signature="e#7928#7947#0" expanded="true" />
+                <element signature="e#7928#7947#0" expanded="true" />
+                <element signature="e#8039#8060#1" expanded="true" />
+                <element signature="e#8069#8091#1" expanded="true" />
+                <element signature="e#8100#8123#1" expanded="true" />
                 <element signature="method#squareRoot#0;class#Num#0" expanded="false" />
-                <element signature="e#8770#8793#1" expanded="true" />
-                <element signature="e#8802#8825#1" expanded="true" />
-                <element signature="e#8977#8997#0" expanded="true" />
-                <element signature="e#8977#8997#0" expanded="true" />
-                <element signature="e#9049#9070#0" expanded="true" />
-                <element signature="e#9049#9070#0" expanded="true" />
-                <element signature="e#9234#9265#0" expanded="true" />
-                <element signature="e#9234#9265#0" expanded="true" />
-                <element signature="e#9501#9521#0" expanded="true" />
-                <element signature="e#9501#9521#0" expanded="true" />
-                <element signature="e#9531#9547#0" expanded="true" />
-                <element signature="e#9531#9547#0" expanded="true" />
-                <element signature="e#9562#9570#0" expanded="true" />
-                <element signature="e#9601#9615#0" expanded="true" />
-                <element signature="e#9601#9615#0" expanded="true" />
-                <element signature="e#9629#9643#0" expanded="true" />
-                <element signature="e#9629#9643#0" expanded="true" />
+                <element signature="e#8826#8849#1" expanded="true" />
+                <element signature="e#8858#8881#1" expanded="true" />
+                <element signature="e#9033#9053#0" expanded="true" />
+                <element signature="e#9033#9053#0" expanded="true" />
+                <element signature="e#9105#9126#0" expanded="true" />
+                <element signature="e#9105#9126#0" expanded="true" />
+                <element signature="e#9290#9321#0" expanded="true" />
+                <element signature="e#9290#9321#0" expanded="true" />
+                <element signature="method#printList#0;class#Num#0" expanded="false" />
+                <element signature="e#9564#9584#0" expanded="true" />
+                <element signature="e#9564#9584#0" expanded="true" />
+                <element signature="e#9594#9610#0" expanded="true" />
+                <element signature="e#9594#9610#0" expanded="true" />
+                <element signature="e#9625#9633#0" expanded="true" />
+                <element signature="e#9664#9678#0" expanded="true" />
+                <element signature="e#9664#9678#0" expanded="true" />
+                <element signature="e#9692#9706#0" expanded="true" />
+                <element signature="e#9692#9706#0" expanded="true" />
+                <element signature="method#compareTo#0;class#Num#0" expanded="false" />
                 <element signature="method#supportAdd#0;class#Num#0" expanded="false" />
                 <element signature="method#supportSub#0;class#Num#0" expanded="false" />
-                <element signature="e#13580#13588#1" expanded="true" />
-                <element signature="e#13575#13656#0" expanded="true" />
-                <element signature="e#13575#13656#0" expanded="true" />
-                <element signature="e#13575#13656#0" expanded="true" />
-                <element signature="e#13767#13775#1" expanded="true" />
-                <element signature="e#13762#13852#0" expanded="true" />
-                <element signature="e#13762#13852#0" expanded="true" />
-                <element signature="e#13762#13852#0" expanded="true" />
+                <element signature="method#shiftKbit#0;class#Num#0" expanded="false" />
+                <element signature="e#13643#13651#1" expanded="true" />
+                <element signature="e#13638#13719#0" expanded="true" />
+                <element signature="e#13638#13719#0" expanded="true" />
+                <element signature="e#13638#13719#0" expanded="true" />
+                <element signature="e#13830#13838#1" expanded="true" />
+                <element signature="e#13825#13915#0" expanded="true" />
+                <element signature="e#13825#13915#0" expanded="true" />
+                <element signature="e#13825#13915#0" expanded="true" />
                 <element signature="method#toString#0;class#Num#0" expanded="false" />
-                <element signature="e#14404#14405#0" expanded="true" />
-                <element signature="e#14469#14470#0" expanded="true" />
-                <marker date="1507255547317" expanded="false" signature="14780:14783" ph="val" />
-                <marker date="1507255547317" expanded="false" signature="14908:14911" ph="val" />
-                <marker date="1507255547317" expanded="false" signature="14991:14994" ph="val" />
+                <marker date="1507255714304" expanded="false" signature="14843:14846" ph="val" />
+                <marker date="1507255714304" expanded="false" signature="14971:14974" ph="val" />
+                <marker date="1507255714304" expanded="false" signature="15054:15057" ph="val" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LP1L1Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g00/LP1L1Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-324">
+              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -194,7 +207,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/personal/SinglyLinkedList.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/personal/PolyNode.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/personal/PolyArithemtic.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/SP2Problem1.java" />
@@ -244,6 +256,7 @@
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp6/PrimMST.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp6/PerfectPower.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp1/LP1L2Test.java" />
+        <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g00/LP1L1Test.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp1/Num.java" />
       </list>
     </option>
@@ -436,6 +449,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs6301" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="g00" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlgorithmImplement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlgorithmImplement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="graphFiles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -456,6 +491,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cs6301.g00" />
       <recent name="cs6301.psp6" />
       <recent name="cs6301.sp5" />
       <recent name="cs6301.g42" />
@@ -943,7 +979,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507179666229</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="LP1 Lv1, Lv2 finished and uploaded, test code also included">
+      <created>1507255596796</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1507255596796</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -974,7 +1017,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25053304" sideWeight="0.49013498" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25053304" sideWeight="0.49013498" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1040,7 +1083,8 @@
     <MESSAGE value="uploaed my solutions, espicially for SP5 Q5.&#10;And in this one, I also create the new package SP5" />
     <MESSAGE value="IOTestor updated" />
     <MESSAGE value="LP1 Level1 code added" />
-    <option name="LAST_COMMIT_MESSAGE" value="LP1 Level1 code added" />
+    <MESSAGE value="LP1 Lv1, Lv2 finished and uploaded, test code also included" />
+    <option name="LAST_COMMIT_MESSAGE" value="LP1 Lv1, Lv2 finished and uploaded, test code also included" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1143,13 +1187,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/ArrayBoundedQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g42/ArrayBoundedStack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1528,102 +1565,113 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/g00/LP1L1Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-324">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp1/Num.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="384">
+          <caret line="61" column="25" lean-forward="true" selection-start-line="61" selection-start-column="25" selection-end-line="61" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#Num#0;class#Num#0" expanded="false" />
+            <element signature="method#Num#1;class#Num#0" expanded="false" />
             <element signature="e#965#986#1" expanded="true" />
             <element signature="e#1024#1042#0" expanded="true" />
             <element signature="e#1031#1042#0" expanded="true" />
             <element signature="e#1031#1042#0" expanded="true" />
             <element signature="e#1428#1446#0" expanded="true" />
-            <element signature="e#1556#1557#0" expanded="true" />
-            <element signature="e#1595#1596#0" expanded="true" />
             <element signature="method#add#0;class#Num#0" expanded="false" />
-            <element signature="e#1878#1921#0" expanded="true" />
-            <element signature="e#1982#2074#1" expanded="false" />
-            <element signature="e#1982#2074#1" expanded="false" />
-            <element signature="e#3032#3047#0" expanded="true" />
+            <element signature="e#1885#1928#0" expanded="true" />
+            <element signature="e#1989#2081#1" expanded="false" />
+            <element signature="e#1989#2081#1" expanded="false" />
+            <element signature="e#3039#3054#0" expanded="true" />
             <element signature="method#subtract#0;class#Num#0" expanded="false" />
-            <element signature="e#3178#3221#0" expanded="true" />
-            <element signature="e#4260#4275#0" expanded="true" />
+            <element signature="e#3192#3235#0" expanded="true" />
+            <element signature="e#4274#4289#0" expanded="true" />
             <element signature="method#product#0;class#Num#0" expanded="false" />
-            <element signature="e#4456#4466#0" expanded="true" />
-            <element signature="e#4470#4480#0" expanded="true" />
-            <element signature="e#4555#4593#1" expanded="true" />
-            <element signature="e#4602#4612#1" expanded="true" />
+            <element signature="e#4477#4487#0" expanded="true" />
+            <element signature="e#4491#4501#0" expanded="true" />
+            <element signature="e#4576#4614#1" expanded="true" />
+            <element signature="e#4623#4633#1" expanded="true" />
             <element signature="method#time#0;class#Num#0" expanded="false" />
-            <element signature="e#4908#4931#1" expanded="true" />
-            <element signature="e#4940#4955#1" expanded="true" />
-            <element signature="e#4969#4977#0" expanded="true" />
-            <element signature="e#5319#5342#1" expanded="true" />
-            <element signature="e#5362#5409#1" expanded="false" />
-            <element signature="e#5362#5409#1" expanded="false" />
-            <element signature="e#5830#5853#1" expanded="true" />
-            <element signature="e#5883#5907#0" expanded="true" />
-            <element signature="e#5883#5907#0" expanded="true" />
-            <element signature="e#5973#5997#0" expanded="true" />
-            <element signature="e#5973#5997#0" expanded="true" />
-            <element signature="e#6210#6236#0" expanded="true" />
-            <element signature="e#6210#6236#0" expanded="true" />
-            <element signature="e#6316#6353#0" expanded="true" />
-            <element signature="e#6316#6353#0" expanded="true" />
+            <element signature="e#4929#4952#1" expanded="true" />
+            <element signature="e#4961#4976#1" expanded="true" />
+            <element signature="e#4990#4998#0" expanded="true" />
+            <element signature="method#power#0;class#Num#0" expanded="false" />
+            <element signature="e#5347#5370#1" expanded="true" />
+            <element signature="e#5390#5437#1" expanded="false" />
+            <element signature="e#5390#5437#1" expanded="false" />
+            <element signature="method#power#1;class#Num#0" expanded="false" />
+            <element signature="e#5865#5888#1" expanded="true" />
+            <element signature="e#5918#5942#0" expanded="true" />
+            <element signature="e#5918#5942#0" expanded="true" />
+            <element signature="e#6008#6032#0" expanded="true" />
+            <element signature="e#6008#6032#0" expanded="true" />
+            <element signature="e#6245#6271#0" expanded="true" />
+            <element signature="e#6245#6271#0" expanded="true" />
+            <element signature="e#6351#6388#0" expanded="true" />
+            <element signature="e#6351#6388#0" expanded="true" />
             <element signature="method#divide#0;class#Num#0" expanded="false" />
-            <element signature="e#6522#6547#1" expanded="true" />
-            <element signature="e#6584#6594#0" expanded="true" />
-            <element signature="e#6634#6652#0" expanded="true" />
-            <element signature="e#6634#6652#0" expanded="true" />
-            <element signature="e#6743#6762#0" expanded="true" />
-            <element signature="e#6743#6762#0" expanded="true" />
-            <element signature="e#6854#6875#1" expanded="true" />
-            <element signature="e#6884#6906#1" expanded="true" />
-            <element signature="e#6915#6938#1" expanded="true" />
+            <element signature="e#6564#6589#1" expanded="true" />
+            <element signature="e#6626#6636#0" expanded="true" />
+            <element signature="e#6676#6694#0" expanded="true" />
+            <element signature="e#6676#6694#0" expanded="true" />
+            <element signature="e#6785#6804#0" expanded="true" />
+            <element signature="e#6785#6804#0" expanded="true" />
+            <element signature="e#6896#6917#1" expanded="true" />
+            <element signature="e#6926#6948#1" expanded="true" />
+            <element signature="e#6957#6980#1" expanded="true" />
             <element signature="method#mod#0;class#Num#0" expanded="false" />
-            <element signature="e#7659#7684#1" expanded="true" />
-            <element signature="e#7721#7731#0" expanded="true" />
-            <element signature="e#7771#7789#0" expanded="true" />
-            <element signature="e#7771#7789#0" expanded="true" />
-            <element signature="e#7879#7898#0" expanded="true" />
-            <element signature="e#7879#7898#0" expanded="true" />
-            <element signature="e#7990#8011#1" expanded="true" />
-            <element signature="e#8020#8042#1" expanded="true" />
-            <element signature="e#8051#8074#1" expanded="true" />
+            <element signature="e#7708#7733#1" expanded="true" />
+            <element signature="e#7770#7780#0" expanded="true" />
+            <element signature="e#7820#7838#0" expanded="true" />
+            <element signature="e#7820#7838#0" expanded="true" />
+            <element signature="e#7928#7947#0" expanded="true" />
+            <element signature="e#7928#7947#0" expanded="true" />
+            <element signature="e#8039#8060#1" expanded="true" />
+            <element signature="e#8069#8091#1" expanded="true" />
+            <element signature="e#8100#8123#1" expanded="true" />
             <element signature="method#squareRoot#0;class#Num#0" expanded="false" />
-            <element signature="e#8770#8793#1" expanded="true" />
-            <element signature="e#8802#8825#1" expanded="true" />
-            <element signature="e#8977#8997#0" expanded="true" />
-            <element signature="e#8977#8997#0" expanded="true" />
-            <element signature="e#9049#9070#0" expanded="true" />
-            <element signature="e#9049#9070#0" expanded="true" />
-            <element signature="e#9234#9265#0" expanded="true" />
-            <element signature="e#9234#9265#0" expanded="true" />
-            <element signature="e#9501#9521#0" expanded="true" />
-            <element signature="e#9501#9521#0" expanded="true" />
-            <element signature="e#9531#9547#0" expanded="true" />
-            <element signature="e#9531#9547#0" expanded="true" />
-            <element signature="e#9562#9570#0" expanded="true" />
-            <element signature="e#9601#9615#0" expanded="true" />
-            <element signature="e#9601#9615#0" expanded="true" />
-            <element signature="e#9629#9643#0" expanded="true" />
-            <element signature="e#9629#9643#0" expanded="true" />
+            <element signature="e#8826#8849#1" expanded="true" />
+            <element signature="e#8858#8881#1" expanded="true" />
+            <element signature="e#9033#9053#0" expanded="true" />
+            <element signature="e#9033#9053#0" expanded="true" />
+            <element signature="e#9105#9126#0" expanded="true" />
+            <element signature="e#9105#9126#0" expanded="true" />
+            <element signature="e#9290#9321#0" expanded="true" />
+            <element signature="e#9290#9321#0" expanded="true" />
+            <element signature="method#printList#0;class#Num#0" expanded="false" />
+            <element signature="e#9564#9584#0" expanded="true" />
+            <element signature="e#9564#9584#0" expanded="true" />
+            <element signature="e#9594#9610#0" expanded="true" />
+            <element signature="e#9594#9610#0" expanded="true" />
+            <element signature="e#9625#9633#0" expanded="true" />
+            <element signature="e#9664#9678#0" expanded="true" />
+            <element signature="e#9664#9678#0" expanded="true" />
+            <element signature="e#9692#9706#0" expanded="true" />
+            <element signature="e#9692#9706#0" expanded="true" />
+            <element signature="method#compareTo#0;class#Num#0" expanded="false" />
             <element signature="method#supportAdd#0;class#Num#0" expanded="false" />
             <element signature="method#supportSub#0;class#Num#0" expanded="false" />
-            <element signature="e#13580#13588#1" expanded="true" />
-            <element signature="e#13575#13656#0" expanded="true" />
-            <element signature="e#13575#13656#0" expanded="true" />
-            <element signature="e#13575#13656#0" expanded="true" />
-            <element signature="e#13767#13775#1" expanded="true" />
-            <element signature="e#13762#13852#0" expanded="true" />
-            <element signature="e#13762#13852#0" expanded="true" />
-            <element signature="e#13762#13852#0" expanded="true" />
+            <element signature="method#shiftKbit#0;class#Num#0" expanded="false" />
+            <element signature="e#13643#13651#1" expanded="true" />
+            <element signature="e#13638#13719#0" expanded="true" />
+            <element signature="e#13638#13719#0" expanded="true" />
+            <element signature="e#13638#13719#0" expanded="true" />
+            <element signature="e#13830#13838#1" expanded="true" />
+            <element signature="e#13825#13915#0" expanded="true" />
+            <element signature="e#13825#13915#0" expanded="true" />
+            <element signature="e#13825#13915#0" expanded="true" />
             <element signature="method#toString#0;class#Num#0" expanded="false" />
-            <element signature="e#14404#14405#0" expanded="true" />
-            <element signature="e#14469#14470#0" expanded="true" />
-            <marker date="1507255547317" expanded="false" signature="14780:14783" ph="val" />
-            <marker date="1507255547317" expanded="false" signature="14908:14911" ph="val" />
-            <marker date="1507255547317" expanded="false" signature="14991:14994" ph="val" />
+            <marker date="1507255714304" expanded="false" signature="14843:14846" ph="val" />
+            <marker date="1507255714304" expanded="false" signature="14971:14974" ph="val" />
+            <marker date="1507255714304" expanded="false" signature="15054:15057" ph="val" />
           </folding>
         </state>
       </provider>

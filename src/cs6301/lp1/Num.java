@@ -63,7 +63,7 @@ public class Num implements Comparable<Num>{
         this.sign = x.sign;
     }
 
-    static Num add(Num a, Num b){
+    public static Num add(Num a, Num b){
         // suppose they have same base now
         Num result;
         Iterator<Long> aIter = a.numList.iterator(), bIter = b.numList.iterator();
@@ -106,7 +106,7 @@ public class Num implements Comparable<Num>{
         return result;
     }
 
-    static Num subtract(Num a, Num b){
+    public static Num subtract(Num a, Num b){
         Num result;
         Iterator<Long> aIter = a.numList.iterator(), bIter = b.numList.iterator();
 
@@ -146,7 +146,7 @@ public class Num implements Comparable<Num>{
         return result;
     }
 
-    static Num product(Num a, Num b){
+    public static Num product(Num a, Num b){
         // Brute-force Algorithm
         Num result = new Num(0L);
         if (a.isZero() || b.isZero())
@@ -179,7 +179,7 @@ public class Num implements Comparable<Num>{
         return result;
     }
 
-    static Num power(Num a, long n){
+    public static Num power(Num a, long n){
         Num result = new Num();
         if (n == 0){
             result.numList.add(1L);
@@ -200,7 +200,7 @@ public class Num implements Comparable<Num>{
         return result;
     }
 
-    static Num power(Num a, Num b){
+    public static Num power(Num a, Num b){
         Num result = new Num();
         Num tmp;
         if (b.compareTo(pivot0) == 0){
@@ -224,7 +224,7 @@ public class Num implements Comparable<Num>{
         return result;
     }
 
-    static Num divide(Num a, Num b){
+    public static Num divide(Num a, Num b){
         Num result;
         boolean tmpSign = a.sign;
         a.sign = b.sign;
@@ -268,7 +268,7 @@ public class Num implements Comparable<Num>{
         return result;
     }
 
-    static Num mod(Num a, Num b){
+    public static Num mod(Num a, Num b){
         Num result;
         boolean tmpSign = a.sign;
         a.sign = b.sign;
@@ -311,7 +311,7 @@ public class Num implements Comparable<Num>{
         return result;
     }
 
-    static Num squareRoot(Num a){
+    public static Num squareRoot(Num a){
         if (!a.sign)
             return null;
         Num left = new Num(1L);
@@ -338,7 +338,7 @@ public class Num implements Comparable<Num>{
         }
     }
 
-    void printList() {
+    public void printList() {
         StringBuilder sb = new StringBuilder();
         sb.append(this.base);
         sb.append(" : ");
