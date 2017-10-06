@@ -2,21 +2,28 @@ package cs6301.lp1;
 
 import java.util.Iterator;
 import java.util.LinkedList;
-import java.util.Scanner;
 
 /**
  * Created by Alan Lin on 9/15/2017.
+ * @author Khaled Al-naami, Peter Farago, Yu Lin, David Tan
  */
 public class Num implements Comparable<Num>{
-    static long defaultBase = 10;
-    long base = defaultBase;
-    LinkedList<Long> numList;
-    int numLength;
-    boolean sign; // true means positive, otherwise negative
+
+    private static long defaultBase = 10;
+    private long base = defaultBase;
+    private LinkedList<Long> numList;
+    private int numLength;
+    private boolean sign; // True means positive, otherwise negative
+
+    // Static numbers
+    private static final Num pivot0 = new Num(0L);
+    private static final Num pivot1 = new Num(1L);
+    private static final Num pivot2 = new Num(2L);
 
     // Constructors
     public Num(){
         // Create a new empty Num class with default base
+        // No initial value
         numList = new LinkedList<>();
         sign = true;
         numLength = 0;
@@ -26,18 +33,18 @@ public class Num implements Comparable<Num>{
         numList = new LinkedList<>();
         // Create Num class with String, default base 10
         for(int i = s.length()-1; i > 0; i--){
-            numList.add(Long.valueOf(s.charAt(i) - '0'));
+            numList.add((long) s.charAt(i) - '0');
         }
 
         if (s.charAt(0) == '-'){
-            sign = false; // detect a negative sign, set this number to negative
+            sign = false; // Detected a negative sign, set negative
         }
         else if (s.charAt(0) == '+'){
-            sign = true; // detect a explicit positive sign, set the number to positive
+            sign = true; // Detected an explicit positive sign, set positive
         }
         else{
-            // the first character is a number, add that value to the end of numList
-            numList.add(Long.valueOf(s.charAt(0) - '0'));
+            // The first character is a digit, add the value of that digit into the numList
+            numList.add((long) s.charAt(0) - '0');
             sign = true;
         }
 
@@ -48,10 +55,18 @@ public class Num implements Comparable<Num>{
         this(String.valueOf(x));
     }
 
+    public Num(Num x){
+        // return a deep copy of x
+        this();
+        this.numList.addAll(x.numList);
+        this.setLength();
+        this.sign = x.sign;
+    }
+
     static Num add(Num a, Num b){
         // suppose they have same base now
         Num result;
-        Iterator aIter = a.numList.iterator(), bIter = b.numList.iterator();
+        Iterator<Long> aIter = a.numList.iterator(), bIter = b.numList.iterator();
         if (a.sign == b.sign){
             result = supportAdd(aIter, bIter);
             result.sign = a.sign;
@@ -84,14 +99,17 @@ public class Num implements Comparable<Num>{
                 a.sign = false;
             }
         }
-
+        // Finalize the result Num, set numLength and sign
+        result.setLength();
+        if (result.isZero())
+            result.sign = true;
         return result;
     }
 
     static Num subtract(Num a, Num b){
         Num result;
-        Iterator aIter = a.numList.iterator(), bIter = b.numList.iterator();
-        // TODO
+        Iterator<Long> aIter = a.numList.iterator(), bIter = b.numList.iterator();
+
         if (a.sign != b.sign){
             result = supportAdd(aIter, bIter);
             result.sign = a.sign;
@@ -121,13 +139,18 @@ public class Num implements Comparable<Num>{
                 }
             }
         }
+        // Finalize the result Num, set numLength and sign
+        result.setLength();
+        if (result.isZero())
+            result.sign = true;
         return result;
     }
 
     static Num product(Num a, Num b){
-        // Karatsuba Algorithm
         // Brute-force Algorithm
         Num result = new Num(0L);
+        if (a.isZero() || b.isZero())
+            return result;
         Num tmp;
         long holder;
         Iterator bIter = b.numList.iterator();
@@ -135,19 +158,17 @@ public class Num implements Comparable<Num>{
         while (bIter.hasNext()){
             holder = (long) bIter.next();
             tmp = time(a, holder);
-            tmp.shiftKbit(i);
+            tmp.shiftKbit(i, true);
             i+=1;
             result = add(result, tmp);
         }
         return result;
     }
 
-    static Num time(Num a, long p){
+    private static Num time(Num a, long p){
         Num result = new Num();
-        long carry = 0, tmp;
-        Iterator aIter = a.numList.iterator();
-        while (aIter.hasNext()){
-            tmp = (long) aIter.next();
+        long carry = 0;
+        for (Long tmp : a.numList){
             result.numList.add((carry + tmp * p) % result.base);
             carry = (carry + tmp * p) / result.base;
         }
@@ -161,7 +182,7 @@ public class Num implements Comparable<Num>{
     static Num power(Num a, long n){
         Num result = new Num();
         if (n == 0){
-            result.numList.add( (long) 0 );
+            result.numList.add(1L);
         }
         else if (n == 1){
             result = a;
@@ -172,15 +193,159 @@ public class Num implements Comparable<Num>{
             if (n % 2 != 0)
                 result = product(a, result);
         }
+        if (!a.sign && n%2 != 0){
+            result.sign = false;
+        }
+        result.setLength();
         return result;
+    }
+
+    static Num power(Num a, Num b){
+        Num result = new Num();
+        Num tmp;
+        if (b.compareTo(pivot0) == 0){
+            result.numList.add(1L);
+        }
+        else if (b.compareTo(pivot1) == 0){
+            result = a;
+        }
+        else{
+            tmp = divide(b, pivot2);
+            result = power(a, tmp);
+            result = power(result, 2);
+            tmp = mod(b, pivot2);
+            if (pivot0.compareTo(tmp) != 0)
+                result = product(a, result);
+        }
+        if (!a.sign && pivot0.compareTo(mod(b, pivot2)) != 0){
+            result.sign = false;
+        }
+        result.setLength();
+        return result;
+    }
+
+    static Num divide(Num a, Num b){
+        Num result;
+        boolean tmpSign = a.sign;
+        a.sign = b.sign;
+        if(b.isZero())
+            return null;
+
+        if (a.compareTo(b) < 0){
+            result = new Num(0L);
+            return result;
+        }
+        else if (a.compareTo(b) == 0)
+        {
+            result = new Num(1L);
+            return result;
+        }
+
+        Num aux = new Num(b);
+        Num auxM = new Num(a);
+        Num auxS = new Num(1L);
+        result = new Num(0L);
+        boolean subSign;
+
+        while(auxM.compareTo(b) >= 0){
+            subSign = false;
+            while (auxM.compareTo(aux) >= 0){
+                subSign = true;
+                aux.shiftKbit(1, true);
+                auxS.shiftKbit(1, true);
+            }
+            aux.shiftKbit(1, false);
+            auxS.shiftKbit(1, false);
+            if (subSign) {
+                result = add(result, auxS);
+                auxM = subtract(auxM, aux);
+            }
+        }
+        a.sign = tmpSign;
+        if (a.sign != b.sign)
+            result.sign = false;
+        result.setLength();
+        return result;
+    }
+
+    static Num mod(Num a, Num b){
+        Num result;
+        boolean tmpSign = a.sign;
+        a.sign = b.sign;
+        if(b.isZero())
+            return null;
+
+        if (a.compareTo(b) < 0){
+            result = new Num(a);
+            return result;
+        }
+        else if (a.compareTo(b) == 0)
+        {
+            result = new Num(0L);
+            return result;
+        }
+
+        Num aux = new Num(b);
+        Num auxM = new Num(a);
+        Num auxS = new Num(1L);
+        boolean subSign;
+
+        while(auxM.compareTo(b) >= 0){
+            subSign = false;
+            while (auxM.compareTo(aux) >= 0){
+                subSign = true;
+                aux.shiftKbit(1, true);
+                auxS.shiftKbit(1, true);
+            }
+            aux.shiftKbit(1, false);
+            auxS.shiftKbit(1, false);
+            if (subSign) {
+                auxM = subtract(auxM, aux);
+            }
+        }
+        result = auxM;
+        a.sign = tmpSign;
+        if (a.sign != b.sign)
+            result.sign = false;
+        result.setLength();
+        return result;
+    }
+
+    static Num squareRoot(Num a){
+        if (!a.sign)
+            return null;
+        Num left = new Num(1L);
+        Num right = new Num(a);
+        Num res, tmp, oneM;
+        while (true){
+            res = divide(add(left, right), pivot2);
+            tmp = power(res, 2);
+            if (tmp.compareTo(a) > 0)
+                right = res;
+            else if (tmp.compareTo(a) == 0){
+                return res;
+            }
+            else{
+                // res less than target
+                oneM = add(res, pivot1);
+                if (power(oneM, 2).compareTo(a) > 0 ){
+                    return res;
+                }
+                else{
+                    left = res;
+                }
+            }
+        }
     }
 
     void printList() {
         StringBuilder sb = new StringBuilder();
-        sb.append(this.base + " :");
-        Iterator iter = this.numList.iterator();
-        while(iter.hasNext())
-            sb.append(" " + iter.next());
+        sb.append(this.base);
+        sb.append(" : ");
+        for (Long ele : this.numList) {
+            sb.append(" ");
+            sb.append(ele);
+        }
         System.out.println(sb.toString());
     }
 
@@ -284,9 +449,27 @@ public class Num implements Comparable<Num>{
         return result;
     }
 
-    private void shiftKbit(int k){
-        for (int i=0; i<k; i++){
-            this.numList.addFirst(0L);
+    private void shiftKbit(int k, boolean lor){
+        // lor = true means add 0 to the left, in the other word, increase the value of this number
+        // lor = false decrease the value of this number and ignore the decimal part
+        if (lor){
+            for (int i=0; i<k; i++){
+                this.numList.addFirst(0L);
+            }
+            this.numLength += k;
+        }
+        else{
+            if (numLength > k){
+                for (int i=0; i<k; i++){
+                    this.numList.removeFirst();
+                }
+                numLength -= k;
+            }
+            else{
+                this.numList.clear();
+                this.numList.add(0L);
+                this.numLength = 1;
+            }
         }
     }
 
@@ -301,20 +484,34 @@ public class Num implements Comparable<Num>{
         return sb.toString();
     }
 
+    private boolean isZero(){
+        return numList.size() == 1 && numList.get(0) == 0;
+    }
+
+    private void setLength(){
+        this.numLength = numList.size();
+    }
+
     public static void main(String[] args){
         // Test code below
-        Num x = new Num("98765432123456789012456789012646378589165127456376");
-        Num y = new Num("56698364876147630847612984618476284587653095761286");
-        Num z = new Num(98765432123456789L);
-        Num e = new Num("85849037612648764376549098612765874365348765673543");
-        Num e2 = new Num("-85849037612648764376549098612765874365348765673543");
-        Num f = new Num("566983648761476308476145");
-        Num c = subtract(x, y);
-        Num g = add(f, e);
-        //Num d = Num.product(c, z);
-        Num d = power(z, 8);
-        System.out.println(c);
-        System.out.println(d);
-        d.printList();
+//        Num x = new Num("24");
+//        Num x2 = new Num("245");
+//        Num y = new Num("56698364876147630847612984618476284587653095761286");
+//        Num z = new Num(98765432123456789L);
+//        Num e = new Num("85849037612648764376549098612765874365348765673543");
+//        Num e2 = new Num("-85849037612648764376549098612765874365348765673543");
+//        Num f = new Num("566983648761476308476145");
+//        //Num c = subtract(x2, x);
+//        Num c = divide(e, y);
+//        Num g = add(f, e);
+//        //Num d = Num.product(c, z);
+//        Num d = mod(e, y);
+//
+//        Num e3 = squareRoot(y);
+//        Num test = power(e3, 2);
+//        System.out.println(c);
+//        System.out.println(d);
+//        System.out.println(e3);
+//        System.out.println(test);
     }
 }
