@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6da66cc7-0b94-4809-8bdd-cc12eec7414c" name="Default" comment="">
+    <list default="true" id="6da66cc7-0b94-4809-8bdd-cc12eec7414c" name="Default" comment="LP3 code added">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AlgorithmImplement/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../AlgorithmImplement/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp3/LPGraph.java" afterPath="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp3/LPGraph.java" />
     </list>
     <ignored path="$PROJECT_DIR$/../AlgorithmImplement/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,37 +30,60 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GraphAlgorithm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp3/GraphAlgorithm.java">
+      <file leaf-file-name="BST.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp7/BST.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasicGraphAlgorithm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/plp3/BasicGraphAlgorithm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+            <state relative-caret-position="388">
+              <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#BVertex#0;class#BVertex#0;class#BasicGraphAlgorithm#0" expanded="false" />
-                <element signature="method#dfs#0;class#BasicGraphAlgorithm#0" expanded="false" />
-                <element signature="method#assignSCC#0;class#BasicGraphAlgorithm#0" expanded="false" />
-                <element signature="method#sccVisit#0;class#BasicGraphAlgorithm#0" expanded="false" />
+                <element signature="e#770#803#1" expanded="true" />
+                <element signature="e#842#881#0" expanded="true" />
+                <element signature="e#842#881#0" expanded="true" />
+                <element signature="e#923#956#1" expanded="true" />
+                <element signature="e#992#1031#0" expanded="true" />
+                <element signature="e#992#1031#0" expanded="true" />
+                <element signature="e#1291#1324#1" expanded="true" />
+                <element signature="e#1337#1376#0" expanded="true" />
+                <element signature="e#1337#1376#0" expanded="true" />
+                <element signature="e#1471#1509#0" expanded="true" />
+                <element signature="e#1471#1509#0" expanded="true" />
+                <element signature="e#1778#1811#1" expanded="true" />
+                <element signature="e#1824#1863#0" expanded="true" />
+                <element signature="e#1824#1863#0" expanded="true" />
+                <element signature="e#1898#1929#1" expanded="true" />
+                <element signature="e#2100#2161#1" expanded="true" />
+                <element signature="e#2340#2341#0" expanded="true" />
+                <element signature="e#2384#2385#0" expanded="true" />
+                <element signature="e#2811#2812#0" expanded="true" />
+                <element signature="e#2833#2852#0" expanded="true" />
+                <element signature="e#2862#2863#0" expanded="true" />
+                <element signature="e#2921#2952#1" expanded="true" />
+                <element signature="e#2965#2984#1" expanded="true" />
+                <element signature="e#3781#3817#0" expanded="true" />
+                <element signature="e#3781#3817#0" expanded="true" />
+                <element signature="e#3884#3919#0" expanded="true" />
+                <element signature="e#3884#3919#0" expanded="true" />
+                <element signature="e#4140#4176#0" expanded="true" />
+                <element signature="e#4140#4176#0" expanded="true" />
+                <element signature="e#4516#4553#1" expanded="true" />
+                <element signature="e#4562#4619#1" expanded="true" />
+                <element signature="e#5209#5249#1" expanded="true" />
+                <element signature="e#5258#5296#1" expanded="true" />
+                <element signature="e#5305#5313#1" expanded="true" />
+                <element signature="e#5493#5522#1" expanded="true" />
+                <element signature="e#5531#5567#1" expanded="true" />
+                <element signature="e#5953#5984#1" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayIterator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/plp3/ArrayIterator.java">
+      <file leaf-file-name="BSTIterator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp7/BSTIterator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="15" column="23" lean-forward="false" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            <state relative-caret-position="-183">
+              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -68,8 +92,8 @@
       <file leaf-file-name="LP3Graph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp3/LP3Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1254">
-              <caret line="74" column="57" lean-forward="false" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
+            <state relative-caret-position="338">
+              <caret line="214" column="18" lean-forward="false" selection-start-line="214" selection-start-column="18" selection-end-line="214" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#directedMST#0;class#LP3Graph#0" expanded="false" />
@@ -86,23 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LP3.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp3/LP3.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding>
-                <element signature="e#0#2252#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LPGraph.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp3/LPGraph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-365">
-              <caret line="217" column="10" lean-forward="false" selection-start-line="217" selection-start-column="10" selection-end-line="217" selection-end-column="10" />
+            <state relative-caret-position="70">
+              <caret line="209" column="5" lean-forward="true" selection-start-line="209" selection-start-column="5" selection-end-line="209" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#iterator#0;class#LPVertex#0;class#LPGraph#0" expanded="false" />
@@ -110,8 +122,6 @@
                 <element signature="class#LVertexIterator#0;class#LPVertex#0;class#LPGraph#0" expanded="false" />
                 <element signature="method#isDisabled#0;class#LEdge#0;class#LPGraph#0" expanded="false" />
                 <element signature="method#hasNext#0;class#LPGraphIterator#0;class#LPGraph#0" expanded="false" />
-                <element signature="e#5715#5716#0" expanded="true" />
-                <element signature="e#5748#5749#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,6 +146,7 @@
       <find>delayWeight</find>
       <find>Sys</find>
       <find>System.out.println</find>
+      <find>addVer</find>
     </findStrings>
     <dirStrings>
       <dir>F:\AlgorithmImplement\src\cs6301\lp2</dir>
@@ -184,7 +195,6 @@
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp1/Num.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp1/L3Driver.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp7/BSTIterator.java" />
-        <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp7/BST.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp7/AVLTree.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp3/ArrayIterator.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp3/Timer.java" />
@@ -202,6 +212,7 @@
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/plp3/BasicGraphAlgorithm.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp3/LP3.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp3/LP3Graph.java" />
+        <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp7/BST.java" />
         <option value="$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp3/LPGraph.java" />
       </list>
     </option>
@@ -312,6 +323,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="psp7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlgorithmImplement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AlgorithmImplement" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs6301" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="lp3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -368,27 +401,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LP3">
-    <configuration default="false" name="LPGraph" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cs6301.lp3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="cs6301.lp3.LPGraph" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AlgorithmImplement" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="AlgorithmImplement" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.BST">
     <configuration default="false" name="Testor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -457,6 +470,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="cs6301.lp3.LP3Graph" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AlgorithmImplement" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AlgorithmImplement" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="BST" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cs6301.psp7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="cs6301.psp7.BST" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../AlgorithmImplement" />
@@ -674,19 +707,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.LPGraph" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Testor" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BasicGraphAlgorithm (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.LP3" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LP3Graph" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Testor" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BasicGraphAlgorithm (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LP3" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LP3Graph" />
+      <item index="4" class="java.lang.String" itemvalue="Application.BST" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LP3" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LP3Graph" />
-        <item index="2" class="java.lang.String" itemvalue="Application.BasicGraphAlgorithm (1)" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Testor" />
-        <item index="4" class="java.lang.String" itemvalue="Application.LPGraph" />
+        <item index="0" class="java.lang.String" itemvalue="Application.BST" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LP3" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LP3Graph" />
+        <item index="3" class="java.lang.String" itemvalue="Application.BasicGraphAlgorithm (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Testor" />
       </list>
     </recent_temporary>
   </component>
@@ -858,7 +891,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507260778598</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="LP3 code added">
+      <created>1508379738038</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1508379738038</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -872,10 +912,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -887,7 +929,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31876332" sideWeight="0.49013498" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22867803" sideWeight="0.49013498" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -898,7 +940,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -956,7 +997,8 @@
     <MESSAGE value="LP1 Level1 code added" />
     <MESSAGE value="LP1 Lv1, Lv2 finished and uploaded, test code also included" />
     <MESSAGE value="LP1 L3 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="LP1 L3 added" />
+    <MESSAGE value="LP3 code added" />
+    <option name="LAST_COMMIT_MESSAGE" value="LP3 code added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1350,13 +1392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp7/BSTIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp6/HuffmanTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-289">
@@ -1482,40 +1517,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp7/BST.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="235" column="0" lean-forward="false" selection-start-line="235" selection-start-column="0" selection-end-line="235" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp3/Testor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
           <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp3/GraphAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/plp3/BasicGraphAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#BVertex#0;class#BVertex#0;class#BasicGraphAlgorithm#0" expanded="false" />
-            <element signature="method#dfs#0;class#BasicGraphAlgorithm#0" expanded="false" />
-            <element signature="method#assignSCC#0;class#BasicGraphAlgorithm#0" expanded="false" />
-            <element signature="method#sccVisit#0;class#BasicGraphAlgorithm#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1527,9 +1533,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/plp3/BasicGraphAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="5" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#BVertex#0;class#BVertex#0;class#BasicGraphAlgorithm#0" expanded="false" />
+            <element signature="method#dfs#0;class#BasicGraphAlgorithm#0" expanded="false" />
+            <element signature="method#assignSCC#0;class#BasicGraphAlgorithm#0" expanded="false" />
+            <element signature="method#sccVisit#0;class#BasicGraphAlgorithm#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp3/GraphAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp3/LP3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state relative-caret-position="19">
           <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
           <folding>
             <element signature="e#0#2252#0" expanded="true" />
@@ -1537,10 +1565,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp7/BSTIterator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-183">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/psp7/BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="189" column="0" lean-forward="false" selection-start-line="189" selection-start-column="0" selection-end-line="189" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#770#803#1" expanded="true" />
+            <element signature="e#842#881#0" expanded="true" />
+            <element signature="e#842#881#0" expanded="true" />
+            <element signature="e#923#956#1" expanded="true" />
+            <element signature="e#992#1031#0" expanded="true" />
+            <element signature="e#992#1031#0" expanded="true" />
+            <element signature="e#1291#1324#1" expanded="true" />
+            <element signature="e#1337#1376#0" expanded="true" />
+            <element signature="e#1337#1376#0" expanded="true" />
+            <element signature="e#1471#1509#0" expanded="true" />
+            <element signature="e#1471#1509#0" expanded="true" />
+            <element signature="e#1778#1811#1" expanded="true" />
+            <element signature="e#1824#1863#0" expanded="true" />
+            <element signature="e#1824#1863#0" expanded="true" />
+            <element signature="e#1898#1929#1" expanded="true" />
+            <element signature="e#2100#2161#1" expanded="true" />
+            <element signature="e#2340#2341#0" expanded="true" />
+            <element signature="e#2384#2385#0" expanded="true" />
+            <element signature="e#2811#2812#0" expanded="true" />
+            <element signature="e#2833#2852#0" expanded="true" />
+            <element signature="e#2862#2863#0" expanded="true" />
+            <element signature="e#2921#2952#1" expanded="true" />
+            <element signature="e#2965#2984#1" expanded="true" />
+            <element signature="e#3781#3817#0" expanded="true" />
+            <element signature="e#3781#3817#0" expanded="true" />
+            <element signature="e#3884#3919#0" expanded="true" />
+            <element signature="e#3884#3919#0" expanded="true" />
+            <element signature="e#4140#4176#0" expanded="true" />
+            <element signature="e#4140#4176#0" expanded="true" />
+            <element signature="e#4516#4553#1" expanded="true" />
+            <element signature="e#4562#4619#1" expanded="true" />
+            <element signature="e#5209#5249#1" expanded="true" />
+            <element signature="e#5258#5296#1" expanded="true" />
+            <element signature="e#5305#5313#1" expanded="true" />
+            <element signature="e#5493#5522#1" expanded="true" />
+            <element signature="e#5531#5567#1" expanded="true" />
+            <element signature="e#5953#5984#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp3/LP3Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="74" column="57" lean-forward="false" selection-start-line="74" selection-start-column="57" selection-end-line="74" selection-end-column="57" />
+        <state relative-caret-position="338">
+          <caret line="214" column="18" lean-forward="false" selection-start-line="214" selection-start-column="18" selection-end-line="214" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#directedMST#0;class#LP3Graph#0" expanded="false" />
@@ -1558,8 +1641,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/lp3/LPGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-365">
-          <caret line="217" column="10" lean-forward="false" selection-start-line="217" selection-start-column="10" selection-end-line="217" selection-end-column="10" />
+        <state relative-caret-position="70">
+          <caret line="209" column="5" lean-forward="true" selection-start-line="209" selection-start-column="5" selection-end-line="209" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#iterator#0;class#LPVertex#0;class#LPGraph#0" expanded="false" />
@@ -1567,8 +1650,6 @@
             <element signature="class#LVertexIterator#0;class#LPVertex#0;class#LPGraph#0" expanded="false" />
             <element signature="method#isDisabled#0;class#LEdge#0;class#LPGraph#0" expanded="false" />
             <element signature="method#hasNext#0;class#LPGraphIterator#0;class#LPGraph#0" expanded="false" />
-            <element signature="e#5715#5716#0" expanded="true" />
-            <element signature="e#5748#5749#0" expanded="true" />
           </folding>
         </state>
       </provider>

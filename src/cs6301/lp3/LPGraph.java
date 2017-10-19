@@ -210,7 +210,7 @@ public class LPGraph extends Graph{
     }
 
     // Add new vertex to this graph
-    private void addVertex(Vertex u){
+    public void addVertex(Vertex u){
         currentNodes++;
         lv[n++] = new LPVertex(u);
     }
