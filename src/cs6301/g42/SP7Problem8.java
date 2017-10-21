@@ -1,5 +1,10 @@
-import java.util.*;
-import java.lang.reflect.Array;
+package cs6301.g42;
+
+/**
+ * @author Khaled Al-naami, Peter Farago, Yu Lin, David Tan
+ */
+
+import java.util.TreeSet;
 
 public class SP7Problem8
 {

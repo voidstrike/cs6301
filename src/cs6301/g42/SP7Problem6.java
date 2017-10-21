@@ -1,4 +1,11 @@
-import java.util.*;
+package cs6301.g42;
+
+/**
+ * @author Khaled Al-naami, Peter Farago, Yu Lin, David Tan
+ */
+
+import java.util.Map;
+import java.util.TreeMap;
 
 public class SP7Problem6
 {
