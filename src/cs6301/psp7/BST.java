@@ -1,13 +1,13 @@
 package cs6301.psp7;
 
+import java.util.ArrayDeque;
+import java.util.Iterator;
+import java.util.Scanner;
+
 /**
  * Created by Alan Lin on 10/6/2017.
  * @author Khaled Al-naami, Peter Farago, Yu Lin, David Tan
  */
-
-import java.util.Iterator;
-import java.util.Scanner;
-import java.util.ArrayDeque;
 
 public class BST<T extends Comparable<? super T>> implements Iterable<T>{
     /** Nested Tree Node */
@@ -52,7 +52,6 @@ public class BST<T extends Comparable<? super T>> implements Iterable<T>{
 
     /** Method to add element into this BST */
     public boolean add(T tar){
-        operateStack.clear();
         if (root == null){
             root = new Entry<>(tar, null, null);
             size = 1;
@@ -72,17 +71,18 @@ public class BST<T extends Comparable<? super T>> implements Iterable<T>{
         return true;
     }
 
-    /** Method to remove element from this BST */
+    /** Method to remove an element from this BST */
     public T remove(T tar){
-        operateStack.clear();
         if (root == null)
-            return null;
+            return null; // No element inside this BST, cannot remove
+
         Entry<T> currentNode = find(tar);
         if (tar.compareTo(currentNode.element) != 0)
-            return null;
+            return null; // The target element doesn't existed in this BST, cannot remove
+
         T result = currentNode.element;
         if (currentNode.left == null || currentNode.right == null)
-            bypass(currentNode);
+            bypass(currentNode); // at least one child is null, trivially bypass it
         else{
             operateStack.push(currentNode);
             Entry<T> minR = find(currentNode.right, currentNode.element);
@@ -137,45 +137,38 @@ public class BST<T extends Comparable<? super T>> implements Iterable<T>{
 
     /** Method to return the minimum of this BST, null if the root is null*/
     public T min(){
-        operateStack.clear();
         Entry<T> holder = min(root);
         return holder == null ? null : holder.element;
     }
     protected Entry<T> min(Entry<T> startNode){
         if (startNode == null)
             return null;
-
-        Entry<T> tracker = startNode;
-        while (tracker.left!=null){
-            operateStack.push(tracker);
-            tracker = tracker.left;
+        else{
+            Entry<T> tracker = startNode;
+            while(tracker.left != null)
+                tracker = tracker.left;
+            return tracker;
         }
-        operateStack.push(tracker);
-        return tracker;
     }
 
-    /** Method to return the maximum of this BST, null if the root is null*/
+    /** Method to return the maximum of this BST, null if the root is null */
     public T max() {
-        operateStack.clear();
         Entry<T> holder = max(root);
         return holder == null ? null : holder.element;
     }
     protected Entry<T> max(Entry<T> startNode){
         if (startNode == null)
             return null;
-
-        Entry<T> tracker = startNode;
-        while (tracker.right!=null){
-            operateStack.push(tracker);
-            tracker = tracker.right;
+        else{
+            Entry<T> tracker = startNode;
+            while(tracker.right != null)
+                tracker = tracker.right;
+            return tracker;
         }
-        operateStack.push(tracker);
-
-        return tracker;
     }
 
     // Auxiliary methods
-    /** Method to find target element, the behavior of it is like its helper function*/
+    /** Method to find target element, wrapped version of its inner method */
     protected Entry<T> find(T target){
         operateStack.clear();
         return find(root, target);
@@ -198,7 +191,7 @@ public class BST<T extends Comparable<? super T>> implements Iterable<T>{
             }
             else if (cNode.element.compareTo(target) == 0)
                 break;
-            else {
+            else { // cNode.element.compareTo(target) < 0
                 if (cNode.right == null)
                     break;
                 else {
@@ -212,24 +205,25 @@ public class BST<T extends Comparable<? super T>> implements Iterable<T>{
 
     /** Method to perform the bypass operation for selected node */
     protected void bypass(Entry<T> tar){
-        Entry<T> pivot = !operateStack.isEmpty() ? operateStack.peek() : null;
+        Entry<T> parent = !operateStack.isEmpty() ? operateStack.peek() : null;
         Entry<T> child = tar.left == null ? tar.right : tar.left;
-        if (pivot == null)
+        if (parent == null)
             root = child;
-        else if (pivot.left == tar)
-            pivot.left = child;
+        else if (parent.left == tar)
+            parent.left = child;
         else
-            pivot.right = child;
+            parent.right = child;
 
     }
 
+    /** Method to print the tree out in order */
     public void printTree(){
         System.out.print("["+size+"]");
         printTree(root);
         System.out.println();
     }
 
-    // Inorder traversal of tree
+    /** Inorder traversal of the tree */
     private void printTree(Entry<T> node){
         if (node != null){
             printTree(node.left);
