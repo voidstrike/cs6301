@@ -35,133 +35,122 @@
       <file leaf-file-name="SkipList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp5/SkipList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3360">
-              <caret line="276" column="58" lean-forward="false" selection-start-line="276" selection-start-column="58" selection-end-line="276" selection-end-column="58" />
+            <state relative-caret-position="160">
+              <caret line="253" column="32" lean-forward="false" selection-start-line="253" selection-start-column="32" selection-end-line="253" selection-end-column="32" />
               <folding>
-                <element signature="class#SLNode#0;class#SkipList#0" expanded="false" />
-                <element signature="e#434#451#0" expanded="true" />
-                <element signature="e#584#592#1" expanded="true" />
-                <element signature="e#579#692#0" expanded="true" />
-                <element signature="e#579#692#0" expanded="true" />
-                <element signature="e#579#692#0" expanded="true" />
-                <element signature="e#645#691#0" expanded="true" />
-                <element signature="e#645#691#0" expanded="true" />
-                <element signature="e#732#733#0" expanded="true" />
-                <element signature="e#770#771#0" expanded="true" />
-                <element signature="e#817#818#0" expanded="true" />
-                <element signature="e#838#858#0" expanded="true" />
-                <element signature="e#838#858#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="class#SLInnerNode#0;class#SkipList#0" expanded="false" />
-                <element signature="e#1352#1353#0" expanded="true" />
-                <element signature="e#1390#1391#0" expanded="true" />
-                <element signature="method#SkipList#0;class#SkipList#0" expanded="false" />
-                <element signature="e#1900#1951#0" expanded="true" />
-                <element signature="e#1900#1951#0" expanded="true" />
-                <element signature="e#1994#2045#0" expanded="true" />
-                <element signature="e#1994#2045#0" expanded="true" />
-                <element signature="method#add#0;class#SkipList#0" expanded="false" />
-                <element signature="e#2430#2468#0" expanded="true" />
-                <element signature="e#2498#2545#1" expanded="true" />
-                <element signature="e#2584#2616#0" expanded="true" />
-                <element signature="e#2584#2616#0" expanded="true" />
-                <element signature="e#2811#2837#0" expanded="true" />
-                <element signature="e#3008#3047#1" expanded="true" />
-                <element signature="e#3065#3073#1" expanded="true" />
-                <element signature="e#3060#3189#0" expanded="true" />
-                <element signature="e#3060#3189#0" expanded="true" />
-                <element signature="e#3060#3189#0" expanded="true" />
+                <element signature="e#391#408#0" expanded="true" />
+                <element signature="e#541#549#1" expanded="true" />
+                <element signature="e#536#649#0" expanded="true" />
+                <element signature="e#536#649#0" expanded="true" />
+                <element signature="e#536#649#0" expanded="true" />
+                <element signature="e#602#648#0" expanded="true" />
+                <element signature="e#602#648#0" expanded="true" />
+                <element signature="e#705#706#0" expanded="true" />
+                <element signature="e#726#746#0" expanded="true" />
+                <element signature="e#726#746#0" expanded="true" />
+                <element signature="e#756#757#0" expanded="true" />
+                <element signature="e#783#784#0" expanded="true" />
+                <element signature="e#839#857#0" expanded="true" />
+                <element signature="e#839#857#0" expanded="true" />
+                <element signature="e#872#873#0" expanded="true" />
+                <element signature="e#1356#1357#0" expanded="true" />
+                <element signature="e#1394#1395#0" expanded="true" />
+                <element signature="e#1945#1999#0" expanded="true" />
+                <element signature="e#1945#1999#0" expanded="true" />
+                <element signature="e#2042#2097#0" expanded="true" />
+                <element signature="e#2042#2097#0" expanded="true" />
+                <element signature="e#2520#2558#0" expanded="true" />
+                <element signature="e#2588#2635#1" expanded="true" />
+                <element signature="e#2674#2706#0" expanded="true" />
+                <element signature="e#2674#2706#0" expanded="true" />
+                <element signature="e#2901#2927#0" expanded="true" />
+                <element signature="e#3098#3137#1" expanded="true" />
+                <element signature="e#3155#3163#1" expanded="true" />
+                <element signature="e#3150#3279#0" expanded="true" />
+                <element signature="e#3150#3279#0" expanded="true" />
+                <element signature="e#3150#3279#0" expanded="true" />
                 <element signature="method#remove#0;class#SkipList#0" expanded="false" />
-                <element signature="e#3411#3449#0" expanded="true" />
-                <element signature="e#3479#3526#1" expanded="true" />
-                <element signature="e#3565#3597#0" expanded="true" />
-                <element signature="e#3565#3597#0" expanded="true" />
-                <element signature="e#3729#3755#1" expanded="true" />
-                <element signature="e#3768#3778#0" expanded="true" />
-                <element signature="e#3840#3861#0" expanded="true" />
-                <element signature="e#3928#3953#0" expanded="true" />
-                <element signature="e#3928#3953#0" expanded="true" />
+                <element signature="e#3501#3539#0" expanded="true" />
+                <element signature="e#3569#3616#1" expanded="true" />
+                <element signature="e#3655#3687#0" expanded="true" />
+                <element signature="e#3655#3687#0" expanded="true" />
+                <element signature="e#3819#3845#1" expanded="true" />
+                <element signature="e#3858#3868#0" expanded="true" />
+                <element signature="e#3930#3951#0" expanded="true" />
+                <element signature="e#4018#4043#0" expanded="true" />
+                <element signature="e#4018#4043#0" expanded="true" />
+                <element signature="e#4224#4256#1" expanded="true" />
                 <element signature="method#ceiling#0;class#SkipList#0" expanded="false" />
-                <element signature="e#4256#4277#0" expanded="true" />
-                <element signature="e#4330#4368#1" expanded="true" />
-                <element signature="e#4381#4428#1" expanded="true" />
+                <element signature="e#4667#4688#0" expanded="true" />
+                <element signature="e#4741#4779#1" expanded="true" />
+                <element signature="e#4792#4839#1" expanded="true" />
                 <element signature="method#floor#0;class#SkipList#0" expanded="false" />
-                <element signature="e#4702#4723#0" expanded="true" />
-                <element signature="e#4776#4814#1" expanded="true" />
-                <element signature="e#4827#4874#1" expanded="true" />
-                <element signature="e#4917#4949#0" expanded="true" />
-                <element signature="e#4917#4949#0" expanded="true" />
+                <element signature="e#5113#5134#0" expanded="true" />
+                <element signature="e#5187#5225#1" expanded="true" />
+                <element signature="e#5238#5285#1" expanded="true" />
+                <element signature="e#5328#5360#0" expanded="true" />
+                <element signature="e#5328#5360#0" expanded="true" />
                 <element signature="method#contains#0;class#SkipList#0" expanded="false" />
-                <element signature="e#5270#5305#1" expanded="true" />
-                <element signature="e#5314#5358#1" expanded="true" />
-                <element signature="e#5392#5424#0" expanded="true" />
-                <element signature="e#5392#5424#0" expanded="true" />
+                <element signature="e#5681#5716#1" expanded="true" />
+                <element signature="e#5725#5769#1" expanded="true" />
+                <element signature="e#5803#5835#0" expanded="true" />
+                <element signature="e#5803#5835#0" expanded="true" />
                 <element signature="method#first#0;class#SkipList#0" expanded="false" />
-                <element signature="e#5553#5599#1" expanded="true" />
+                <element signature="e#5964#6010#1" expanded="true" />
                 <element signature="method#last#0;class#SkipList#0" expanded="false" />
-                <element signature="e#5757#5803#1" expanded="true" />
+                <element signature="e#6168#6214#1" expanded="true" />
                 <element signature="class#SLIterator#0;class#SkipList#0" expanded="false" />
-                <element signature="e#6333#6334#0" expanded="true" />
-                <element signature="e#6372#6373#0" expanded="true" />
-                <element signature="e#6426#6427#0" expanded="true" />
-                <element signature="e#6493#6494#0" expanded="true" />
-                <element signature="method#rebuild#0;class#SkipList#0" expanded="false" />
+                <element signature="e#6744#6745#0" expanded="true" />
+                <element signature="e#6783#6784#0" expanded="true" />
+                <element signature="e#6837#6838#0" expanded="true" />
+                <element signature="e#6904#6905#0" expanded="true" />
                 <element signature="method#get#0;class#SkipList#0" expanded="false" />
-                <element signature="method#find#0;class#SkipList#0" expanded="false" />
-                <element signature="e#7093#7117#1" expanded="true" />
-                <element signature="e#7131#7148#1" expanded="true" />
-                <element signature="e#7175#7222#0" expanded="true" />
-                <element signature="e#7196#7221#0" expanded="true" />
-                <element signature="e#7196#7221#0" expanded="true" />
-                <element signature="e#7299#7334#0" expanded="true" />
-                <element signature="e#7299#7334#0" expanded="true" />
-                <element signature="e#7394#7419#0" expanded="true" />
-                <element signature="e#7394#7419#0" expanded="true" />
-                <element signature="e#7499#7520#0" expanded="true" />
+                <element signature="e#7504#7528#1" expanded="true" />
+                <element signature="e#7537#7551#1" expanded="true" />
+                <element signature="e#7565#7582#1" expanded="true" />
+                <element signature="e#7609#7656#0" expanded="true" />
+                <element signature="e#7630#7655#0" expanded="true" />
+                <element signature="e#7630#7655#0" expanded="true" />
+                <element signature="e#7733#7768#0" expanded="true" />
+                <element signature="e#7733#7768#0" expanded="true" />
+                <element signature="e#7898#7923#0" expanded="true" />
+                <element signature="e#7898#7923#0" expanded="true" />
+                <element signature="e#8036#8057#0" expanded="true" />
                 <element signature="method#chooseLevel#0;class#SkipList#0" expanded="false" />
-                <element signature="e#7620#7649#1" expanded="true" />
-                <element signature="e#7658#7723#1" expanded="true" />
-                <element signature="method#updateHeadTail#0;class#SkipList#0" expanded="false" />
-                <element signature="e#7872#7923#0" expanded="true" />
-                <element signature="e#7872#7923#0" expanded="true" />
-                <element signature="e#7968#8019#0" expanded="true" />
-                <element signature="e#7968#8019#0" expanded="true" />
-                <element signature="method#addAfter#0;class#SkipList#0" expanded="false" />
-                <element signature="e#8188#8239#1" expanded="true" />
-                <element signature="e#8204#8233#0" expanded="true" />
-                <element signature="e#8204#8233#0" expanded="true" />
-                <element signature="e#8248#8277#0" expanded="true" />
-                <element signature="e#8248#8277#0" expanded="true" />
-                <element signature="e#8300#8328#0" expanded="true" />
-                <element signature="e#8300#8328#0" expanded="true" />
-                <element signature="e#8352#8380#0" expanded="true" />
-                <element signature="e#8352#8380#0" expanded="true" />
-                <element signature="e#8401#8427#0" expanded="true" />
-                <element signature="e#8401#8427#0" expanded="true" />
-                <element signature="e#8614#8663#1" expanded="true" />
-                <element signature="e#8630#8657#0" expanded="true" />
-                <element signature="e#8630#8657#0" expanded="true" />
-                <element signature="e#8672#8701#0" expanded="true" />
-                <element signature="e#8672#8701#0" expanded="true" />
-                <element signature="e#8722#8748#0" expanded="true" />
-                <element signature="e#8722#8748#0" expanded="true" />
+                <element signature="e#8157#8186#1" expanded="true" />
+                <element signature="e#8195#8260#1" expanded="true" />
+                <element signature="e#8409#8463#0" expanded="true" />
+                <element signature="e#8409#8463#0" expanded="true" />
+                <element signature="e#8508#8559#0" expanded="true" />
+                <element signature="e#8508#8559#0" expanded="true" />
+                <element signature="e#8728#8776#1" expanded="true" />
+                <element signature="e#9139#9188#1" expanded="true" />
+                <element signature="e#9155#9182#0" expanded="true" />
+                <element signature="e#9155#9182#0" expanded="true" />
                 <element signature="method#printList#0;class#SkipList#0" expanded="false" />
-                <element signature="e#8874#8889#1" expanded="true" />
-                <element signature="e#8932#8951#0" expanded="true" />
-                <element signature="e#8932#8951#0" expanded="true" />
-                <element signature="e#8966#9019#1" expanded="true" />
-                <element signature="e#8990#9013#0" expanded="true" />
-                <element signature="e#8990#9013#0" expanded="true" />
-                <element signature="e#9093#9118#0" expanded="true" />
-                <element signature="e#9093#9118#0" expanded="true" />
-                <element signature="e#9152#9182#0" expanded="true" />
-                <element signature="e#9152#9182#0" expanded="true" />
-                <element signature="e#9333#9372#1" expanded="true" />
-                <element signature="e#9461#9482#1" expanded="true" />
-                <element signature="e#9540#9560#0" expanded="true" />
-                <element signature="e#9540#9560#0" expanded="true" />
-                <element signature="e#9684#9707#0" expanded="true" />
-                <element signature="e#9684#9707#0" expanded="true" />
+                <element signature="e#9393#9408#1" expanded="true" />
+                <element signature="e#9451#9470#0" expanded="true" />
+                <element signature="e#9451#9470#0" expanded="true" />
+                <element signature="e#9485#9538#1" expanded="true" />
+                <element signature="e#9509#9532#0" expanded="true" />
+                <element signature="e#9509#9532#0" expanded="true" />
+                <element signature="e#9612#9637#0" expanded="true" />
+                <element signature="e#9612#9637#0" expanded="true" />
+                <element signature="e#9671#9701#0" expanded="true" />
+                <element signature="e#9671#9701#0" expanded="true" />
+                <element signature="method#eliminateHigherLevel#0;class#SkipList#0" expanded="false" />
+                <element signature="e#9869#9894#1" expanded="true" />
+                <element signature="e#9903#9948#1" expanded="true" />
+                <element signature="e#9994#10022#0" expanded="true" />
+                <element signature="e#9994#10022#0" expanded="true" />
+                <element signature="e#10189#10217#0" expanded="true" />
+                <element signature="e#10189#10217#0" expanded="true" />
+                <element signature="e#10431#10470#1" expanded="true" />
+                <element signature="e#10559#10580#1" expanded="true" />
+                <element signature="e#10638#10658#0" expanded="true" />
+                <element signature="e#10638#10658#0" expanded="true" />
+                <element signature="e#10782#10806#0" expanded="true" />
+                <element signature="e#10782#10806#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -971,7 +960,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509160707849</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Code for SkipList uploaded">
+      <created>1509493436348</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1509493436348</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TodoView">
@@ -985,6 +981,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -996,7 +993,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23260644" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23260644" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1008,7 +1005,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18869936" sideWeight="0.509865" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39667705" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30425754" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1073,7 +1070,8 @@
     <MESSAGE value="SP7 1-5 uploaded" />
     <MESSAGE value="Refined BST uploaded" />
     <MESSAGE value="BST test code uploaded" />
-    <option name="LAST_COMMIT_MESSAGE" value="BST test code uploaded" />
+    <MESSAGE value="Code for SkipList uploaded" />
+    <option name="LAST_COMMIT_MESSAGE" value="Code for SkipList uploaded" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1247,7 +1245,7 @@
           <option name="timeStamp" value="279" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="290" />
+      <option name="time" value="292" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1918,133 +1916,122 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp5/SkipList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3360">
-          <caret line="276" column="58" lean-forward="false" selection-start-line="276" selection-start-column="58" selection-end-line="276" selection-end-column="58" />
+        <state relative-caret-position="160">
+          <caret line="253" column="32" lean-forward="false" selection-start-line="253" selection-start-column="32" selection-end-line="253" selection-end-column="32" />
           <folding>
-            <element signature="class#SLNode#0;class#SkipList#0" expanded="false" />
-            <element signature="e#434#451#0" expanded="true" />
-            <element signature="e#584#592#1" expanded="true" />
-            <element signature="e#579#692#0" expanded="true" />
-            <element signature="e#579#692#0" expanded="true" />
-            <element signature="e#579#692#0" expanded="true" />
-            <element signature="e#645#691#0" expanded="true" />
-            <element signature="e#645#691#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-            <element signature="e#838#858#0" expanded="true" />
-            <element signature="e#838#858#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="class#SLInnerNode#0;class#SkipList#0" expanded="false" />
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
-            <element signature="method#SkipList#0;class#SkipList#0" expanded="false" />
-            <element signature="e#1900#1951#0" expanded="true" />
-            <element signature="e#1900#1951#0" expanded="true" />
-            <element signature="e#1994#2045#0" expanded="true" />
-            <element signature="e#1994#2045#0" expanded="true" />
-            <element signature="method#add#0;class#SkipList#0" expanded="false" />
-            <element signature="e#2430#2468#0" expanded="true" />
-            <element signature="e#2498#2545#1" expanded="true" />
-            <element signature="e#2584#2616#0" expanded="true" />
-            <element signature="e#2584#2616#0" expanded="true" />
-            <element signature="e#2811#2837#0" expanded="true" />
-            <element signature="e#3008#3047#1" expanded="true" />
-            <element signature="e#3065#3073#1" expanded="true" />
-            <element signature="e#3060#3189#0" expanded="true" />
-            <element signature="e#3060#3189#0" expanded="true" />
-            <element signature="e#3060#3189#0" expanded="true" />
+            <element signature="e#391#408#0" expanded="true" />
+            <element signature="e#541#549#1" expanded="true" />
+            <element signature="e#536#649#0" expanded="true" />
+            <element signature="e#536#649#0" expanded="true" />
+            <element signature="e#536#649#0" expanded="true" />
+            <element signature="e#602#648#0" expanded="true" />
+            <element signature="e#602#648#0" expanded="true" />
+            <element signature="e#705#706#0" expanded="true" />
+            <element signature="e#726#746#0" expanded="true" />
+            <element signature="e#726#746#0" expanded="true" />
+            <element signature="e#756#757#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
+            <element signature="e#839#857#0" expanded="true" />
+            <element signature="e#839#857#0" expanded="true" />
+            <element signature="e#872#873#0" expanded="true" />
+            <element signature="e#1356#1357#0" expanded="true" />
+            <element signature="e#1394#1395#0" expanded="true" />
+            <element signature="e#1945#1999#0" expanded="true" />
+            <element signature="e#1945#1999#0" expanded="true" />
+            <element signature="e#2042#2097#0" expanded="true" />
+            <element signature="e#2042#2097#0" expanded="true" />
+            <element signature="e#2520#2558#0" expanded="true" />
+            <element signature="e#2588#2635#1" expanded="true" />
+            <element signature="e#2674#2706#0" expanded="true" />
+            <element signature="e#2674#2706#0" expanded="true" />
+            <element signature="e#2901#2927#0" expanded="true" />
+            <element signature="e#3098#3137#1" expanded="true" />
+            <element signature="e#3155#3163#1" expanded="true" />
+            <element signature="e#3150#3279#0" expanded="true" />
+            <element signature="e#3150#3279#0" expanded="true" />
+            <element signature="e#3150#3279#0" expanded="true" />
             <element signature="method#remove#0;class#SkipList#0" expanded="false" />
-            <element signature="e#3411#3449#0" expanded="true" />
-            <element signature="e#3479#3526#1" expanded="true" />
-            <element signature="e#3565#3597#0" expanded="true" />
-            <element signature="e#3565#3597#0" expanded="true" />
-            <element signature="e#3729#3755#1" expanded="true" />
-            <element signature="e#3768#3778#0" expanded="true" />
-            <element signature="e#3840#3861#0" expanded="true" />
-            <element signature="e#3928#3953#0" expanded="true" />
-            <element signature="e#3928#3953#0" expanded="true" />
+            <element signature="e#3501#3539#0" expanded="true" />
+            <element signature="e#3569#3616#1" expanded="true" />
+            <element signature="e#3655#3687#0" expanded="true" />
+            <element signature="e#3655#3687#0" expanded="true" />
+            <element signature="e#3819#3845#1" expanded="true" />
+            <element signature="e#3858#3868#0" expanded="true" />
+            <element signature="e#3930#3951#0" expanded="true" />
+            <element signature="e#4018#4043#0" expanded="true" />
+            <element signature="e#4018#4043#0" expanded="true" />
+            <element signature="e#4224#4256#1" expanded="true" />
             <element signature="method#ceiling#0;class#SkipList#0" expanded="false" />
-            <element signature="e#4256#4277#0" expanded="true" />
-            <element signature="e#4330#4368#1" expanded="true" />
-            <element signature="e#4381#4428#1" expanded="true" />
+            <element signature="e#4667#4688#0" expanded="true" />
+            <element signature="e#4741#4779#1" expanded="true" />
+            <element signature="e#4792#4839#1" expanded="true" />
             <element signature="method#floor#0;class#SkipList#0" expanded="false" />
-            <element signature="e#4702#4723#0" expanded="true" />
-            <element signature="e#4776#4814#1" expanded="true" />
-            <element signature="e#4827#4874#1" expanded="true" />
-            <element signature="e#4917#4949#0" expanded="true" />
-            <element signature="e#4917#4949#0" expanded="true" />
+            <element signature="e#5113#5134#0" expanded="true" />
+            <element signature="e#5187#5225#1" expanded="true" />
+            <element signature="e#5238#5285#1" expanded="true" />
+            <element signature="e#5328#5360#0" expanded="true" />
+            <element signature="e#5328#5360#0" expanded="true" />
             <element signature="method#contains#0;class#SkipList#0" expanded="false" />
-            <element signature="e#5270#5305#1" expanded="true" />
-            <element signature="e#5314#5358#1" expanded="true" />
-            <element signature="e#5392#5424#0" expanded="true" />
-            <element signature="e#5392#5424#0" expanded="true" />
+            <element signature="e#5681#5716#1" expanded="true" />
+            <element signature="e#5725#5769#1" expanded="true" />
+            <element signature="e#5803#5835#0" expanded="true" />
+            <element signature="e#5803#5835#0" expanded="true" />
             <element signature="method#first#0;class#SkipList#0" expanded="false" />
-            <element signature="e#5553#5599#1" expanded="true" />
+            <element signature="e#5964#6010#1" expanded="true" />
             <element signature="method#last#0;class#SkipList#0" expanded="false" />
-            <element signature="e#5757#5803#1" expanded="true" />
+            <element signature="e#6168#6214#1" expanded="true" />
             <element signature="class#SLIterator#0;class#SkipList#0" expanded="false" />
-            <element signature="e#6333#6334#0" expanded="true" />
-            <element signature="e#6372#6373#0" expanded="true" />
-            <element signature="e#6426#6427#0" expanded="true" />
-            <element signature="e#6493#6494#0" expanded="true" />
-            <element signature="method#rebuild#0;class#SkipList#0" expanded="false" />
+            <element signature="e#6744#6745#0" expanded="true" />
+            <element signature="e#6783#6784#0" expanded="true" />
+            <element signature="e#6837#6838#0" expanded="true" />
+            <element signature="e#6904#6905#0" expanded="true" />
             <element signature="method#get#0;class#SkipList#0" expanded="false" />
-            <element signature="method#find#0;class#SkipList#0" expanded="false" />
-            <element signature="e#7093#7117#1" expanded="true" />
-            <element signature="e#7131#7148#1" expanded="true" />
-            <element signature="e#7175#7222#0" expanded="true" />
-            <element signature="e#7196#7221#0" expanded="true" />
-            <element signature="e#7196#7221#0" expanded="true" />
-            <element signature="e#7299#7334#0" expanded="true" />
-            <element signature="e#7299#7334#0" expanded="true" />
-            <element signature="e#7394#7419#0" expanded="true" />
-            <element signature="e#7394#7419#0" expanded="true" />
-            <element signature="e#7499#7520#0" expanded="true" />
+            <element signature="e#7504#7528#1" expanded="true" />
+            <element signature="e#7537#7551#1" expanded="true" />
+            <element signature="e#7565#7582#1" expanded="true" />
+            <element signature="e#7609#7656#0" expanded="true" />
+            <element signature="e#7630#7655#0" expanded="true" />
+            <element signature="e#7630#7655#0" expanded="true" />
+            <element signature="e#7733#7768#0" expanded="true" />
+            <element signature="e#7733#7768#0" expanded="true" />
+            <element signature="e#7898#7923#0" expanded="true" />
+            <element signature="e#7898#7923#0" expanded="true" />
+            <element signature="e#8036#8057#0" expanded="true" />
             <element signature="method#chooseLevel#0;class#SkipList#0" expanded="false" />
-            <element signature="e#7620#7649#1" expanded="true" />
-            <element signature="e#7658#7723#1" expanded="true" />
-            <element signature="method#updateHeadTail#0;class#SkipList#0" expanded="false" />
-            <element signature="e#7872#7923#0" expanded="true" />
-            <element signature="e#7872#7923#0" expanded="true" />
-            <element signature="e#7968#8019#0" expanded="true" />
-            <element signature="e#7968#8019#0" expanded="true" />
-            <element signature="method#addAfter#0;class#SkipList#0" expanded="false" />
-            <element signature="e#8188#8239#1" expanded="true" />
-            <element signature="e#8204#8233#0" expanded="true" />
-            <element signature="e#8204#8233#0" expanded="true" />
-            <element signature="e#8248#8277#0" expanded="true" />
-            <element signature="e#8248#8277#0" expanded="true" />
-            <element signature="e#8300#8328#0" expanded="true" />
-            <element signature="e#8300#8328#0" expanded="true" />
-            <element signature="e#8352#8380#0" expanded="true" />
-            <element signature="e#8352#8380#0" expanded="true" />
-            <element signature="e#8401#8427#0" expanded="true" />
-            <element signature="e#8401#8427#0" expanded="true" />
-            <element signature="e#8614#8663#1" expanded="true" />
-            <element signature="e#8630#8657#0" expanded="true" />
-            <element signature="e#8630#8657#0" expanded="true" />
-            <element signature="e#8672#8701#0" expanded="true" />
-            <element signature="e#8672#8701#0" expanded="true" />
-            <element signature="e#8722#8748#0" expanded="true" />
-            <element signature="e#8722#8748#0" expanded="true" />
+            <element signature="e#8157#8186#1" expanded="true" />
+            <element signature="e#8195#8260#1" expanded="true" />
+            <element signature="e#8409#8463#0" expanded="true" />
+            <element signature="e#8409#8463#0" expanded="true" />
+            <element signature="e#8508#8559#0" expanded="true" />
+            <element signature="e#8508#8559#0" expanded="true" />
+            <element signature="e#8728#8776#1" expanded="true" />
+            <element signature="e#9139#9188#1" expanded="true" />
+            <element signature="e#9155#9182#0" expanded="true" />
+            <element signature="e#9155#9182#0" expanded="true" />
             <element signature="method#printList#0;class#SkipList#0" expanded="false" />
-            <element signature="e#8874#8889#1" expanded="true" />
-            <element signature="e#8932#8951#0" expanded="true" />
-            <element signature="e#8932#8951#0" expanded="true" />
-            <element signature="e#8966#9019#1" expanded="true" />
-            <element signature="e#8990#9013#0" expanded="true" />
-            <element signature="e#8990#9013#0" expanded="true" />
-            <element signature="e#9093#9118#0" expanded="true" />
-            <element signature="e#9093#9118#0" expanded="true" />
-            <element signature="e#9152#9182#0" expanded="true" />
-            <element signature="e#9152#9182#0" expanded="true" />
-            <element signature="e#9333#9372#1" expanded="true" />
-            <element signature="e#9461#9482#1" expanded="true" />
-            <element signature="e#9540#9560#0" expanded="true" />
-            <element signature="e#9540#9560#0" expanded="true" />
-            <element signature="e#9684#9707#0" expanded="true" />
-            <element signature="e#9684#9707#0" expanded="true" />
+            <element signature="e#9393#9408#1" expanded="true" />
+            <element signature="e#9451#9470#0" expanded="true" />
+            <element signature="e#9451#9470#0" expanded="true" />
+            <element signature="e#9485#9538#1" expanded="true" />
+            <element signature="e#9509#9532#0" expanded="true" />
+            <element signature="e#9509#9532#0" expanded="true" />
+            <element signature="e#9612#9637#0" expanded="true" />
+            <element signature="e#9612#9637#0" expanded="true" />
+            <element signature="e#9671#9701#0" expanded="true" />
+            <element signature="e#9671#9701#0" expanded="true" />
+            <element signature="method#eliminateHigherLevel#0;class#SkipList#0" expanded="false" />
+            <element signature="e#9869#9894#1" expanded="true" />
+            <element signature="e#9903#9948#1" expanded="true" />
+            <element signature="e#9994#10022#0" expanded="true" />
+            <element signature="e#9994#10022#0" expanded="true" />
+            <element signature="e#10189#10217#0" expanded="true" />
+            <element signature="e#10189#10217#0" expanded="true" />
+            <element signature="e#10431#10470#1" expanded="true" />
+            <element signature="e#10559#10580#1" expanded="true" />
+            <element signature="e#10638#10658#0" expanded="true" />
+            <element signature="e#10638#10658#0" expanded="true" />
+            <element signature="e#10782#10806#0" expanded="true" />
+            <element signature="e#10782#10806#0" expanded="true" />
           </folding>
         </state>
       </provider>
