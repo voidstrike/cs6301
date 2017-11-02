@@ -1,5 +1,9 @@
 package cs6301.plp5;
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Random;
+import java.util.Scanner;
 
 /**
  * Created by Alan Lin on 10/30/2017.
