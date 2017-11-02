@@ -1,5 +1,4 @@
 package cs6301.plp5;
-
 import java.util.*;
 
 /**
@@ -27,8 +26,16 @@ public class SkipList<T extends Comparable<? super T>> implements Iterable<T>{
             return pointerList.get(tar);
         }
 
-        SLNode<T> next(){ // Default next(), using Lv.0 list
-            return pointerList.get(0).next;
+        void addComponent(SLInnerNode<T> tar){
+            this.pointerList.add(tar);
+        }
+
+        void removeComponent(int index){
+            this.pointerList.remove(index);
+        }
+
+        int size(){
+            return pointerList.size();
         }
     }
 
@@ -48,15 +55,11 @@ public class SkipList<T extends Comparable<? super T>> implements Iterable<T>{
             this(pre, nxt);
             this.gap = cGap;
         }
-
-        public void setGap(int gap){
-            this.gap = gap;
-        }
     }
 
     private SLNode<T> head, tail; // Dummy head and tail nodes
     private ArrayDeque<SLNode<T>> operatePath; // Stack used to store the path to target node
-    private ArrayDeque<Integer> stepSum;
+    private ArrayDeque<Integer> stepSum; // Auxiliary stack used to store the accumulated gap
     private int count, maxLevel; // count is the element stores in this SkipList and maxLevel indicates the maxLevel of this SkipList
     private Random ranGen; // Random Generator to generate level -- cooperated with mask
 
@@ -64,8 +67,8 @@ public class SkipList<T extends Comparable<? super T>> implements Iterable<T>{
     public SkipList(){
         head = new SLNode<>(null);
         tail = new SLNode<>(null);
-        head.pointerList.add(new SLInnerNode<>(null, tail, 1)); // Add initial component to head
-        tail.pointerList.add(new SLInnerNode<>(head, null, -1)); // Add initial component to tail
+        head.addComponent(new SLInnerNode<>(null, tail, 1)); // Add initial component to head
+        tail.addComponent(new SLInnerNode<>(head, null, -1)); // Add initial component to tail
 
         operatePath = new ArrayDeque<>();
         stepSum = new ArrayDeque<>();
@@ -87,23 +90,27 @@ public class SkipList<T extends Comparable<? super T>> implements Iterable<T>{
         else{
             // Target element isn't in the SkipList
             int level = chooseLevel(); // Choose the # of levels for this new node
+            int exactGapSum = stepSum.peek()+1;
             if (level == maxLevel+1){
                 updateHeadTail();
                 maxLevel++;
             }
-            SLNode<T> tmp = new SLNode<>(x, level);
-            for (int i=0; i<=level; i++){
+            SLNode<T> newNode = new SLNode<>(x, level); // Node that will insert into this SkipList
+            for (int currentLv=0; currentLv<=maxLevel; currentLv++){
                 parent = operatePath.pop();
-                addAfter(parent, tmp, i);
+                if (currentLv <= level)
+                    addAfter(parent, newNode, currentLv, exactGapSum); // Standard add operation
+                else
+                    parent.getComponent(currentLv).gap++; // Inserted node doesn't have such level, increase the gap only
             }
         }
         count++;
         return true;
     }
 
-    /** Method to remove x from list.
+    /** Method to remove x from the list.
      *  Removed element is returned.
-     *  Return null if x not in list */
+     *  Return null if x is not in the SkipList */
     public T remove(T x){
         find(x);
         SLNode<T> parent = operatePath.peek(); // Node list in Lv.0
@@ -114,18 +121,18 @@ public class SkipList<T extends Comparable<? super T>> implements Iterable<T>{
         else {
             // x is in this SkipList
             T result = target.element;
-            int i = 0; // Pivot used to count the Lv of SkipList
+            int pLevel = 0; // Pivot used to count the Lv of SkipList
             while(!operatePath.isEmpty()){
                 parent = operatePath.pop();
-                if (parent.pointerList.get(i).next == target)
-                    removeAfter(parent, target, i);
-                i++;
+                removeAfter(parent, target, pLevel);
+                pLevel++;
             }
             count--;
-            // handle no element level
-            for (int j=head.pointerList.size()-1; j >0 ; j--) {
-                if (head.getComponent(j).next == tail) {
-                    head.pointerList.remove(j);
+
+            // handle levels without element
+            for (int currentLv=head.size()-1; currentLv > 0; currentLv--) {
+                if (head.getComponent(currentLv).next == tail) {
+                    head.removeComponent(currentLv);
                     maxLevel--;
                 }
                 else
@@ -226,29 +233,71 @@ public class SkipList<T extends Comparable<? super T>> implements Iterable<T>{
     // Additional Operations
     /** Method to reorganize the elements of the list into a perfect skip list */
     public void rebuild(){
-        //TODO
+        eliminateHigherLevel(); // Only Lv.0 List remain
+        int nodeThisLayer, maxGap = count+1;
+        int currentLayer = 0, currentGap = 1;
+        SLNode<T> currentNode, preNode, target;
+        while(true){
+            nodeThisLayer = 0;
+            currentNode = head; preNode = null;
+            currentGap *= 2;
+            while(true){
+                if(currentNode.getComponent(currentLayer).next == tail ||
+                        currentNode.getComponent(currentLayer).next.getComponent(currentLayer).next == tail) {
+                    // This node only has 0 or 1 node after, handle the edge case
+                    currentNode.addComponent(new SLInnerNode<>(preNode, tail, maxGap - (nodeThisLayer*currentGap)));
+                    break;
+                }
+                else{
+                    target = currentNode.getComponent(currentLayer).next.getComponent(currentLayer).next; // Jump two nodes
+                    currentNode.addComponent(new SLInnerNode<>(preNode, target, currentGap));
+                    preNode = currentNode;
+                    currentNode = target;
+                    nodeThisLayer++;
+                }
+            }
+            if (nodeThisLayer < 2)
+                break;
+            currentLayer++;
+        }
+        maxLevel = currentLayer+1;
     }
 
     /** Method to return the element at index n of list.
      *  First element is at index 0 */
-    public T get(int n){
-        //TODO
-        return null;
+    public T get(int index){
+        if (index >= count)
+            return null; // No sufficient elements in this SkipList
+        int steps = -1;
+        SLNode<T> holder = head;
+        for (int currentLevel = maxLevel; currentLevel >= 0; currentLevel--){
+            SLInnerNode<T> tmp = holder.getComponent(currentLevel);
+            // Using gap of each node to arrive target element
+            while((steps + tmp.gap) <= index){
+                steps += tmp.gap;
+                holder = tmp.next;
+                tmp = holder.getComponent(currentLevel);
+            }
+            if (steps == index)
+                break; // already arrive the target, break the loop
+        }
+        return holder.element;
     }
 
     // Helper functions
     private void find(T tar){
         operatePath.clear(); // initialize the operate stack
+        stepSum.clear(); // initialize the sum stack
 
         SLNode<T> holder = head;
         int steps = 0;
-        for (int i = maxLevel; i >= 0; i--){
-            SLInnerNode<T> tmp = holder.pointerList.get(i); // get next[i] of this block
+        for (int currentLevel = maxLevel; currentLevel >= 0; currentLevel--){
+            SLInnerNode<T> tmp = holder.getComponent(currentLevel); // get next[i] of this block
 
             while(tmp.next.element != null && tar.compareTo(tmp.next.element) > 0){
                 holder = tmp.next;
                 steps += tmp.gap; // Accumulate the gap between nodes
-                tmp = holder.pointerList.get(i);
+                tmp = holder.getComponent(currentLevel);
             }
             operatePath.push(holder);
             stepSum.push(steps);
@@ -266,25 +315,37 @@ public class SkipList<T extends Comparable<? super T>> implements Iterable<T>{
     }
 
     private void updateHeadTail(){
-        head.pointerList.add(new SLInnerNode<>(null, tail, 1));
+        head.addComponent(new SLInnerNode<>(null, tail, count+1)); // create link from head to tail, initial gap is count+1
         operatePath.addLast(head);
-        tail.pointerList.add(new SLInnerNode<>(head, null));
+        stepSum.addLast(0);
+        tail.addComponent(new SLInnerNode<>(head, null, 0));
     }
 
     /** Method to change the relationship between nodes after add operation */
-    private void addAfter(SLNode<T> parent, SLNode<T> newIn, int index){
+    private void addAfter(SLNode<T> parent, SLNode<T> target, int index, int exactGapSum){
         SLNode<T> tmp = parent.getComponent(index).next;
-        parent.getComponent(index).next = newIn;
-        newIn.getComponent(index).prev = parent;
-        newIn.getComponent(index).next = tmp;
-        tmp.getComponent(index).prev = newIn;
+        int newGap = exactGapSum - (stepSum.pop()); // Get the value of new Gap for parent
+        parent.getComponent(index).next = target;
+        target.getComponent(index).prev = parent;
+        target.getComponent(index).next = tmp;
+        tmp.getComponent(index).prev = target;
+
+        //Update the gap information
+        target.getComponent(index).gap = parent.getComponent(index).gap + 1 - newGap;
+        parent.getComponent(index).gap = newGap;
 
     }
     /** Method to change the relationship between nodes after remove operation */
-    private void removeAfter(SLNode<T> parent, SLNode<T> reIn, int index){
-        SLNode<T> tmp = reIn.pointerList.get(index).next;
-        parent.getComponent(index).next = tmp;
-        tmp.getComponent(index).prev = parent;
+    private void removeAfter(SLNode<T> parent, SLNode<T> target, int index){
+        SLNode<T> tmp;
+        if (index < target.pointerList.size()){
+            tmp = target.getComponent(index).next;
+            parent.getComponent(index).next = tmp;
+            parent.getComponent(index).gap += target.getComponent(index).gap - 1;
+            tmp.getComponent(index).prev = parent;
+        }
+        else
+            parent.getComponent(index).gap--;
     }
 
     /** Method to print the structure of current SkipList */
@@ -306,14 +367,14 @@ public class SkipList<T extends Comparable<? super T>> implements Iterable<T>{
         SLInnerNode<T> tmp = tracker.getComponent(0);
         tracker.pointerList.clear();
         tracker.pointerList.add(tmp);
-        tracker = tracker.getComponent(0).next;
+        tracker = tmp.next;
         while(true){
             tmp = tracker.getComponent(0);
             tracker.pointerList.clear();
             tracker.pointerList.add(tmp);
             if (tracker.element == null)
                 break;
-            tracker = tracker.getComponent(0).next;
+            tracker = tmp.next;
         }
     }
 
@@ -335,6 +396,17 @@ public class SkipList<T extends Comparable<? super T>> implements Iterable<T>{
             } else {
                 System.out.print("Final: \n");
                 t.printList();
+                t.rebuild();
+                System.out.print("Rebuild Version: \n");
+                t.printList();
+                while(in.hasNext()){
+                    x = in.nextInt();
+                    if (x == -1)
+                        break;
+                    else{
+                        System.out.println("Element in index " + x + " : " + t.get(x));
+                    }
+                }
                 return;
             }
         }
