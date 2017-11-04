@@ -207,6 +207,12 @@ public class LPGraph extends Graph{
         u.disable();
     }
 
+    void disableVertex(Vertex u){
+        LPVertex tmp = getVertex(u);
+        disCount++;
+        tmp.disable();
+    }
+
     // Add new vertex to this graph
     public void addVertex(Vertex u){
         currentNodes++;
@@ -224,6 +230,17 @@ public class LPGraph extends Graph{
             lv[i].enable();
         for(int i = nodePivot; i<n; i++)
             lv[i].disable();
+        disCount = n - nodePivot + 1;
+    }
+
+    public void resetGraph(){
+        LPVertex tmp;
+        for(int i=0; i<currentNodes; i++){
+            tmp = lv[i];
+            tmp.enable();
+            for(LEdge e : tmp.lAdj)
+                e.enable();
+        }
     }
 
     @Override
