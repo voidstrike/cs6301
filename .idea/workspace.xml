@@ -32,260 +32,69 @@
     <favorites_list name="AlgorithmImplement" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file leaf-file-name="LP4f.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LP4f.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="14" column="73" lean-forward="false" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#370#442#0" expanded="true" />
+                <element signature="e#370#442#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LP4.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LP4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="1466">
+              <caret line="537" column="103" lean-forward="false" selection-start-line="537" selection-start-column="103" selection-end-line="537" selection-end-column="103" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="class#LPVertex#0;class#LP4#0" expanded="false" />
                 <element signature="method#LPVertex#0;class#LPVertex#0;class#LP4#0" expanded="false" />
-                <element signature="method#PathNode#1;class#PathNode#0;class#LP4#0" expanded="false" />
-                <element signature="method#addPath#0;class#PathNode#0;class#LP4#0" expanded="false" />
-                <element signature="e#2418#2426#0" expanded="true" />
-                <element signature="e#2496#2507#0" expanded="true" />
-                <element signature="e#2496#2507#0" expanded="true" />
                 <element signature="method#LP4#0;class#LP4#0" expanded="false" />
-                <element signature="e#3181#3189#0" expanded="true" />
-                <element signature="e#3212#3223#0" expanded="true" />
-                <element signature="e#3252#3603#0" expanded="true" />
-                <element signature="class#3289:3602" expanded="false" />
                 <element signature="method#countTopologicalOrders#0;class#LP4#0" expanded="false" />
-                <element signature="e#3875#3922#1" expanded="true" />
-                <element signature="e#3964#3972#0" expanded="true" />
-                <element signature="e#4064#4087#0" expanded="true" />
                 <element signature="method#enumerateTopologicalOrders#0;class#LP4#0" expanded="false" />
-                <element signature="e#4491#4538#1" expanded="true" />
-                <element signature="e#4580#4588#0" expanded="true" />
-                <element signature="e#4680#4703#0" expanded="true" />
                 <element signature="method#auxEnumerateTP#0;class#LP4#0" expanded="false" />
-                <element signature="e#5317#5341#0" expanded="true" />
-                <element signature="e#5317#5341#0" expanded="true" />
-                <element signature="e#5419#5436#1" expanded="true" />
-                <element signature="e#5451#5457#0" expanded="true" />
-                <element signature="e#5535#5571#0" expanded="true" />
-                <element signature="e#5535#5571#0" expanded="true" />
-                <element signature="e#5605#5613#0" expanded="true" />
-                <element signature="e#5679#5702#0" expanded="true" />
-                <element signature="e#6070#6094#0" expanded="true" />
-                <element signature="e#6070#6094#0" expanded="true" />
-                <element signature="e#6151#6157#0" expanded="true" />
-                <element signature="e#6235#6271#0" expanded="true" />
-                <element signature="e#6235#6271#0" expanded="true" />
                 <element signature="method#countShortestPaths#0;class#LP4#0" expanded="false" />
-                <element signature="e#6511#6524#0" expanded="true" />
-                <element signature="e#6511#6524#0" expanded="true" />
-                <element signature="e#6629#6658#0" expanded="true" />
-                <element signature="e#6724#6737#0" expanded="true" />
-                <element signature="e#6724#6737#0" expanded="true" />
-                <element signature="e#7004#7029#0" expanded="true" />
-                <element signature="e#7901#7914#0" expanded="true" />
-                <element signature="e#7901#7914#0" expanded="true" />
-                <element signature="e#8019#8048#0" expanded="true" />
-                <element signature="e#8114#8127#0" expanded="true" />
-                <element signature="e#8114#8127#0" expanded="true" />
-                <element signature="e#8287#8312#0" expanded="true" />
-                <element signature="e#8989#9016#0" expanded="true" />
-                <element signature="e#8989#9016#0" expanded="true" />
-                <element signature="method#reward#0;class#LP4#0" expanded="false" />
-                <element signature="e#9333#9348#1" expanded="true" />
-                <element signature="e#9674#9682#0" expanded="true" />
-                <element signature="e#9771#9784#0" expanded="true" />
-                <element signature="e#9771#9784#0" expanded="true" />
-                <element signature="e#9922#9974#1" expanded="true" />
-                <element signature="e#9983#10030#1" expanded="true" />
-                <element signature="e#10047#10063#0" expanded="true" />
-                <element signature="e#10120#10140#0" expanded="true" />
-                <element signature="e#10371#10396#0" expanded="true" />
-                <element signature="class#10639:10932" expanded="false" />
-                <element signature="method#countSPs#0;class#LP4#0" expanded="false" />
-                <element signature="e#11065#11117#1" expanded="true" />
-                <element signature="e#11088#11101#0" expanded="true" />
-                <element signature="e#11088#11101#0" expanded="true" />
-                <element signature="e#11126#11173#1" expanded="true" />
-                <element signature="method#auxEnumerateSP#0;class#LP4#0" expanded="false" />
-                <element signature="e#11653#11677#0" expanded="true" />
-                <element signature="e#11653#11677#0" expanded="true" />
-                <element signature="e#11892#11898#0" expanded="true" />
-                <element signature="e#12035#12059#0" expanded="true" />
-                <element signature="e#12035#12059#0" expanded="true" />
-                <element signature="method#rewardSPs#0;class#LP4#0" expanded="false" />
-                <element signature="e#12244#12296#0" expanded="true" />
-                <element signature="e#12267#12280#0" expanded="true" />
-                <element signature="e#12267#12280#0" expanded="true" />
-                <element signature="e#12323#12370#1" expanded="true" />
+                <element signature="method#constrainedShortestPath#0;class#LP4#0" expanded="false" />
+                <element signature="e#9439#9491#1" expanded="true" />
+                <element signature="e#9500#9547#1" expanded="true" />
+                <element signature="e#9874#9882#0" expanded="true" />
+                <element signature="e#10041#10084#0" expanded="true" />
+                <element signature="e#10061#10083#0" expanded="true" />
                 <element signature="method#auxRewardSP#0;class#LP4#0" expanded="false" />
-                <element signature="e#12652#12676#0" expanded="true" />
-                <element signature="e#12652#12676#0" expanded="true" />
-                <element signature="e#12837#12843#0" expanded="true" />
-                <element signature="e#13012#13036#0" expanded="true" />
-                <element signature="e#13012#13036#0" expanded="true" />
+                <element signature="e#12515#12563#1" expanded="true" />
+                <element signature="e#12661#12674#0" expanded="true" />
+                <element signature="e#12842#12848#0" expanded="true" />
                 <element signature="method#printGraph#0;class#LP4#0" expanded="false" />
-                <element signature="e#13241#13249#0" expanded="true" />
-                <element signature="e#13319#13350#0" expanded="true" />
-                <element signature="e#13319#13350#0" expanded="true" />
-                <element signature="e#13319#13350#0" expanded="true" />
-                <element signature="e#13330#13340#0" expanded="true" />
-                <element signature="e#13330#13340#0" expanded="true" />
-                <element signature="e#13319#13350#0" expanded="true" />
-                <element signature="e#13407#13417#0" expanded="true" />
-                <element signature="e#13407#13417#0" expanded="true" />
-                <element signature="e#13450#13456#0" expanded="true" />
-                <element signature="e#13496#13521#0" expanded="true" />
-                <element signature="e#13496#13521#0" expanded="true" />
-                <element signature="e#13496#13521#0" expanded="true" />
-                <element signature="e#13496#13521#0" expanded="true" />
-                <element signature="e#13625#13639#0" expanded="true" />
-                <element signature="e#13625#13639#0" expanded="true" />
-                <element signature="e#13687#13701#0" expanded="true" />
-                <element signature="e#13687#13701#0" expanded="true" />
-                <element signature="e#13749#13777#0" expanded="true" />
-                <element signature="e#13749#13777#0" expanded="true" />
                 <element signature="method#bellmanFordSP#0;class#LP4#0" expanded="false" />
-                <element signature="e#14062#14105#1" expanded="true" />
-                <element signature="e#14079#14104#0" expanded="true" />
-                <element signature="e#14114#14132#0" expanded="true" />
-                <element signature="e#14114#14132#0" expanded="true" />
-                <element signature="e#14187#14200#1" expanded="true" />
-                <element signature="e#14182#15029#0" expanded="true" />
-                <element signature="e#14182#15029#0" expanded="true" />
-                <element signature="e#14182#15029#0" expanded="true" />
-                <element signature="e#14297#14305#0" expanded="true" />
-                <element signature="e#14344#14367#0" expanded="true" />
-                <element signature="e#14390#14396#0" expanded="true" />
-                <element signature="e#14437#14472#0" expanded="true" />
-                <element signature="e#14662#14719#0" expanded="true" />
-                <element signature="e#14662#14719#0" expanded="true" />
-                <element signature="e#14870#14878#0" expanded="true" />
-                <element signature="e#14917#14940#0" expanded="true" />
                 <element signature="method#dagSP#0;class#LP4#0" expanded="false" />
-                <element signature="e#15232#15275#1" expanded="true" />
-                <element signature="e#15249#15274#0" expanded="true" />
-                <element signature="e#15284#15302#0" expanded="true" />
-                <element signature="e#15284#15302#0" expanded="true" />
-                <element signature="e#15378#15386#0" expanded="true" />
-                <element signature="e#15424#15447#0" expanded="true" />
-                <element signature="e#15466#15472#0" expanded="true" />
-                <element signature="e#15509#15544#0" expanded="true" />
-                <element signature="e#15712#15766#0" expanded="true" />
-                <element signature="e#15712#15766#0" expanded="true" />
-                <element signature="e#15890#15898#0" expanded="true" />
-                <element signature="e#15936#15959#0" expanded="true" />
                 <element signature="method#dijkstraSP#0;class#LP4#0" expanded="false" />
-                <element signature="e#16218#16262#1" expanded="true" />
-                <element signature="e#16291#16362#1" expanded="true" />
-                <element signature="e#16372#16412#0" expanded="true" />
-                <element signature="e#16387#16412#0" expanded="true" />
-                <element signature="e#16545#16562#0" expanded="true" />
-                <element signature="e#16651#16657#0" expanded="true" />
-                <element signature="e#16751#16776#0" expanded="true" />
-                <element signature="e#16949#16974#0" expanded="true" />
                 <element signature="method#eliminateGraph#0;class#LP4#0" expanded="false" />
-                <element signature="e#17509#17517#0" expanded="true" />
-                <element signature="e#17552#17575#0" expanded="true" />
-                <element signature="e#17594#17600#0" expanded="true" />
-                <element signature="e#17637#17672#0" expanded="true" />
-                <element signature="e#17814#17833#0" expanded="true" />
-                <element signature="e#17814#17833#0" expanded="true" />
-                <element signature="e#17954#17967#0" expanded="true" />
-                <element signature="e#17954#17967#0" expanded="true" />
                 <element signature="method#resetSP#0;class#LP4#0" expanded="false" />
-                <element signature="e#18191#18199#0" expanded="true" />
-                <element signature="e#18224#18247#0" expanded="true" />
-                <element signature="e#18364#18389#0" expanded="true" />
                 <element signature="method#reInitialize#0;class#LP4#0" expanded="false" />
-                <element signature="e#18576#18584#0" expanded="true" />
-                <element signature="e#18609#18632#0" expanded="true" />
                 <element signature="method#resetRewardCollection#0;class#LP4#0" expanded="false" />
-                <element signature="e#19058#19066#0" expanded="true" />
-                <element signature="e#19091#19114#0" expanded="true" />
-                <element signature="method#pathUpdatePath#0;class#LP4#0" expanded="false" />
-                <element signature="e#19417#19425#0" expanded="true" />
-                <element signature="e#19453#19476#0" expanded="true" />
                 <element signature="method#rebuildTour#0;class#LP4#0" expanded="false" />
-                <element signature="e#19704#19752#1" expanded="true" />
-                <element signature="e#19761#19779#0" expanded="true" />
-                <element signature="e#19761#19779#0" expanded="true" />
-                <element signature="e#19815#19839#1" expanded="true" />
-                <element signature="e#19848#19896#1" expanded="true" />
-                <element signature="e#19863#19895#0" expanded="true" />
-                <element signature="e#19911#19931#0" expanded="true" />
-                <element signature="e#19935#19959#0" expanded="true" />
-                <element signature="e#20054#20086#0" expanded="true" />
-                <element signature="e#20113#20130#0" expanded="true" />
-                <element signature="e#20145#20167#0" expanded="true" />
-                <element signature="e#20145#20167#0" expanded="true" />
                 <element signature="method#findPathBack#0;class#LP4#0" expanded="false" />
-                <element signature="e#20511#20555#1" expanded="true" />
-                <element signature="e#20526#20539#0" expanded="true" />
-                <element signature="e#20526#20539#0" expanded="true" />
-                <element signature="e#20564#20589#1" expanded="true" />
-                <element signature="e#20621#20642#0" expanded="true" />
-                <element signature="e#20809#20815#0" expanded="true" />
-                <element signature="e#20892#20920#0" expanded="true" />
-                <element signature="e#21318#21334#0" expanded="true" />
-                <element signature="e#21400#21427#0" expanded="true" />
+                <element signature="e#20549#20561#0" expanded="true" />
+                <element signature="e#20563#20589#0" expanded="true" />
+                <element signature="e#20563#20589#0" expanded="true" />
+                <element signature="e#20704#20732#0" expanded="true" />
+                <element signature="e#20770#20796#0" expanded="true" />
+                <element signature="e#20770#20796#0" expanded="true" />
                 <element signature="method#printOrder#0;class#LP4#0" expanded="false" />
-                <element signature="e#21680#21688#0" expanded="true" />
-                <element signature="e#21728#21735#0" expanded="true" />
-                <element signature="e#21728#21735#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LP4f.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LP4f.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="14" column="73" lean-forward="false" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#350#357#0" expanded="true" />
-                <element signature="e#452#508#1" expanded="true" />
-                <element signature="e#517#547#1" expanded="true" />
-                <element signature="e#556#582#1" expanded="true" />
-                <element signature="e#591#657#1" expanded="true" />
-                <element signature="e#670#678#0" expanded="true" />
-                <element signature="e#697#721#0" expanded="true" />
-                <element signature="e#697#721#0" expanded="true" />
-                <element signature="e#697#721#0" expanded="true" />
-                <element signature="e#741#806#1" expanded="true" />
-                <element signature="e#816#860#1" expanded="true" />
-                <element signature="e#869#914#1" expanded="true" />
-                <element signature="e#923#961#1" expanded="true" />
-                <element signature="e#1092#1100#0" expanded="true" />
-                <element signature="e#1127#1134#0" expanded="true" />
-                <element signature="e#1127#1134#0" expanded="true" />
-                <element signature="e#1166#1180#0" expanded="true" />
-                <element signature="e#1166#1180#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LP4e.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LP4e.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LP4a.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LP4a.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#500#544#1" expanded="true" />
+                <element signature="method#accumulateReward#0;class#LP4#0" expanded="false" />
+                <element signature="e#21374#21389#1" expanded="true" />
+                <element signature="e#21402#21410#0" expanded="true" />
+                <element signature="e#21442#21453#0" expanded="true" />
+                <element signature="e#21442#21453#0" expanded="true" />
+                <element signature="e#21612#21628#0" expanded="true" />
+                <element signature="e#21686#21713#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -294,50 +103,14 @@
       <file leaf-file-name="Graph.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state relative-caret-position="420">
+              <caret line="70" column="41" lean-forward="false" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1838#1874#1" expanded="true" />
+                <element signature="e#1859#1873#0" expanded="true" />
+                <element signature="e#2415#2416#0" expanded="true" />
                 <element signature="e#2458#2459#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LP4b.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LP4b.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="86" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#500#544#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LP4d.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LP4d.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="498">
-              <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#570#596#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LPGraph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LPGraph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="class#LPGraphIterator#0;class#LPGraph#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -468,7 +241,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -647,8 +421,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1259,7 +1032,14 @@
       <option name="project" value="LOCAL" />
       <updated>1509997234944</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Remove unnecessary code">
+      <created>1509997536951</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1509997536951</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1284,13 +1064,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23260644" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23260644" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32704404" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17750533" sideWeight="0.49013498" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18230277" sideWeight="0.49013498" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1320,18 +1100,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39667705" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30425754" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2689512" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3271028" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32704404" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23260644" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32942432" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281412" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34573305" sideWeight="0.49013498" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18070363" sideWeight="0.49013498" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18869936" sideWeight="0.509865" order="6" side_tool="true" content_ui="tabs" />
@@ -1559,7 +1339,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LP4.java</url>
-          <line>469</line>
+          <line>462</line>
           <properties />
           <option name="timeStamp" value="321" />
         </line-breakpoint>
@@ -1609,82 +1389,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="233" column="22" lean-forward="true" selection-start-line="233" selection-start-column="22" selection-end-line="233" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#iterator#0;class#LPVertex#0;class#LPGraph#0" expanded="false" />
-            <element signature="method#reverseIterator#0;class#LPVertex#0;class#LPGraph#0" expanded="false" />
-            <element signature="class#LVertexIterator#0;class#LPVertex#0;class#LPGraph#0" expanded="false" />
-            <element signature="e#2206#2222#0" expanded="false" />
-            <element signature="e#2350#2366#0" expanded="false" />
-            <element signature="method#isDisabled#0;class#LEdge#0;class#LPGraph#0" expanded="false" />
-            <element signature="e#3264#3297#1" expanded="false" />
-            <element signature="e#3281#3296#0" expanded="false" />
-            <element signature="e#3310#3339#1" expanded="false" />
-            <element signature="e#3325#3338#0" expanded="false" />
-            <element signature="e#3371#3389#0" expanded="false" />
-            <element signature="e#3393#3409#0" expanded="false" />
-            <element signature="e#4110#4118#0" expanded="false" />
-            <element signature="e#4140#4151#0" expanded="false" />
-            <element signature="e#4226#4234#0" expanded="false" />
-            <element signature="e#4258#4264#0" expanded="false" />
-            <element signature="e#4287#4312#1" expanded="false" />
-            <element signature="e#4329#4356#1" expanded="false" />
-            <element signature="e#4373#4400#1" expanded="false" />
-            <element signature="e#4417#4457#1" expanded="false" />
-            <element signature="e#4474#4490#0" expanded="false" />
-            <element signature="e#4474#4490#0" expanded="false" />
-            <element signature="e#4508#4527#0" expanded="false" />
-            <element signature="e#4508#4527#0" expanded="false" />
-            <element signature="method#hasNext#0;class#LPGraphIterator#0;class#LPGraph#0" expanded="false" />
-            <element signature="e#5052#5069#0" expanded="false" />
-            <element signature="e#5142#5159#0" expanded="false" />
-            <element signature="e#5312#5313#0" expanded="false" />
-            <element signature="e#5342#5343#0" expanded="false" />
-            <element signature="e#5459#5496#1" expanded="false" />
-            <element signature="e#5472#5495#0" expanded="false" />
-            <element signature="e#5842#5850#1" expanded="false" />
-            <element signature="e#5838#5896#0" expanded="false" />
-            <element signature="e#5838#5896#0" expanded="false" />
-            <element signature="e#5838#5896#0" expanded="false" />
-            <element signature="e#5909#5927#1" expanded="false" />
-            <element signature="e#5905#5966#0" expanded="false" />
-            <element signature="e#5905#5966#0" expanded="false" />
-            <element signature="e#5905#5966#0" expanded="false" />
-            <element signature="e#6068#6120#1" expanded="false" />
-            <element signature="e#6129#6191#1" expanded="false" />
-            <element signature="e#6227#6256#0" expanded="false" />
-            <element signature="e#6227#6256#0" expanded="false" />
-            <element signature="e#6270#6300#0" expanded="false" />
-            <element signature="e#6270#6300#0" expanded="false" />
-            <element signature="e#6338#6367#0" expanded="false" />
-            <element signature="e#6338#6367#0" expanded="false" />
-            <element signature="e#6381#6408#0" expanded="false" />
-            <element signature="e#6381#6408#0" expanded="false" />
-            <element signature="e#6530#6576#1" expanded="false" />
-            <element signature="e#6585#6652#1" expanded="false" />
-            <element signature="e#6688#6717#0" expanded="false" />
-            <element signature="e#6688#6717#0" expanded="false" />
-            <element signature="e#6731#6761#0" expanded="false" />
-            <element signature="e#6731#6761#0" expanded="false" />
-            <element signature="e#6799#6828#0" expanded="false" />
-            <element signature="e#6799#6828#0" expanded="false" />
-            <element signature="e#6842#6869#0" expanded="false" />
-            <element signature="e#6842#6869#0" expanded="false" />
-            <element signature="e#7051#7099#1" expanded="false" />
-            <element signature="e#7108#7144#1" expanded="false" />
-            <element signature="e#7191#7229#1" expanded="false" />
-            <element signature="e#7299#7327#1" expanded="false" />
-            <element signature="e#7336#7365#1" expanded="false" />
-            <element signature="e#7376#7433#1" expanded="false" />
-            <element signature="e#7443#7480#1" expanded="false" />
-            <element signature="e#7535#7549#0" expanded="false" />
-            <element signature="e#7588#7645#0" expanded="false" />
-            <element signature="e#7588#7645#0" expanded="false" />
-            <element signature="e#7588#7645#0" expanded="false" />
-            <element signature="e#7626#7637#0" expanded="false" />
-            <element signature="e#7588#7645#0" expanded="false" />
-            <element signature="e#7762#7770#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1735,7 +1439,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1750,9 +1453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#299#300#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1770,15 +1470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="82" column="0" lean-forward="false" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="method#BinaryHeap#0;class#BinaryHeap#0" expanded="false" />
-            <element signature="method#BinaryHeap#1;class#BinaryHeap#0" expanded="false" />
-            <element signature="method#peek#0;class#BinaryHeap#0" expanded="false" />
-            <element signature="method#heapSort#0;class#BinaryHeap#0" expanded="false" />
-            <element signature="method#heapSort#1;class#BinaryHeap#0" expanded="false" />
-            <element signature="method#main#0;class#BinaryHeap#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1797,11 +1488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#284#285#0" expanded="false" />
-            <element signature="e#317#318#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1809,10 +1495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
           <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1345#1346#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1926,18 +1608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6956">
           <caret line="218" column="39" lean-forward="false" selection-start-line="218" selection-start-column="39" selection-end-line="218" selection-end-column="39" />
-          <folding>
-            <element signature="method#dfs#0;class#BasicGraphAlgorithm#0" expanded="false" />
-            <element signature="e#2683#2729#1" expanded="false" />
-            <element signature="method#dfsVisit#0;class#BasicGraphAlgorithm#0" expanded="false" />
-            <element signature="e#3801#3813#0" expanded="false" />
-            <element signature="e#3801#3813#0" expanded="false" />
-            <element signature="e#6266#6304#1" expanded="false" />
-            <element signature="e#6417#6464#1" expanded="false" />
-            <element signature="e#6567#6575#0" expanded="false" />
-            <element signature="e#6619#6626#0" expanded="false" />
-            <element signature="e#6619#6626#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1993,9 +1663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-112">
           <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="32" selection-end-column="48" />
-          <folding>
-            <element signature="e#804#829#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2071,7 +1738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="98" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2128,7 +1794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-546">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2150,28 +1815,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/GraphAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#381#382#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/ShortestPath.java" />
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/BasicGraphAlgorithm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1291">
+        <state relative-caret-position="-3044">
           <caret line="121" column="0" lean-forward="false" selection-start-line="121" selection-start-column="0" selection-end-line="121" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LPGraph.java">
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LP4e.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
+        <state relative-caret-position="114">
+          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#LPGraphIterator#0;class#LPGraph#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LP4a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#500#544#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LP4b.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#336#413#0" expanded="false" />
+            <element signature="e#336#413#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LP4d.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="498">
+        <state relative-caret-position="304">
           <caret line="16" column="34" lean-forward="false" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -2180,292 +1878,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LP4e.java">
+    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LPGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        <state relative-caret-position="872">
+          <caret line="122" column="0" lean-forward="false" selection-start-line="122" selection-start-column="0" selection-end-line="122" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LP4a.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#500#544#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LP4b.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#500#544#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/GraphAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#381#382#0" expanded="true" />
+            <element signature="class#LPGraphIterator#0;class#LPGraph#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/Graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="89" column="0" lean-forward="false" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="70" column="41" lean-forward="false" selection-start-line="70" selection-start-column="41" selection-end-line="70" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1838#1874#1" expanded="true" />
+            <element signature="e#1859#1873#0" expanded="true" />
+            <element signature="e#2415#2416#0" expanded="true" />
             <element signature="e#2458#2459#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/ShortestPath.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1740">
-          <caret line="95" column="8" lean-forward="true" selection-start-line="95" selection-start-column="8" selection-end-line="106" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LP4f.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
+        <state relative-caret-position="144">
           <caret line="14" column="73" lean-forward="false" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#350#357#0" expanded="true" />
-            <element signature="e#452#508#1" expanded="true" />
-            <element signature="e#517#547#1" expanded="true" />
-            <element signature="e#556#582#1" expanded="true" />
-            <element signature="e#591#657#1" expanded="true" />
-            <element signature="e#670#678#0" expanded="true" />
-            <element signature="e#697#721#0" expanded="true" />
-            <element signature="e#697#721#0" expanded="true" />
-            <element signature="e#697#721#0" expanded="true" />
-            <element signature="e#741#806#1" expanded="true" />
-            <element signature="e#816#860#1" expanded="true" />
-            <element signature="e#869#914#1" expanded="true" />
-            <element signature="e#923#961#1" expanded="true" />
-            <element signature="e#1092#1100#0" expanded="true" />
-            <element signature="e#1127#1134#0" expanded="true" />
-            <element signature="e#1127#1134#0" expanded="true" />
-            <element signature="e#1166#1180#0" expanded="true" />
-            <element signature="e#1166#1180#0" expanded="true" />
+            <element signature="e#370#442#0" expanded="true" />
+            <element signature="e#370#442#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../AlgorithmImplement/src/cs6301/plp4/LP4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="1466">
+          <caret line="537" column="103" lean-forward="false" selection-start-line="537" selection-start-column="103" selection-end-line="537" selection-end-column="103" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="class#LPVertex#0;class#LP4#0" expanded="false" />
             <element signature="method#LPVertex#0;class#LPVertex#0;class#LP4#0" expanded="false" />
-            <element signature="method#PathNode#1;class#PathNode#0;class#LP4#0" expanded="false" />
-            <element signature="method#addPath#0;class#PathNode#0;class#LP4#0" expanded="false" />
-            <element signature="e#2418#2426#0" expanded="true" />
-            <element signature="e#2496#2507#0" expanded="true" />
-            <element signature="e#2496#2507#0" expanded="true" />
             <element signature="method#LP4#0;class#LP4#0" expanded="false" />
-            <element signature="e#3181#3189#0" expanded="true" />
-            <element signature="e#3212#3223#0" expanded="true" />
-            <element signature="e#3252#3603#0" expanded="true" />
-            <element signature="class#3289:3602" expanded="false" />
             <element signature="method#countTopologicalOrders#0;class#LP4#0" expanded="false" />
-            <element signature="e#3875#3922#1" expanded="true" />
-            <element signature="e#3964#3972#0" expanded="true" />
-            <element signature="e#4064#4087#0" expanded="true" />
             <element signature="method#enumerateTopologicalOrders#0;class#LP4#0" expanded="false" />
-            <element signature="e#4491#4538#1" expanded="true" />
-            <element signature="e#4580#4588#0" expanded="true" />
-            <element signature="e#4680#4703#0" expanded="true" />
             <element signature="method#auxEnumerateTP#0;class#LP4#0" expanded="false" />
-            <element signature="e#5317#5341#0" expanded="true" />
-            <element signature="e#5317#5341#0" expanded="true" />
-            <element signature="e#5419#5436#1" expanded="true" />
-            <element signature="e#5451#5457#0" expanded="true" />
-            <element signature="e#5535#5571#0" expanded="true" />
-            <element signature="e#5535#5571#0" expanded="true" />
-            <element signature="e#5605#5613#0" expanded="true" />
-            <element signature="e#5679#5702#0" expanded="true" />
-            <element signature="e#6070#6094#0" expanded="true" />
-            <element signature="e#6070#6094#0" expanded="true" />
-            <element signature="e#6151#6157#0" expanded="true" />
-            <element signature="e#6235#6271#0" expanded="true" />
-            <element signature="e#6235#6271#0" expanded="true" />
             <element signature="method#countShortestPaths#0;class#LP4#0" expanded="false" />
-            <element signature="e#6511#6524#0" expanded="true" />
-            <element signature="e#6511#6524#0" expanded="true" />
-            <element signature="e#6629#6658#0" expanded="true" />
-            <element signature="e#6724#6737#0" expanded="true" />
-            <element signature="e#6724#6737#0" expanded="true" />
-            <element signature="e#7004#7029#0" expanded="true" />
-            <element signature="e#7901#7914#0" expanded="true" />
-            <element signature="e#7901#7914#0" expanded="true" />
-            <element signature="e#8019#8048#0" expanded="true" />
-            <element signature="e#8114#8127#0" expanded="true" />
-            <element signature="e#8114#8127#0" expanded="true" />
-            <element signature="e#8287#8312#0" expanded="true" />
-            <element signature="e#8989#9016#0" expanded="true" />
-            <element signature="e#8989#9016#0" expanded="true" />
-            <element signature="method#reward#0;class#LP4#0" expanded="false" />
-            <element signature="e#9333#9348#1" expanded="true" />
-            <element signature="e#9674#9682#0" expanded="true" />
-            <element signature="e#9771#9784#0" expanded="true" />
-            <element signature="e#9771#9784#0" expanded="true" />
-            <element signature="e#9922#9974#1" expanded="true" />
-            <element signature="e#9983#10030#1" expanded="true" />
-            <element signature="e#10047#10063#0" expanded="true" />
-            <element signature="e#10120#10140#0" expanded="true" />
-            <element signature="e#10371#10396#0" expanded="true" />
-            <element signature="class#10639:10932" expanded="false" />
-            <element signature="method#countSPs#0;class#LP4#0" expanded="false" />
-            <element signature="e#11065#11117#1" expanded="true" />
-            <element signature="e#11088#11101#0" expanded="true" />
-            <element signature="e#11088#11101#0" expanded="true" />
-            <element signature="e#11126#11173#1" expanded="true" />
-            <element signature="method#auxEnumerateSP#0;class#LP4#0" expanded="false" />
-            <element signature="e#11653#11677#0" expanded="true" />
-            <element signature="e#11653#11677#0" expanded="true" />
-            <element signature="e#11892#11898#0" expanded="true" />
-            <element signature="e#12035#12059#0" expanded="true" />
-            <element signature="e#12035#12059#0" expanded="true" />
-            <element signature="method#rewardSPs#0;class#LP4#0" expanded="false" />
-            <element signature="e#12244#12296#0" expanded="true" />
-            <element signature="e#12267#12280#0" expanded="true" />
-            <element signature="e#12267#12280#0" expanded="true" />
-            <element signature="e#12323#12370#1" expanded="true" />
+            <element signature="method#constrainedShortestPath#0;class#LP4#0" expanded="false" />
+            <element signature="e#9439#9491#1" expanded="true" />
+            <element signature="e#9500#9547#1" expanded="true" />
+            <element signature="e#9874#9882#0" expanded="true" />
+            <element signature="e#10041#10084#0" expanded="true" />
+            <element signature="e#10061#10083#0" expanded="true" />
             <element signature="method#auxRewardSP#0;class#LP4#0" expanded="false" />
-            <element signature="e#12652#12676#0" expanded="true" />
-            <element signature="e#12652#12676#0" expanded="true" />
-            <element signature="e#12837#12843#0" expanded="true" />
-            <element signature="e#13012#13036#0" expanded="true" />
-            <element signature="e#13012#13036#0" expanded="true" />
+            <element signature="e#12515#12563#1" expanded="true" />
+            <element signature="e#12661#12674#0" expanded="true" />
+            <element signature="e#12842#12848#0" expanded="true" />
             <element signature="method#printGraph#0;class#LP4#0" expanded="false" />
-            <element signature="e#13241#13249#0" expanded="true" />
-            <element signature="e#13319#13350#0" expanded="true" />
-            <element signature="e#13319#13350#0" expanded="true" />
-            <element signature="e#13319#13350#0" expanded="true" />
-            <element signature="e#13330#13340#0" expanded="true" />
-            <element signature="e#13330#13340#0" expanded="true" />
-            <element signature="e#13319#13350#0" expanded="true" />
-            <element signature="e#13407#13417#0" expanded="true" />
-            <element signature="e#13407#13417#0" expanded="true" />
-            <element signature="e#13450#13456#0" expanded="true" />
-            <element signature="e#13496#13521#0" expanded="true" />
-            <element signature="e#13496#13521#0" expanded="true" />
-            <element signature="e#13496#13521#0" expanded="true" />
-            <element signature="e#13496#13521#0" expanded="true" />
-            <element signature="e#13625#13639#0" expanded="true" />
-            <element signature="e#13625#13639#0" expanded="true" />
-            <element signature="e#13687#13701#0" expanded="true" />
-            <element signature="e#13687#13701#0" expanded="true" />
-            <element signature="e#13749#13777#0" expanded="true" />
-            <element signature="e#13749#13777#0" expanded="true" />
             <element signature="method#bellmanFordSP#0;class#LP4#0" expanded="false" />
-            <element signature="e#14062#14105#1" expanded="true" />
-            <element signature="e#14079#14104#0" expanded="true" />
-            <element signature="e#14114#14132#0" expanded="true" />
-            <element signature="e#14114#14132#0" expanded="true" />
-            <element signature="e#14187#14200#1" expanded="true" />
-            <element signature="e#14182#15029#0" expanded="true" />
-            <element signature="e#14182#15029#0" expanded="true" />
-            <element signature="e#14182#15029#0" expanded="true" />
-            <element signature="e#14297#14305#0" expanded="true" />
-            <element signature="e#14344#14367#0" expanded="true" />
-            <element signature="e#14390#14396#0" expanded="true" />
-            <element signature="e#14437#14472#0" expanded="true" />
-            <element signature="e#14662#14719#0" expanded="true" />
-            <element signature="e#14662#14719#0" expanded="true" />
-            <element signature="e#14870#14878#0" expanded="true" />
-            <element signature="e#14917#14940#0" expanded="true" />
             <element signature="method#dagSP#0;class#LP4#0" expanded="false" />
-            <element signature="e#15232#15275#1" expanded="true" />
-            <element signature="e#15249#15274#0" expanded="true" />
-            <element signature="e#15284#15302#0" expanded="true" />
-            <element signature="e#15284#15302#0" expanded="true" />
-            <element signature="e#15378#15386#0" expanded="true" />
-            <element signature="e#15424#15447#0" expanded="true" />
-            <element signature="e#15466#15472#0" expanded="true" />
-            <element signature="e#15509#15544#0" expanded="true" />
-            <element signature="e#15712#15766#0" expanded="true" />
-            <element signature="e#15712#15766#0" expanded="true" />
-            <element signature="e#15890#15898#0" expanded="true" />
-            <element signature="e#15936#15959#0" expanded="true" />
             <element signature="method#dijkstraSP#0;class#LP4#0" expanded="false" />
-            <element signature="e#16218#16262#1" expanded="true" />
-            <element signature="e#16291#16362#1" expanded="true" />
-            <element signature="e#16372#16412#0" expanded="true" />
-            <element signature="e#16387#16412#0" expanded="true" />
-            <element signature="e#16545#16562#0" expanded="true" />
-            <element signature="e#16651#16657#0" expanded="true" />
-            <element signature="e#16751#16776#0" expanded="true" />
-            <element signature="e#16949#16974#0" expanded="true" />
             <element signature="method#eliminateGraph#0;class#LP4#0" expanded="false" />
-            <element signature="e#17509#17517#0" expanded="true" />
-            <element signature="e#17552#17575#0" expanded="true" />
-            <element signature="e#17594#17600#0" expanded="true" />
-            <element signature="e#17637#17672#0" expanded="true" />
-            <element signature="e#17814#17833#0" expanded="true" />
-            <element signature="e#17814#17833#0" expanded="true" />
-            <element signature="e#17954#17967#0" expanded="true" />
-            <element signature="e#17954#17967#0" expanded="true" />
             <element signature="method#resetSP#0;class#LP4#0" expanded="false" />
-            <element signature="e#18191#18199#0" expanded="true" />
-            <element signature="e#18224#18247#0" expanded="true" />
-            <element signature="e#18364#18389#0" expanded="true" />
             <element signature="method#reInitialize#0;class#LP4#0" expanded="false" />
-            <element signature="e#18576#18584#0" expanded="true" />
-            <element signature="e#18609#18632#0" expanded="true" />
             <element signature="method#resetRewardCollection#0;class#LP4#0" expanded="false" />
-            <element signature="e#19058#19066#0" expanded="true" />
-            <element signature="e#19091#19114#0" expanded="true" />
-            <element signature="method#pathUpdatePath#0;class#LP4#0" expanded="false" />
-            <element signature="e#19417#19425#0" expanded="true" />
-            <element signature="e#19453#19476#0" expanded="true" />
             <element signature="method#rebuildTour#0;class#LP4#0" expanded="false" />
-            <element signature="e#19704#19752#1" expanded="true" />
-            <element signature="e#19761#19779#0" expanded="true" />
-            <element signature="e#19761#19779#0" expanded="true" />
-            <element signature="e#19815#19839#1" expanded="true" />
-            <element signature="e#19848#19896#1" expanded="true" />
-            <element signature="e#19863#19895#0" expanded="true" />
-            <element signature="e#19911#19931#0" expanded="true" />
-            <element signature="e#19935#19959#0" expanded="true" />
-            <element signature="e#20054#20086#0" expanded="true" />
-            <element signature="e#20113#20130#0" expanded="true" />
-            <element signature="e#20145#20167#0" expanded="true" />
-            <element signature="e#20145#20167#0" expanded="true" />
             <element signature="method#findPathBack#0;class#LP4#0" expanded="false" />
-            <element signature="e#20511#20555#1" expanded="true" />
-            <element signature="e#20526#20539#0" expanded="true" />
-            <element signature="e#20526#20539#0" expanded="true" />
-            <element signature="e#20564#20589#1" expanded="true" />
-            <element signature="e#20621#20642#0" expanded="true" />
-            <element signature="e#20809#20815#0" expanded="true" />
-            <element signature="e#20892#20920#0" expanded="true" />
-            <element signature="e#21318#21334#0" expanded="true" />
-            <element signature="e#21400#21427#0" expanded="true" />
+            <element signature="e#20549#20561#0" expanded="true" />
+            <element signature="e#20563#20589#0" expanded="true" />
+            <element signature="e#20563#20589#0" expanded="true" />
+            <element signature="e#20704#20732#0" expanded="true" />
+            <element signature="e#20770#20796#0" expanded="true" />
+            <element signature="e#20770#20796#0" expanded="true" />
             <element signature="method#printOrder#0;class#LP4#0" expanded="false" />
-            <element signature="e#21680#21688#0" expanded="true" />
-            <element signature="e#21728#21735#0" expanded="true" />
-            <element signature="e#21728#21735#0" expanded="true" />
+            <element signature="method#accumulateReward#0;class#LP4#0" expanded="false" />
+            <element signature="e#21374#21389#1" expanded="true" />
+            <element signature="e#21402#21410#0" expanded="true" />
+            <element signature="e#21442#21453#0" expanded="true" />
+            <element signature="e#21442#21453#0" expanded="true" />
+            <element signature="e#21612#21628#0" expanded="true" />
+            <element signature="e#21686#21713#0" expanded="true" />
           </folding>
         </state>
       </provider>

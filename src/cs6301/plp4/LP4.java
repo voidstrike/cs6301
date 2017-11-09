@@ -3,12 +3,7 @@ package cs6301.plp4;
 import cs6301.plp4.Graph.Vertex;
 import cs6301.plp4.Graph.Edge;
 
-import java.util.ArrayDeque;
-import java.util.Comparator;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.PriorityQueue;
+import java.util.*;
 
 /**
  * Created by Alan Lin on 11/1/2017.
@@ -79,11 +74,18 @@ public class LP4 extends BasicGraphAlgorithm{
                 reward += rMap.get(u);
             }
         }
+
+        void updatePath(List<Vertex> path, int maxR){
+            this.path.clear();
+            this.path.addAll(path);
+            reward = maxR;
+        }
     }
 
     private Vertex src, target; // Source node for upcoming algorithm
     private int topoCount; // Global parameter used to count the # of topological ordering
     private PriorityQueue<PathNode> pathPQ; // Auxiliary PQ used to store the pathNode
+    private PathNode maxPath;
 
     /** Standard Constructor for this class
      * @param g
@@ -109,6 +111,7 @@ public class LP4 extends BasicGraphAlgorithm{
             }
         }; // Create comparator for pathPQ
         this.pathPQ = new PriorityQueue<>(g.size() * 4, rewardCom);
+        this.maxPath = new PathNode();
     }
 
     // Part a. Return the # of topological orders of g
@@ -246,7 +249,10 @@ public class LP4 extends BasicGraphAlgorithm{
     // tour is empty list passed as a parameter, for output tour
     // Return total reward for tour
     public int reward(HashMap<Vertex, Integer> vertexRewardMap, List<Vertex> tour) {
-        int result = 0;
+        //int result = 0;
+        ArrayDeque<Vertex> visitedList = new ArrayDeque<>();
+        ArrayDeque<Vertex> helper = new ArrayDeque<>();
+
         try{
             dijkstraSP(); // Use Dijkstra algorithm to generate shortest Paths
         }catch (BinaryHeap.HeapFullException e) {
@@ -257,32 +263,12 @@ public class LP4 extends BasicGraphAlgorithm{
         // Generate all shortest path, ordered by the reward it can get
         for(Vertex u : g){
             target = u;
-            rewardSPs(vertexRewardMap);
+            rewardSPs(vertexRewardMap, visitedList, helper);
         }
         ((LPGraph) g).resetGraph();
 
-        // Test each Path -- form the tour
-        PathNode tmpPN;
-        Vertex tail;
-        boolean findFlag;
-        ArrayDeque<Vertex> visitedList = new ArrayDeque<>();
-        ArrayDeque<Vertex> helper = new ArrayDeque<>();
-
-        while(!pathPQ.isEmpty()){
-            tmpPN = pathPQ.poll();
-            tail = tmpPN.path.getLast();
-            pathUpdatePath(tmpPN.path, true); // Visit those vertices
-
-            findFlag = findPathBack(tail, visitedList, helper);
-            if (findFlag){
-                result = tmpPN.reward;
-                rebuildTour((LPVertex)getVertex(tail), tmpPN.path, tour);
-                break;
-            }
-
-            pathUpdatePath(tmpPN.path, false); // Unvisited those vertices
-        }
-        return result;
+        rebuildTour((LPVertex)getVertex(maxPath.path.getLast()), maxPath.path, tour);
+        return maxPath.reward;
     }
 
     // Comparators
@@ -336,24 +322,31 @@ public class LP4 extends BasicGraphAlgorithm{
     }
 
     /** Auxiliary method for Reward problem with Shortest Paths */
-    private void rewardSPs(HashMap<Vertex, Integer> rMap){
+    private void rewardSPs(HashMap<Vertex, Integer> rMap, ArrayDeque<Vertex> visited, ArrayDeque<Vertex> aux){
         LPGraph.LPVertex tmp = ((LPGraph) g).getVertex(src); // start from src
         LinkedList<Vertex> result = new LinkedList<>();
-        auxRewardSP(tmp, result, rMap);
+        auxRewardSP(tmp, result, rMap, visited, aux);
     }
 
     /** Inner auxiliary method for Reward problem with Shortest Paths -- Visit each path and its reward */
-    private void auxRewardSP(Vertex u, LinkedList<Vertex> res, HashMap<Vertex, Integer> rMap){
+    private void auxRewardSP(Vertex u, LinkedList<Vertex> res, HashMap<Vertex, Integer> rMap, ArrayDeque<Vertex> visited, ArrayDeque<Vertex> aux){
         Vertex current;
         ((LPVertex)getVertex(u)).visited = true;
         res.add(u);
 
-        if (u == target)// Visit this path
-            pathPQ.add(new PathNode(res, rMap));
+        if (u == target) {// Visit this path
+            //pathPQ.add(new PathNode(res, rMap));
+            int currentReward = accumulateReward(res, rMap);
+            if(currentReward > maxPath.reward){//Check Path back
+                if(findPathBack(res.getLast(), visited, aux)){// Update maxPath
+                    maxPath.updatePath(res, currentReward);
+                }
+            }
+        }
         else{
             for (Edge e : u){
                 current = e.otherEnd(u);
-                auxRewardSP(current, res, rMap);
+                auxRewardSP(current, res, rMap, visited, aux);
             }
         }
         // Reverse this visit operation
@@ -522,15 +515,6 @@ public class LP4 extends BasicGraphAlgorithm{
         }
     }
 
-    /** Method to set the vertices in the path as visited or not */
-    private void pathUpdatePath(List<Vertex> path, boolean mode){
-        LPVertex tmp;
-        for(Vertex u : path){
-            tmp = (LPVertex) getVertex(u);
-            tmp.visited = mode;
-        }
-    }
-
     /** Part--F Method to rebuild the tour from scratch */
     private void rebuildTour(LPVertex fin, List<Vertex> coming, List<Vertex> res){
         // Add coming path
@@ -568,10 +552,10 @@ public class LP4 extends BasicGraphAlgorithm{
                 break;
             }
 
-            for (Edge e : thisV){
-                otherV = e.otherEnd(thisV);
+            for(Edge tmpEdge :((LPGraph.LPVertex) thisV).lAdj ){ // Ignore the disable information
+                otherV = tmpEdge.otherEnd(thisV);
                 tmp = (LPVertex) getVertex(otherV);
-                if (!tmp.visited || tmp.thisVertex == src) {
+                if (!tmp.visited || src.equals(tmp.thisVertex)) {
                     visitedList.add(otherV);
                     helper.add(otherV);
                     tmp.visited = true;
@@ -580,17 +564,8 @@ public class LP4 extends BasicGraphAlgorithm{
             }
         }
 
-        if (!findFlag){
-            // Cannot reach src from this vertex -- reverse the changed of the Graph
-            while(!helper.isEmpty()){
-                thisV = helper.remove();
-                tmp = (LPVertex) getVertex(thisV);
-                tmp.visited = false;
-            }
-            return false;
-        }
-        else
-            return true;
+        reverseVisit(helper);
+        return findFlag;
     }
 
     /** Auxiliary method to print a list of vertices */
@@ -598,5 +573,23 @@ public class LP4 extends BasicGraphAlgorithm{
         for (Vertex u : target)
             System.out.print(u + " ");
         System.out.println();
+    }
+
+    private int accumulateReward(List<Vertex> path, HashMap<Vertex,Integer> rMap){
+        int result = 0;
+        for(Vertex u : path){
+            result += rMap.get(u);
+        }
+        return result;
+    }
+
+    private void reverseVisit(ArrayDeque<Vertex> target){
+        Vertex thisV;
+        LPVertex tmp;
+        while(!target.isEmpty()){
+            thisV = target.remove();
+            tmp = (LPVertex) getVertex(thisV);
+            tmp.visited = false;
+        }
     }
 }
